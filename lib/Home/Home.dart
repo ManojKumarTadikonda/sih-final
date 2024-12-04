@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-
+import 'package:sih/widgets/app_scrollbar.dart';
 class HomePages extends StatelessWidget {
   final bool isDriver;
 
-  HomePages({required this.isDriver});
+  const HomePages({super.key, required this.isDriver});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
+      body:AppScrollbar(
+        thumbVisibility: false,
+        child:  SafeArea(
         child: Container(
           width: double.infinity,
           height: MediaQuery.of(context).size.height,
@@ -88,6 +90,7 @@ class HomePages extends StatelessWidget {
               ),
             ],
           ),
+        ),
         ),
       ),
     );

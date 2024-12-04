@@ -1,11 +1,12 @@
 // verification_page.dart
 import 'package:flutter/material.dart';
 import 'dart:async';
+import 'package:sih/widgets/app_scrollbar.dart';
 
 class VerificationPage extends StatefulWidget {
   final VoidCallback onOtpVerified; // Callback when OTP is verified
 
-  const VerificationPage({required this.onOtpVerified, Key? key}) : super(key: key);
+  const VerificationPage({required this.onOtpVerified, super.key});
 
   @override
   _VerificationPageState createState() => _VerificationPageState();
@@ -50,37 +51,39 @@ class _VerificationPageState extends State<VerificationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("OTP Verification"),
-      ),
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 40),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              "Enter OTP",
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 20),
-            TextField(
-              controller: otpController,
-              keyboardType: TextInputType.number,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: "OTP",
-              ),
-            ),
-            SizedBox(height: 20),
-            Text("Time remaining: $_start seconds"),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: submitOtp,
-              child: Text("Submit OTP"),
-            ),
-          ],
+        appBar: AppBar(
+          title: Text("OTP Verification"),
         ),
-      ),
-    );
+        body: AppScrollbar(
+          thumbVisibility: false,
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 40),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text(
+                  "Enter OTP",
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                ),
+                SizedBox(height: 20),
+                TextField(
+                  controller: otpController,
+                  keyboardType: TextInputType.number,
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: "OTP",
+                  ),
+                ),
+                SizedBox(height: 20),
+                Text("Time remaining: $_start seconds"),
+                SizedBox(height: 20),
+                ElevatedButton(
+                  onPressed: submitOtp,
+                  child: Text("Submit OTP"),
+                ),
+              ],
+            ),
+          ),
+        ));
   }
 }

@@ -1,0 +1,998 @@
+[
+    {
+        "routeId": "ROUTE-1",
+        "routeName": "Route-1",
+        "startStop": "Laxmi Nagar",
+        "endStop": "Vasundhara Enclave"
+    },
+    {
+        "routeId": "ROUTE-2",
+        "routeName": "Route-2",
+        "startStop": "Anand Vihar ISBT/Metro Station",
+        "endStop": "Mayur Vihar Phase- III"
+    },
+    {
+        "routeId": "ROUTE-3",
+        "routeName": "Route-3",
+        "startStop": "Chander Nagar",
+        "endStop": "Yamuna Bazaar"
+    },
+    {
+        "routeId": "ROUTE-4",
+        "routeName": "Route-4",
+        "startStop": "Dilshad Garden Metro Station",
+        "endStop": "Baldev Park"
+    },
+    {
+        "routeId": "ROUTE-5",
+        "routeName": "Route-5",
+        "startStop": "East End Apartment, New Ashok Nagar",
+        "endStop": "Lal Bahadur Shastri Hospital"
+    },
+    {
+        "routeId": "ROUTE-6",
+        "routeName": "Route-6",
+        "startStop": "Gandhi Nagar",
+        "endStop": "Jhilmil Colony"
+    },
+    {
+        "routeId": "ROUTE-7",
+        "routeName": "Route-7",
+        "startStop": "Ghazipur Border",
+        "endStop": "Akshardham"
+    },
+    {
+        "routeId": "ROUTE-8",
+        "routeName": "Route-8",
+        "startStop": "Kalyanpuri",
+        "endStop": "Anand Vihar"
+    },
+    {
+        "routeId": "ROUTE-9",
+        "routeName": "Route-9",
+        "startStop": "Mandawli",
+        "endStop": "Shastri Park Metro Station"
+    },
+    {
+        "routeId": "ROUTE-10",
+        "routeName": "Route-10",
+        "startStop": "Mayur Vihar Phase-I Metro Station",
+        "endStop": "Mayur Vihar Phase- II"
+    },
+    {
+        "routeId": "ROUTE-11",
+        "routeName": "Route-11",
+        "startStop": "Mayur Vihar Phase- I Metro Station",
+        "endStop": "Mayur Vihar Phase- III"
+    },
+    {
+        "routeId": "ROUTE-12",
+        "routeName": "Route-12",
+        "startStop": "New Ashok NagarMetro Station",
+        "endStop": "Mayur Vihar Phase- III"
+    },
+    {
+        "routeId": "ROUTE-13",
+        "routeName": "Route-13",
+        "startStop": "Yamuna Bank Metro Station",
+        "endStop": "Rajgarh Colony"
+    },
+    {
+        "routeId": "ROUTE-14",
+        "routeName": "Route-14",
+        "startStop": "Badli GT Road,",
+        "endStop": "Ghoga Village"
+    },
+    {
+        "routeId": "ROUTE-15",
+        "routeName": "Route-15",
+        "startStop": "GTB Nagar",
+        "endStop": "Gandhi Vihar"
+    },
+    {
+        "routeId": "ROUTE-16",
+        "routeName": "Route-16",
+        "startStop": "GTB Nagar",
+        "endStop": "Burari Village / Mukhmelpur"
+    },
+    {
+        "routeId": "ROUTE-17",
+        "routeName": "Route-17",
+        "startStop": "Hiranki Village",
+        "endStop": "Badli GT Road"
+    },
+    {
+        "routeId": "ROUTE-18",
+        "routeName": "Route-18",
+        "startStop": "Jagatpur",
+        "endStop": "Vishwavidyalaya Metro Station"
+    },
+    {
+        "routeId": "ROUTE-19",
+        "routeName": "Route-19",
+        "startStop": "Jyonti Border",
+        "endStop": "Kanjhawala"
+    },
+    {
+        "routeId": "ROUTE-20",
+        "routeName": "Route-20",
+        "startStop": "Khera Kalan",
+        "endStop": "Narela"
+    },
+    {
+        "routeId": "ROUTE-21",
+        "routeName": "Route-21",
+        "startStop": "Khera Kalan",
+        "endStop": "Ghoga Village"
+    },
+    {
+        "routeId": "ROUTE-22",
+        "routeName": "Route-22",
+        "startStop": "Mukhmailpur",
+        "endStop": "Badli GT Road"
+    },
+    {
+        "routeId": "ROUTE-23",
+        "routeName": "Route-23",
+        "startStop": "Bhajanpura",
+        "endStop": "Karawal Nagar"
+    },
+    {
+        "routeId": "ROUTE-24",
+        "routeName": "Route-24",
+        "startStop": "Chauhan Patti",
+        "endStop": "Wazirabad"
+    },
+    {
+        "routeId": "ROUTE-25",
+        "routeName": "Route-25",
+        "startStop": "Dilshad Garden Metro Station",
+        "endStop": "Harsh Vihar"
+    },
+    {
+        "routeId": "ROUTE-26",
+        "routeName": "Route-26",
+        "startStop": "Indrapuri (Loni)",
+        "endStop": "Harsh Vihar"
+    },
+    {
+        "routeId": "ROUTE-27",
+        "routeName": "Route-27",
+        "startStop": "Indrapuri (Loni)",
+        "endStop": "Nand Nagri"
+    },
+    {
+        "routeId": "ROUTE-28",
+        "routeName": "Route-28",
+        "startStop": "Jhilmil Metro Station",
+        "endStop": "Saboli/Mandoli"
+    },
+    {
+        "routeId": "ROUTE-29",
+        "routeName": "Route-29",
+        "startStop": "Old Mustafabad",
+        "endStop": "Seelampur Metro Station"
+    },
+    {
+        "routeId": "ROUTE-30",
+        "routeName": "Route-30",
+        "startStop": "Seelampur Metro Station",
+        "endStop": "Yamuna Vihar Depot"
+    },
+    {
+        "routeId": "ROUTE-31",
+        "routeName": "Route-31",
+        "startStop": "Seelampur Metro Station",
+        "endStop": "Karawal Nagar East"
+    },
+    {
+        "routeId": "ROUTE-32",
+        "routeName": "Route-32",
+        "startStop": "ShahdaraMetro Station",
+        "endStop": "Saboli/Mandoli"
+    },
+    {
+        "routeId": "ROUTE-33",
+        "routeName": "Route-33",
+        "startStop": "Shahdara Metro Station",
+        "endStop": "Karawal Nagar East"
+    },
+    {
+        "routeId": "ROUTE-34",
+        "routeName": "Route-34",
+        "startStop": "Shastri Park Metro Station",
+        "endStop": "Karawal Nagar West"
+    },
+    {
+        "routeId": "ROUTE-35",
+        "routeName": "Route-35",
+        "startStop": "Wazirpur Depot-I",
+        "endStop": "Rajapuri Prashant Vihar"
+    },
+    {
+        "routeId": "ROUTE-36",
+        "routeName": "Route-36",
+        "startStop": "Wazirpur Depot-I",
+        "endStop": "Rohini Sec.25(Deep Vihar)"
+    },
+    {
+        "routeId": "ROUTE-37",
+        "routeName": "Route-37",
+        "startStop": "Wazirpur Depot-I",
+        "endStop": "Rohini Sec.18"
+    },
+    {
+        "routeId": "ROUTE-38",
+        "routeName": "Route-38",
+        "startStop": "Aman Vihar",
+        "endStop": "Surajmal Stadium"
+    },
+    {
+        "routeId": "ROUTE-39",
+        "routeName": "Route-39",
+        "startStop": "Badli GT Road",
+        "endStop": "Tikri Khurd"
+    },
+    {
+        "routeId": "ROUTE-40",
+        "routeName": "Route-40",
+        "startStop": "Badli Industrial Area",
+        "endStop": "Rohini East"
+    },
+    {
+        "routeId": "ROUTE-41",
+        "routeName": "Route-41",
+        "startStop": "Bajitpur",
+        "endStop": "Alipur"
+    },
+    {
+        "routeId": "ROUTE-42",
+        "routeName": "Route-42",
+        "startStop": "Barwala",
+        "endStop": "Rithala"
+    },
+    {
+        "routeId": "ROUTE-43",
+        "routeName": "Route-43",
+        "startStop": "Bawana JJ Colony",
+        "endStop": "Rithala"
+    },
+    {
+        "routeId": "ROUTE-44",
+        "routeName": "Route-44",
+        "startStop": "Bhalswa J.J. Colony.",
+        "endStop": "Jahangirpuri"
+    },
+    {
+        "routeId": "ROUTE-45",
+        "routeName": "Route-45",
+        "startStop": "Burari",
+        "endStop": "Timarpur/Mall Authority"
+    },
+    {
+        "routeId": "ROUTE-46",
+        "routeName": "Route-46",
+        "startStop": "Daulatpur",
+        "endStop": "Rithala Village"
+    },
+    {
+        "routeId": "ROUTE-47",
+        "routeName": "Route-47",
+        "startStop": "Delhi College of Engineering",
+        "endStop": "Rohini West"
+    },
+    {
+        "routeId": "ROUTE-48",
+        "routeName": "Route-48",
+        "startStop": "Ghewra Mor",
+        "endStop": "Nizampur Garhi"
+    },
+    {
+        "routeId": "ROUTE-49",
+        "routeName": "Route-49",
+        "startStop": "Haidarpur",
+        "endStop": "Netaji SubhashPlace"
+    },
+    {
+        "routeId": "ROUTE-50",
+        "routeName": "Route-50",
+        "startStop": "Haiderpur Water Tank",
+        "endStop": "Sultanpur Dabas"
+    },
+    {
+        "routeId": "ROUTE-51",
+        "routeName": "Route-51",
+        "startStop": "Holumbi Kalan JJ Colony",
+        "endStop": "Shahbad Dairy"
+    },
+    {
+        "routeId": "ROUTE-52",
+        "routeName": "Route-52",
+        "startStop": "Kadipur",
+        "endStop": "Jahangirpuri"
+    },
+    {
+        "routeId": "ROUTE-53",
+        "routeName": "Route-53",
+        "startStop": "Kanjhawala",
+        "endStop": "Narela"
+    },
+    {
+        "routeId": "ROUTE-54",
+        "routeName": "Route-54",
+        "startStop": "Kirari Village",
+        "endStop": "Paschim Vihar Water Tank"
+    },
+    {
+        "routeId": "ROUTE-55",
+        "routeName": "Route-55",
+        "startStop": "Maharshi Balmiki Hospital",
+        "endStop": "Qutab Garh"
+    },
+    {
+        "routeId": "ROUTE-56",
+        "routeName": "Route-56",
+        "startStop": "Mangolpuri Khurd",
+        "endStop": "Rohini East"
+    },
+    {
+        "routeId": "ROUTE-57",
+        "routeName": "Route-57",
+        "startStop": "Mangolpuri",
+        "endStop": "Rohini West"
+    },
+    {
+        "routeId": "ROUTE-58",
+        "routeName": "Route-58",
+        "startStop": "Meer Vihar",
+        "endStop": "Bhagwan Mahavir Hospital"
+    },
+    {
+        "routeId": "ROUTE-59",
+        "routeName": "Route-59",
+        "startStop": "Mubarakpur",
+        "endStop": "Ambedkar Hospital"
+    },
+    {
+        "routeId": "ROUTE-60",
+        "routeName": "Route-60",
+        "startStop": "Mukundpur",
+        "endStop": "Azadpur"
+    },
+    {
+        "routeId": "ROUTE-61",
+        "routeName": "Route-61",
+        "startStop": "Nangloi",
+        "endStop": "Rajdhani Park Metro Station"
+    },
+    {
+        "routeId": "ROUTE-62",
+        "routeName": "Route-62",
+        "startStop": "Nangloi",
+        "endStop": "Kanjhawala"
+    },
+    {
+        "routeId": "ROUTE-63",
+        "routeName": "Route-63",
+        "startStop": "Nangloi JJ Colony",
+        "endStop": "Majra Dabas"
+    },
+    {
+        "routeId": "ROUTE-64",
+        "routeName": "Route-64",
+        "startStop": "Nangloi Metro Station",
+        "endStop": "Rohini West"
+    },
+    {
+        "routeId": "ROUTE-65",
+        "routeName": "Route-65",
+        "startStop": "Narela",
+        "endStop": "Maharshi Balmiki Hospital"
+    },
+    {
+        "routeId": "ROUTE-66",
+        "routeName": "Route-66",
+        "startStop": "Nathupura",
+        "endStop": "GTB Nagar"
+    },
+    {
+        "routeId": "ROUTE-67",
+        "routeName": "Route-67",
+        "startStop": "Peeragarhi Metro Station",
+        "endStop": "Kohat Enclave"
+    },
+    {
+        "routeId": "ROUTE-68",
+        "routeName": "Route-68",
+        "startStop": "Rama Vihar",
+        "endStop": "Rithala"
+    },
+    {
+        "routeId": "ROUTE-69",
+        "routeName": "Route-69",
+        "startStop": "Rohini Sec-7&8",
+        "endStop": "Sultanpuri"
+    },
+    {
+        "routeId": "ROUTE-70",
+        "routeName": "Route-70",
+        "startStop": "Rohini Sector 18",
+        "endStop": "Adarsh Nagar"
+    },
+    {
+        "routeId": "ROUTE-71",
+        "routeName": "Route-71",
+        "startStop": "Rohini Sector 11",
+        "endStop": "Netaji Subhash Place Metro Station"
+    },
+    {
+        "routeId": "ROUTE-72",
+        "routeName": "Route-72",
+        "startStop": "Siraspur",
+        "endStop": "Jahangirpuri"
+    },
+    {
+        "routeId": "ROUTE-73",
+        "routeName": "Route-73",
+        "startStop": "D-Block, Okhla Industrial Estate",
+        "endStop": "Tughlakabad Railway Colony"
+    },
+    {
+        "routeId": "ROUTE-74",
+        "routeName": "Route-74",
+        "startStop": "DDA Flats Kalkaji",
+        "endStop": "Badarpur (New M.\nB. Road)"
+    },
+    {
+        "routeId": "ROUTE-75",
+        "routeName": "Route-75",
+        "startStop": "Alaknanda",
+        "endStop": "Badarpur"
+    },
+    {
+        "routeId": "ROUTE-76",
+        "routeName": "Route-76",
+        "startStop": "Bindapur",
+        "endStop": "Dwarka Sec-13"
+    },
+    {
+        "routeId": "ROUTE-77",
+        "routeName": "Route-77",
+        "startStop": "Dwarka Sec16/17/18/19",
+        "endStop": "Dwarka Sec-9"
+    },
+    {
+        "routeId": "ROUTE-78",
+        "routeName": "Route-78",
+        "startStop": "Hamdard Nagar",
+        "endStop": "Govindpuri"
+    },
+    {
+        "routeId": "ROUTE-79",
+        "routeName": "Route-79",
+        "startStop": "Jaitpur",
+        "endStop": "Badarpur"
+    },
+    {
+        "routeId": "ROUTE-80",
+        "routeName": "Route-80",
+        "startStop": "Kalkaji",
+        "endStop": "Nehru Place"
+    },
+    {
+        "routeId": "ROUTE-81",
+        "routeName": "Route-81",
+        "startStop": "Kapasera Border",
+        "endStop": "Dwarka Sec-9"
+    },
+    {
+        "routeId": "ROUTE-82",
+        "routeName": "Route-82",
+        "startStop": "Khijarabad Bhogal/New Friends Colony",
+        "endStop": "Jasola-Apollo"
+    },
+    {
+        "routeId": "ROUTE-83",
+        "routeName": "Route-83",
+        "startStop": "Madanpur Khadar Extension",
+        "endStop": "Sarita Vihar"
+    },
+    {
+        "routeId": "ROUTE-84",
+        "routeName": "Route-84",
+        "startStop": "Maude Lines",
+        "endStop": "Dwarka Sec-9"
+    },
+    {
+        "routeId": "ROUTE-85",
+        "routeName": "Route-85",
+        "startStop": "Mithapur Extension",
+        "endStop": "Badarpur"
+    },
+    {
+        "routeId": "ROUTE-86",
+        "routeName": "Route-86",
+        "startStop": "Okhla Extension",
+        "endStop": "Jasola-Apollo"
+    },
+    {
+        "routeId": "ROUTE-87",
+        "routeName": "Route-87",
+        "startStop": "Qutub",
+        "endStop": "Maidan Garhi"
+    },
+    {
+        "routeId": "ROUTE-88",
+        "routeName": "Route-88",
+        "startStop": "Raj Nagar Extension",
+        "endStop": "Dwarka Sec-9"
+    },
+    {
+        "routeId": "ROUTE-89",
+        "routeName": "Route-89",
+        "startStop": "Rajan Enclave/Vikas Nagar",
+        "endStop": "Dwarka Mor/ NSIT"
+    },
+    {
+        "routeId": "ROUTE-90",
+        "routeName": "Route-90",
+        "startStop": "Rajpur Khurd Colony",
+        "endStop": "Saket"
+    },
+    {
+        "routeId": "ROUTE-91",
+        "routeName": "Route-91",
+        "startStop": "SadhNagar",
+        "endStop": "Dwarka Sec-11"
+    },
+    {
+        "routeId": "ROUTE-92",
+        "routeName": "Route-92",
+        "startStop": "Sangam Vihar",
+        "endStop": "Saket"
+    },
+    {
+        "routeId": "ROUTE-93",
+        "routeName": "Route-93",
+        "startStop": "Sangam Vihar",
+        "endStop": "Qutub Minar Metro Station"
+    },
+    {
+        "routeId": "ROUTE-94",
+        "routeName": "Route-94",
+        "startStop": "Sangam Vihar I- block",
+        "endStop": "Badarpur"
+    },
+    {
+        "routeId": "ROUTE-95",
+        "routeName": "Route-95",
+        "startStop": "Shahbad Mohammadpur",
+        "endStop": "Dwarka Sector 9"
+    },
+    {
+        "routeId": "ROUTE-96",
+        "routeName": "Route-96",
+        "startStop": "Shyam Enclave",
+        "endStop": "Dwarka Sec-9"
+    },
+    {
+        "routeId": "ROUTE-97",
+        "routeName": "Route-97",
+        "startStop": "South Campus",
+        "endStop": "Hauz Khas"
+    },
+    {
+        "routeId": "ROUTE-98",
+        "routeName": "Route-98",
+        "startStop": "Virat Cinema, Ambedkar Nagar",
+        "endStop": "Nehru Place"
+    },
+    {
+        "routeId": "ROUTE-99",
+        "routeName": "Route-99",
+        "startStop": "R.K. Puram Sec-I",
+        "endStop": "Vasant Kunj Sec.-A"
+    },
+    {
+        "routeId": "ROUTE-100",
+        "routeName": "Route-100",
+        "startStop": "R.K.Puram Sec-I",
+        "endStop": "Vasant Kunj Sec.C-9"
+    },
+    {
+        "routeId": "ROUTE-101",
+        "routeName": "Route-101",
+        "startStop": "Katwaria Sarai/Qutub Institutional Area",
+        "endStop": "QutubMinar"
+    },
+    {
+        "routeId": "ROUTE-102",
+        "routeName": "Route-102",
+        "startStop": "Bharthal Village",
+        "endStop": "Nangal Dairy"
+    },
+    {
+        "routeId": "ROUTE-103",
+        "routeName": "Route-103",
+        "startStop": "DhoolSiras",
+        "endStop": "Palam Airport"
+    },
+    {
+        "routeId": "ROUTE-104",
+        "routeName": "Route-104",
+        "startStop": "Dwarka More",
+        "endStop": "DDU Hospital"
+    },
+    {
+        "routeId": "ROUTE-105",
+        "routeName": "Route-105",
+        "startStop": "Fatehpur Beri",
+        "endStop": "Chhatarpur"
+    },
+    {
+        "routeId": "ROUTE-106",
+        "routeName": "Route-106",
+        "startStop": "JNU",
+        "endStop": "Chhatarpur"
+    },
+    {
+        "routeId": "ROUTE-107",
+        "routeName": "Route-107",
+        "startStop": "Kapas Hera Border",
+        "endStop": "Jhatikra village"
+    },
+    {
+        "routeId": "ROUTE-108",
+        "routeName": "Route-108",
+        "startStop": "Najafgarh",
+        "endStop": "Zafarpur Kalan"
+    },
+    {
+        "routeId": "ROUTE-109",
+        "routeName": "Route-109",
+        "startStop": "Najafgarh",
+        "endStop": "Pandawla Kalan"
+    },
+    {
+        "routeId": "ROUTE-110",
+        "routeName": "Route-110",
+        "startStop": "Najafgarh",
+        "endStop": "Goela Diary"
+    },
+    {
+        "routeId": "ROUTE-111",
+        "routeName": "Route-111",
+        "startStop": "Najafgarh",
+        "endStop": "Khera Dawar"
+    },
+    {
+        "routeId": "ROUTE-112",
+        "routeName": "Route-112",
+        "startStop": "Najafgarh",
+        "endStop": "Ghalibpur"
+    },
+    {
+        "routeId": "ROUTE-113",
+        "routeName": "Route-113",
+        "startStop": "Najafgarh",
+        "endStop": "Ishapur Temple"
+    },
+    {
+        "routeId": "ROUTE-114",
+        "routeName": "Route-114",
+        "startStop": "Palam Village",
+        "endStop": "Bijwasan Border"
+    },
+    {
+        "routeId": "ROUTE-115",
+        "routeName": "Route-115",
+        "startStop": "Shastri Bazaar",
+        "endStop": "Kapashera Border"
+    },
+    {
+        "routeId": "ROUTE-116",
+        "routeName": "Route-116",
+        "startStop": "Bakarwala JJ Colony",
+        "endStop": "Nangloi"
+    },
+    {
+        "routeId": "ROUTE-117",
+        "routeName": "Route-117",
+        "startStop": "Chander Vihar",
+        "endStop": "Uttam Nagar"
+    },
+    {
+        "routeId": "ROUTE-118",
+        "routeName": "Route-118",
+        "startStop": "D-Block Janakpuri",
+        "endStop": "Kakrola JJ Colony"
+    },
+    {
+        "routeId": "ROUTE-119",
+        "routeName": "Route-119",
+        "startStop": "Harijan Basti, Rajokri",
+        "endStop": "Dwarka Metro Station"
+    },
+    {
+        "routeId": "ROUTE-120",
+        "routeName": "Route-120",
+        "startStop": "JaiVihar",
+        "endStop": "Kakrola More"
+    },
+    {
+        "routeId": "ROUTE-121",
+        "routeName": "Route-121",
+        "startStop": "Karala",
+        "endStop": "Nangloi"
+    },
+    {
+        "routeId": "ROUTE-122",
+        "routeName": "Route-122",
+        "startStop": "Khyala",
+        "endStop": "Peeragarhi"
+    },
+    {
+        "routeId": "ROUTE-123",
+        "routeName": "Route-123",
+        "startStop": "Matiyala",
+        "endStop": "Nawada"
+    },
+    {
+        "routeId": "ROUTE-124",
+        "routeName": "Route-124",
+        "startStop": "Mubarakpur Dabas",
+        "endStop": "Nangloi"
+    },
+    {
+        "routeId": "ROUTE-125",
+        "routeName": "Route-125",
+        "startStop": "Mundka",
+        "endStop": "Najafgarh"
+    },
+    {
+        "routeId": "ROUTE-126",
+        "routeName": "Route-126",
+        "startStop": "Nangloi",
+        "endStop": "Uttam Nagar"
+    },
+    {
+        "routeId": "ROUTE-127",
+        "routeName": "Route-127",
+        "startStop": "Najafgarh",
+        "endStop": "CRPF, JharodaKalan"
+    },
+    {
+        "routeId": "ROUTE-128",
+        "routeName": "Route-128",
+        "startStop": "Najafgarh",
+        "endStop": "Rao Tula Ram Hospital"
+    },
+    {
+        "routeId": "ROUTE-129",
+        "routeName": "Route-129",
+        "startStop": "Nangloi",
+        "endStop": "Paschim Vihar East Metro Station"
+    },
+    {
+        "routeId": "ROUTE-130",
+        "routeName": "Route-130",
+        "startStop": "Nangloi",
+        "endStop": "Rani Khera"
+    },
+    {
+        "routeId": "ROUTE-131",
+        "routeName": "Route-131",
+        "startStop": "Nangloi",
+        "endStop": "Janakpuri District Centre"
+    },
+    {
+        "routeId": "ROUTE-132",
+        "routeName": "Route-132",
+        "startStop": "Nangloi",
+        "endStop": "Neelwal"
+    },
+    {
+        "routeId": "ROUTE-133",
+        "routeName": "Route-133",
+        "startStop": "Nangloi",
+        "endStop": "Raja Garden"
+    },
+    {
+        "routeId": "ROUTE-134",
+        "routeName": "Route-134",
+        "startStop": "Nasirpur",
+        "endStop": "Janakpuri West"
+    },
+    {
+        "routeId": "ROUTE-135",
+        "routeName": "Route-135",
+        "startStop": "Nilothi",
+        "endStop": "Udyog Nagar"
+    },
+    {
+        "routeId": "ROUTE-136",
+        "routeName": "Route-136",
+        "startStop": "Nizampur Village",
+        "endStop": "Nangloi"
+    },
+    {
+        "routeId": "ROUTE-137",
+        "routeName": "Route-137",
+        "startStop": "Paschim Vihar East Metro Station",
+        "endStop": "Tagore Garden"
+    },
+    {
+        "routeId": "ROUTE-138",
+        "routeName": "Route-138",
+        "startStop": "Qutab Garh",
+        "endStop": "Mundka"
+    },
+    {
+        "routeId": "ROUTE-139",
+        "routeName": "Route-139",
+        "startStop": "Raghubir Nagar, Hari Kunj",
+        "endStop": "Tagore Garden"
+    },
+    {
+        "routeId": "ROUTE-140",
+        "routeName": "Route-140",
+        "startStop": "Ranhola",
+        "endStop": "Uttam Nagar East"
+    },
+    {
+        "routeId": "ROUTE-141",
+        "routeName": "Route-141",
+        "startStop": "Sagarpur",
+        "endStop": "Janakpuri East"
+    },
+    {
+        "routeId": "ROUTE-142",
+        "routeName": "Route-142",
+        "startStop": "Tilak Nagar",
+        "endStop": "Sant Garh (Major Bhupinder SinghNagar)"
+    },
+    {
+        "routeId": "ROUTE-143",
+        "routeName": "Route-143",
+        "startStop": "Vikaspuri H-3",
+        "endStop": "Uttam Nagar East"
+    },
+    {
+        "routeId": "ROUTE-144",
+        "routeName": "Route-144",
+        "startStop": "Vishnu Garden",
+        "endStop": "Paschim Vihar West"
+    },
+    {
+        "routeId": "ROUTE-145",
+        "routeName": "Route-145",
+        "startStop": "Bhajanpura",
+        "endStop": "Shahdara"
+    },
+    {
+        "routeId": "ROUTE-146",
+        "routeName": "Route-146",
+        "startStop": "Gandhi Nagar",
+        "endStop": "Shahdara"
+    },
+    {
+        "routeId": "ROUTE-147",
+        "routeName": "Route-147",
+        "startStop": "Jheel",
+        "endStop": "Kalyanpuri"
+    },
+    {
+        "routeId": "ROUTE-148",
+        "routeName": "Route-148",
+        "startStop": "Karawal Nagar",
+        "endStop": "Swami Dayanand Hospital"
+    },
+    {
+        "routeId": "ROUTE-149",
+        "routeName": "Route-149",
+        "startStop": "Bawana",
+        "endStop": "Singhu Border"
+    },
+    {
+        "routeId": "ROUTE-150",
+        "routeName": "Route-150",
+        "startStop": "Bhajanpura",
+        "endStop": "Inderpuri (Loni)"
+    },
+    {
+        "routeId": "ROUTE-151",
+        "routeName": "Route-151",
+        "startStop": "Badli Railway Station",
+        "endStop": "Rithala Village"
+    },
+    {
+        "routeId": "ROUTE-152",
+        "routeName": "Route-152",
+        "startStop": "Qutab Garh",
+        "endStop": "Narela"
+    },
+    {
+        "routeId": "ROUTE-153",
+        "routeName": "Route-153",
+        "startStop": "Rani Bagh",
+        "endStop": "Sultanpuri (Jalebi Chowk)"
+    },
+    {
+        "routeId": "ROUTE-154",
+        "routeName": "Route-154",
+        "startStop": "Deoli Village",
+        "endStop": "Maidan Garhi"
+    },
+    {
+        "routeId": "ROUTE-155",
+        "routeName": "Route-155",
+        "startStop": "Gola Kuan",
+        "endStop": "Govindpuri Metro Station"
+    },
+    {
+        "routeId": "ROUTE-156",
+        "routeName": "Route-156",
+        "startStop": "Indra Kalyan Vihar",
+        "endStop": "Deoli Village"
+    },
+    {
+        "routeId": "ROUTE-157",
+        "routeName": "Route-157",
+        "startStop": "Shyam Vihar",
+        "endStop": "Dwarka Mor Metro Station"
+    },
+    {
+        "routeId": "ROUTE-158",
+        "routeName": "Route-158",
+        "startStop": "Sikarpur",
+        "endStop": "Rao Tula Ram Hospital"
+    },
+    {
+        "routeId": "ROUTE-159",
+        "routeName": "Route-159",
+        "startStop": "Jhatikra Village",
+        "endStop": "Rao Tula Ram Hospital"
+    },
+    {
+        "routeId": "ROUTE-160",
+        "routeName": "Route-160",
+        "startStop": "Najafgarh",
+        "endStop": "Daulatpur"
+    },
+    {
+        "routeId": "ROUTE-161",
+        "routeName": "Route-161",
+        "startStop": "Najafgarh",
+        "endStop": "Nanak Heri"
+    },
+    {
+        "routeId": "ROUTE-162",
+        "routeName": "Route-162",
+        "startStop": "Tikri border",
+        "endStop": "Najafgarh"
+    },
+    {
+        "routeId": "ROUTE-163",
+        "routeName": "Route-163",
+        "startStop": "Sultanpuri",
+        "endStop": "Khyala"
+    },
+    {
+        "routeId": "ROUTE-164",
+        "routeName": "Route-164",
+        "startStop": "Durga Chowk",
+        "endStop": "Peeragarhi"
+    },
+    {
+        "routeId": "ROUTE-165",
+        "routeName": "Route-165",
+        "startStop": "Durga Chowk",
+        "endStop": "Peeragarhi"
+    },
+    {
+        "routeId": "ROUTE-166",
+        "routeName": "Route-166",
+        "startStop": "Uttam Nagar",
+        "endStop": "Battakh Farm"
+    }
+]

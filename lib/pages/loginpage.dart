@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:sih/widgets/app_scrollbar.dart';
 import 'package:http/http.dart' as http;
 import 'package:sih/widgets/passwordinputfield.dart'; // Import PasswordInputField widget
 
@@ -11,15 +12,15 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  final TextEditingController username = TextEditingController();
-  final TextEditingController userpassword = TextEditingController();
+  final TextEditingController email = TextEditingController();
+  final TextEditingController password = TextEditingController();
   final _formKey = GlobalKey<FormState>();
   bool _isLoading = false;
 
   @override
   void dispose() {
-    username.dispose();
-    userpassword.dispose();
+    email.dispose();
+    password.dispose();
     super.dispose();
   }
 
@@ -28,9 +29,9 @@ class _LoginPageState extends State<LoginPage> {
       return; // Stop if form is invalid
     }
 
-    // Debugging: Print username and password values to console
-    print('Email: ${username.text}');
-    print('Password: ${userpassword.text}');
+    // Log input values for debugging
+    print(
+        'Attempting login with Email: ${email.text.trim()}, Password: ${password.text.trim()}');
 
     setState(() {
       _isLoading = true;
@@ -40,24 +41,28 @@ class _LoginPageState extends State<LoginPage> {
       final response = await http.post(
         Uri.parse('http://127.0.0.1:8000/api/login'),
         headers: {
-        'Content-Type': 'application/json', // Ensure you're sending JSON
-      },
-        body: {
-          'username': username.text.trim(),
-          'password': userpassword.text.trim(),
+          'Content-Type': 'application/json', // Ensure you're sending JSON
         },
+        body: jsonEncode({
+          'email': email.text.trim(),
+          'password': password.text.trim(),
+        }),
       );
-
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
-        print('Login successful: ${data}');
+        print('Login successful: $data');
         Navigator.pushNamed(context, '/user_home');
-      } else if (response.statusCode == 401) {
-        _showError('Unauthorized: Incorrect username or password');
+      } else if (response.statusCode == 400 || response.statusCode == 401) {
+        final errorData = json.decode(response.body);
+        print('Login failed with error: ${errorData['error']}');
+        _showError(errorData['error'] ?? 'Invalid credentials');
       } else {
+        print('Unexpected response: ${response.body}');
         _showError('Login failed. Please try again later.');
       }
     } catch (error) {
+      // Debugging: Log the error
+      print('Error occurred: $error');
       _showError('An error occurred. Please check your connection.');
     } finally {
       setState(() {
@@ -83,140 +88,142 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       backgroundColor: Colors.white,
-      body: SizedBox(
-        height: MediaQuery.of(context).size.height,
-        width: double.infinity,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Expanded(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: <Widget>[
-                  Column(
-                    children: const <Widget>[
-                      Text(
-                        "Login",
-                        style: TextStyle(
-                            fontSize: 30, fontWeight: FontWeight.bold),
-                      ),
-                      SizedBox(height: 20),
-                      Text(
-                        "Enter your credentials to login",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.grey,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ],
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 40),
-                    child: Form(
-                      key: _formKey,
-                      child: Column(
-                        children: <Widget>[
-                          inputFile(
-                            label: "Email",
-                            keyboardType: TextInputType.emailAddress,
-                            controller: username,
-                            validator: (value) {
-                              if (value == null || value.isEmpty) {
-                                return 'Please enter your email';
-                              }
-                              if (!RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$')
-                                  .hasMatch(value)) {
-                                return 'Enter a valid email address';
-                              }
-                              return null;
-                            },
-                          ),
-                          PasswordInputField(
-                            label: "Password",
-                            controller: userpassword,
-                            validator: (value) {
-                              if (value == null || value.isEmpty) {
-                                return 'Please enter your password';
-                              }
-                              if (value.length < 6) {
-                                return 'Password must be at least 6 characters';
-                              }
-                              return null;
-                            },
-                          ),
-                          
-                        ],
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 40),
-                    child: Container(
-                      padding: const EdgeInsets.only(top: 3, left: 3),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(50),
-                        border: Border.all(color: Colors.black),
-                      ),
-                      child: MaterialButton(
-                        minWidth: double.infinity,
-                        height: 50,
-                        onPressed: _isLoading
-                            ? null
-                            : () {
-                                _login();
-                              },
-                        color: const Color(0xff0095FF),
-                        disabledColor: Colors.grey,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        child: _isLoading
-                            ? const CircularProgressIndicator(
-                                color: Colors.white,
-                              )
-                            : const Text(
-                                "Login",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16,
-                                ),
-                              ),
-                      ),
-                    ),
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      const Text("Don't have an account?"),
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.pushNamed(context, '/signup');
-                        },
-                        child: const Text(
-                          " Sign up",
+      body: AppScrollbar(
+        thumbVisibility: false,
+        child: SizedBox(
+          height: MediaQuery.of(context).size.height,
+          width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Expanded(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    Column(
+                      children: const <Widget>[
+                        Text(
+                          "Login",
                           style: TextStyle(
-                              fontWeight: FontWeight.w600, fontSize: 18),
+                              fontSize: 30, fontWeight: FontWeight.bold),
+                        ),
+                        SizedBox(height: 20),
+                        Text(
+                          "Enter your credentials to login",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: Colors.grey,
+                            fontWeight: FontWeight.w300,
+                          ),
+                        ),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 40),
+                      child: Form(
+                        key: _formKey,
+                        child: Column(
+                          children: <Widget>[
+                            inputFile(
+                              label: "Email",
+                              keyboardType: TextInputType.emailAddress,
+                              controller: email,
+                              validator: (value) {
+                                if (value == null || value.isEmpty) {
+                                  return 'Please enter your email';
+                                }
+                                if (!RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$')
+                                    .hasMatch(value)) {
+                                  return 'Enter a valid email address';
+                                }
+                                return null;
+                              },
+                            ),
+                            PasswordInputField(
+                              label: "Password",
+                              controller: password,
+                              validator: (value) {
+                                if (value == null || value.isEmpty) {
+                                  return 'Please enter your password';
+                                }
+                                if (value.length < 6) {
+                                  return 'Password must be at least 6 characters';
+                                }
+                                return null;
+                              },
+                            ),
+                          ],
                         ),
                       ),
-                    ],
-                  ),
-                  Container(
-                    padding: const EdgeInsets.only(top: 100),
-                    height: 200,
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage("assets/background.png"),
-                        fit: BoxFit.fitHeight,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 40),
+                      child: Container(
+                        padding: const EdgeInsets.only(top: 3, left: 3),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(50),
+                          border: Border.all(color: Colors.black),
+                        ),
+                        child: MaterialButton(
+                          minWidth: double.infinity,
+                          height: 50,
+                          onPressed: _isLoading
+                              ? null
+                              : () {
+                                  _login();
+                                },
+                          color: const Color(0xff0095FF),
+                          disabledColor: Colors.grey,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50),
+                          ),
+                          child: _isLoading
+                              ? const CircularProgressIndicator(
+                                  color: Colors.white,
+                                )
+                              : const Text(
+                                  "Login",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16,
+                                  ),
+                                ),
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        const Text("Don't have an account?"),
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.pushNamed(context, '/signup');
+                          },
+                          child: const Text(
+                            " Sign up",
+                            style: TextStyle(
+                                fontWeight: FontWeight.w600, fontSize: 18),
+                          ),
+                        ),
+                      ],
+                    ),
+                    Container(
+                      padding: const EdgeInsets.only(top: 100),
+                      height: 200,
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage("assets/background.png"),
+                          fit: BoxFit.fitHeight,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

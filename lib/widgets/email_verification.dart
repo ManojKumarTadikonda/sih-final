@@ -71,7 +71,7 @@ class _VerifyEmailSectionState extends State<VerifyEmailSection> {
         ),
         if (isOtpSent) ...[
           SizedBox(height: 20),
-          TextField(
+          TextFormField(
             controller: otpController,
             keyboardType: TextInputType.number,
             decoration: InputDecoration(

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:sih/pages/user_homepage.dart';
 import 'package:sih/widgets/email_verification.dart';
 import 'package:sih/widgets/passwordinputfield.dart';
-import 'package:sih/user_home.dart';
+import 'package:sih/widgets/app_scrollbar.dart';
 
 class UserSignupPage extends StatefulWidget {
   const UserSignupPage({super.key});
@@ -13,19 +14,20 @@ class UserSignupPage extends StatefulWidget {
 
 class _UserSignupPageState extends State<UserSignupPage> {
   // Controllers for input fields
-  final TextEditingController usernameController = TextEditingController();
-  final TextEditingController emailController = TextEditingController();
-  final TextEditingController userpasswordController = TextEditingController();
-  final TextEditingController userconfirmPasswordController =
-      TextEditingController();
+  final TextEditingController username = TextEditingController();
+  final TextEditingController useremail = TextEditingController();
+  final TextEditingController userpassword = TextEditingController();
+  final TextEditingController userconfirmPassword = TextEditingController();
+  
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>(); // Add a GlobalKey for form validation
 
   @override
   void dispose() {
     // Dispose controllers to free up resources
-    usernameController.dispose();
-    emailController.dispose();
-    userpasswordController.dispose();
-    userconfirmPasswordController.dispose();
+    username.dispose();
+    useremail.dispose();
+    userpassword.dispose();
+    userconfirmPassword.dispose();
     super.dispose();
   }
 
@@ -54,97 +56,103 @@ class _UserSignupPageState extends State<UserSignupPage> {
           ),
         ],
       ),
-      body: Scrollbar(
+      body: AppScrollbar(
         thumbVisibility: true,
         child: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 40),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Lottie.asset(
-                  'assets/animation1.json',
-                  width: 250,
-                  height: 150,
-                  fit: BoxFit.cover,
-                ),
-                SizedBox(height: 20),
-                inputFile(label: "Name", controller: usernameController),
-                SizedBox(height: 20),
-                inputFile(label: "Email", controller: emailController),
-                SizedBox(height: 15),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "Create a Password",
-                    style: TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w400,
-                      color: Colors.black87,
-                    ),
+            child: Form(
+              key: _formKey, // Wrap the form fields in a Form widget
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Lottie.asset(
+                    'assets/animation1.json',
+                    width: 250,
+                    height: 150,
+                    fit: BoxFit.cover,
                   ),
-                ),
-                SizedBox(height: 5),
-                PasswordInputField(
-                  label: "Password",
-                  controller: userpasswordController,
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter your password';
-                    }
-                    if (value.length < 6) {
-                      return 'Password must be at least 6 characters';
-                    }
-                    return null;
-                  },
-                ),
-                SizedBox(height: 15),
-                PasswordInputField(
-                  label: "Confirm Password",
-                  controller: userconfirmPasswordController,
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter your password';
-                    }
-                    if (value.length < 6) {
-                      return 'Password must be at least 6 characters';
-                    }
-                    return null;
-                  },
-                ),
-                SizedBox(height: 15),
-
-                // Email Verification Section
-                VerifyEmailSection(),
-                SizedBox(height: 30),
-
-                // Submit Button
-                MaterialButton(
-                  minWidth: double.infinity,
-                  height: 50,
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => UserHomeScreen(),
+                  SizedBox(height: 20),
+                  inputFile(label: "Name", controller: username),
+                  SizedBox(height: 20),
+                  inputFile(label: "Email", controller: useremail),
+                  SizedBox(height: 15),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      "Create a Password",
+                      style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.black87,
                       ),
-                    );
-                  },
-                  color: Color(0xff0095FF),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50),
-                  ),
-                  child: Text(
-                    "Signup",
-                    style: TextStyle(
-                      fontWeight: FontWeight.w600,
-                      fontSize: 18,
-                      color: Colors.white,
                     ),
                   ),
-                ),
-                SizedBox(height: 30),
-              ],
+                  SizedBox(height: 5),
+                  PasswordInputField(
+                    label: "Password",
+                    controller: userpassword,
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please enter your password';
+                      }
+                      if (value.length < 6) {
+                        return 'Password must be at least 6 characters';
+                      }
+                      return null;
+                    },
+                  ),
+                  SizedBox(height: 15),
+                  PasswordInputField(
+                    label: "Confirm Password",
+                    controller: userconfirmPassword,
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please enter your password';
+                      }
+                      if (value.length < 6) {
+                        return 'Password must be at least 6 characters';
+                      }
+                      return null;
+                    },
+                  ),
+                  SizedBox(height: 15),
+
+                  // Email Verification Section
+                  VerifyEmailSection(),
+                  SizedBox(height: 30),
+
+                  // Submit Button
+                  MaterialButton(
+                    minWidth: double.infinity,
+                    height: 50,
+                    onPressed: () {
+                      if (_formKey.currentState!.validate()) {
+                        // Form is valid, proceed to the next screen
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => UserHomeScreen(),
+                          ),
+                        );
+                      }
+                    },
+                    color: Color(0xff0095FF),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(50),
+                    ),
+                    child: Text(
+                      "Signup",
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 18,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 30),
+                ],
+              ),
             ),
           ),
         ),
@@ -152,7 +160,7 @@ class _UserSignupPageState extends State<UserSignupPage> {
     );
   }
 
-  // Input field widget
+  // Input field widget with TextFormField
   Widget inputFile({
     required String label,
     required TextEditingController controller,
@@ -164,10 +172,10 @@ class _UserSignupPageState extends State<UserSignupPage> {
         Text(
           label,
           style: TextStyle(
-              fontSize: 15, fontWeight: FontWeight.w400, color: Colors.black87),
+            fontSize: 15, fontWeight: FontWeight.w400, color: Colors.black87),
         ),
         SizedBox(height: 5),
-        TextField(
+        TextFormField(
           controller: controller,
           keyboardType: keyboardType,
           decoration: InputDecoration(
@@ -179,6 +187,12 @@ class _UserSignupPageState extends State<UserSignupPage> {
               borderSide: BorderSide(color: Colors.grey),
             ),
           ),
+          validator: (value) {
+            if (value == null || value.isEmpty) {
+              return 'Please enter $label';
+            }
+            return null;
+          },
         ),
       ],
     );

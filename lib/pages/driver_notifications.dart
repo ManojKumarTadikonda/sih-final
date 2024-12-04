@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'widgets/header.dart'; // Ensure to import the Header widget
+import '../widgets/header.dart'; // Ensure to import the Header widget
 
 class DriverNotificationScreen extends StatefulWidget {
+  const DriverNotificationScreen({super.key});
+
   @override
   _DriverNotificationScreenState createState() => _DriverNotificationScreenState();
 }

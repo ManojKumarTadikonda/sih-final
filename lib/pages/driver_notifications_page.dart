@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../widgets/header.dart'; // Ensure to import the Header widget
+import '../widgets/header.dart';
+import 'package:sih/widgets/app_scrollbar.dart';
 
 class DriverNotificationScreen extends StatefulWidget {
   const DriverNotificationScreen({super.key});
@@ -30,29 +31,35 @@ class _DriverNotificationScreenState extends State<DriverNotificationScreen> {
     return Scaffold(
       appBar: Header(
           isDriver: true), // Use Header with isDriver set to true for Driver
-      body: ListView.builder(
-        itemCount: notifications.length,
-        itemBuilder: (context, index) {
-          return notifications[index]['isSeen']
-              ? const SizedBox.shrink() // If seen, hide the notification
-              : Card(
-                  margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                  child: ListTile(
-                    title: Text(
-                      notifications[index]['message'],
-                      style: const TextStyle(fontSize: 18),
+      body: AppScrollbar(
+        thumbVisibility: false,
+        child: ListView.builder(
+          itemCount: notifications.length,
+          itemBuilder: (context, index) {
+            return notifications[index]['isSeen']
+                ? const SizedBox.shrink() // If seen, hide the notification
+                : Card(
+                    margin: const EdgeInsets.symmetric(
+                        vertical: 10, horizontal: 20),
+                    child: ListTile(
+                      title: Text(
+                        notifications[index]['message'],
+                        style: const TextStyle(fontSize: 18),
+                      ),
+                      leading:
+                          const Icon(Icons.notifications, color: Colors.blue),
+                      tileColor: Colors.white,
+                      trailing: IconButton(
+                        icon:
+                            const Icon(Icons.check_circle, color: Colors.green),
+                        onPressed: () {
+                          markAsSeen(index); // Mark notification as seen
+                        },
+                      ),
                     ),
-                    leading: const Icon(Icons.notifications, color: Colors.blue),
-                    tileColor: Colors.white,
-                    trailing: IconButton(
-                      icon: const Icon(Icons.check_circle, color: Colors.green),
-                      onPressed: () {
-                        markAsSeen(index); // Mark notification as seen
-                      },
-                    ),
-                  ),
-                );
-        },
+                  );
+          },
+        ),
       ),
     );
   }
@@ -84,7 +91,8 @@ Widget inputFile(
         obscureText: obscureText,
         keyboardType: keyboardType,
         decoration: InputDecoration(
-          contentPadding: const EdgeInsets.symmetric(vertical: 0, horizontal: 10),
+          contentPadding:
+              const EdgeInsets.symmetric(vertical: 0, horizontal: 10),
           enabledBorder: OutlineInputBorder(
             borderSide: BorderSide(color: Colors.grey[400]!),
           ),

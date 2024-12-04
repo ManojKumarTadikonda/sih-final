@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class AppScrollbar extends StatelessWidget {
   final Widget child;
 
-  const AppScrollbar({required this.child});
+  const AppScrollbar({super.key, required this.child, required bool thumbVisibility});
 
   @override
   Widget build(BuildContext context) {

@@ -1,0 +1,7058 @@
+[
+    {
+        "stopId": "STOP-1-1",
+        "stopName": "Laxmi Nagar",
+        "sequenceNumber": 1,
+        "latitude": 6.8952194,
+        "longitude": 93.8898315,
+        "routeId": "ROUTE-1"
+    },
+    {
+        "stopId": "STOP-1-2",
+        "stopName": "Mother Dairy",
+        "sequenceNumber": 2,
+        "latitude": 13.0960016,
+        "longitude": 77.5731662,
+        "routeId": "ROUTE-1"
+    },
+    {
+        "stopId": "STOP-1-3",
+        "stopName": "13-Block Trilokpuri",
+        "sequenceNumber": 3,
+        "latitude": 28.6126165,
+        "longitude": 77.3061776,
+        "routeId": "ROUTE-1"
+    },
+    {
+        "stopId": "STOP-1-4",
+        "stopName": "Vasundhara Enclave CGHS.",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-1"
+    },
+    {
+        "stopId": "STOP-2-1",
+        "stopName": "Mayur Vihar Phase-III",
+        "sequenceNumber": 1,
+        "latitude": 28.6013974,
+        "longitude": 77.3261466,
+        "routeId": "ROUTE-2"
+    },
+    {
+        "stopId": "STOP-2-2",
+        "stopName": "Gharoli",
+        "sequenceNumber": 2,
+        "latitude": 28.6165864,
+        "longitude": 77.3319912,
+        "routeId": "ROUTE-2"
+    },
+    {
+        "stopId": "STOP-2-3",
+        "stopName": "Kondli",
+        "sequenceNumber": 3,
+        "latitude": 22.3132763,
+        "longitude": 74.4350576,
+        "routeId": "ROUTE-2"
+    },
+    {
+        "stopId": "STOP-2-4",
+        "stopName": "Kalyanpuri Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-2"
+    },
+    {
+        "stopId": "STOP-2-5",
+        "stopName": "Ghazipur Dairy Farm",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-2"
+    },
+    {
+        "stopId": "STOP-2-6",
+        "stopName": "Ghazipur - NH-24 Crossing",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-2"
+    },
+    {
+        "stopId": "STOP-2-7",
+        "stopName": "Ghazipur",
+        "sequenceNumber": 7,
+        "latitude": 25.6034862,
+        "longitude": 83.5075888,
+        "routeId": "ROUTE-2"
+    },
+    {
+        "stopId": "STOP-2-8",
+        "stopName": "Anand Vihar ISBT.",
+        "sequenceNumber": 8,
+        "latitude": 28.6490523,
+        "longitude": 77.3182836,
+        "routeId": "ROUTE-2"
+    },
+    {
+        "stopId": "STOP-3-1",
+        "stopName": "Jheel",
+        "sequenceNumber": 1,
+        "latitude": 35.2174697,
+        "longitude": 72.5431643,
+        "routeId": "ROUTE-3"
+    },
+    {
+        "stopId": "STOP-3-2",
+        "stopName": "Satnaam Road",
+        "sequenceNumber": 2,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-3"
+    },
+    {
+        "stopId": "STOP-3-3",
+        "stopName": "Swami Ganesh Dutt Marg",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-3"
+    },
+    {
+        "stopId": "STOP-3-4",
+        "stopName": "Gandhi Nagar",
+        "sequenceNumber": 4,
+        "latitude": 18.1813888,
+        "longitude": 80.5470264,
+        "routeId": "ROUTE-3"
+    },
+    {
+        "stopId": "STOP-3-5",
+        "stopName": "Kailash Nagar",
+        "sequenceNumber": 5,
+        "latitude": 23.0900395,
+        "longitude": 70.1121447,
+        "routeId": "ROUTE-3"
+    },
+    {
+        "stopId": "STOP-4-1",
+        "stopName": "Baldev Park",
+        "sequenceNumber": 1,
+        "latitude": 39.11251,
+        "longitude": -100.35875,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-2",
+        "stopName": "New Rajdhani Enclave",
+        "sequenceNumber": 2,
+        "latitude": 28.642847,
+        "longitude": 77.2960729,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-3",
+        "stopName": "Vikas Marg",
+        "sequenceNumber": 3,
+        "latitude": 28.3940259,
+        "longitude": 77.0659065,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-4",
+        "stopName": "Karkardooma Metro Station",
+        "sequenceNumber": 4,
+        "latitude": 28.6536001,
+        "longitude": 77.2957877,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-5",
+        "stopName": "AGCR Enclave",
+        "sequenceNumber": 5,
+        "latitude": 28.651181,
+        "longitude": 77.2971799,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-6",
+        "stopName": "District Court",
+        "sequenceNumber": 6,
+        "latitude": 27.6144185,
+        "longitude": 85.5600019,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-7",
+        "stopName": "Vishwas Nagar",
+        "sequenceNumber": 7,
+        "latitude": 28.66447,
+        "longitude": 77.2917414,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-8",
+        "stopName": "Jhilmil Colony",
+        "sequenceNumber": 8,
+        "latitude": 28.6698142,
+        "longitude": 77.3072827,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-9",
+        "stopName": "Vivek Vihar",
+        "sequenceNumber": 9,
+        "latitude": 26.8884539,
+        "longitude": 75.768407,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-10",
+        "stopName": "Surya Nagar",
+        "sequenceNumber": 10,
+        "latitude": 28.6685246,
+        "longitude": 77.3307037,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-4-11",
+        "stopName": "Dilshad Garden Metro Station.",
+        "sequenceNumber": 11,
+        "latitude": 28.6757033,
+        "longitude": 77.3125046,
+        "routeId": "ROUTE-4"
+    },
+    {
+        "stopId": "STOP-5-1",
+        "stopName": "Vasundhara CGHS - Dharamshila Cancer Hospital - Kalyanpuri",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-5"
+    },
+    {
+        "stopId": "STOP-6-1",
+        "stopName": "Jheel",
+        "sequenceNumber": 1,
+        "latitude": 35.2174697,
+        "longitude": 72.5431643,
+        "routeId": "ROUTE-6"
+    },
+    {
+        "stopId": "STOP-6-2",
+        "stopName": "Krishna Nagar",
+        "sequenceNumber": 2,
+        "latitude": 17.4330523,
+        "longitude": 78.4246746,
+        "routeId": "ROUTE-6"
+    },
+    {
+        "stopId": "STOP-6-3",
+        "stopName": "Karkardooma Court",
+        "sequenceNumber": 3,
+        "latitude": 28.6536001,
+        "longitude": 77.2957877,
+        "routeId": "ROUTE-6"
+    },
+    {
+        "stopId": "STOP-6-4",
+        "stopName": "Vishwas Nagar",
+        "sequenceNumber": 4,
+        "latitude": 28.66447,
+        "longitude": 77.2917414,
+        "routeId": "ROUTE-6"
+    },
+    {
+        "stopId": "STOP-7-1",
+        "stopName": "Gharoli",
+        "sequenceNumber": 1,
+        "latitude": 28.6165864,
+        "longitude": 77.3319912,
+        "routeId": "ROUTE-7"
+    },
+    {
+        "stopId": "STOP-7-2",
+        "stopName": "Mayur Vihar P-3",
+        "sequenceNumber": 2,
+        "latitude": 28.6098427,
+        "longitude": 77.2926378,
+        "routeId": "ROUTE-7"
+    },
+    {
+        "stopId": "STOP-7-3",
+        "stopName": "Kondli",
+        "sequenceNumber": 3,
+        "latitude": 22.3132763,
+        "longitude": 74.4350576,
+        "routeId": "ROUTE-7"
+    },
+    {
+        "stopId": "STOP-7-4",
+        "stopName": "Kalyanpuri",
+        "sequenceNumber": 4,
+        "latitude": 28.6194913,
+        "longitude": 77.3179579,
+        "routeId": "ROUTE-7"
+    },
+    {
+        "stopId": "STOP-7-5",
+        "stopName": "Sanjay Park",
+        "sequenceNumber": 5,
+        "latitude": 18.570778,
+        "longitude": 73.9038791,
+        "routeId": "ROUTE-7"
+    },
+    {
+        "stopId": "STOP-8-1",
+        "stopName": "Ghazipur Dairy Farm",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-8"
+    },
+    {
+        "stopId": "STOP-9-1",
+        "stopName": "Mandawli",
+        "sequenceNumber": 1,
+        "latitude": 28.6294332,
+        "longitude": 77.2884872,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-2",
+        "stopName": "Mandawli Road",
+        "sequenceNumber": 2,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-3",
+        "stopName": "Urja Vihar Apartment",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-4",
+        "stopName": "Ganesh Nagar I",
+        "sequenceNumber": 4,
+        "latitude": 19.6662707,
+        "longitude": 76.7859793,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-5",
+        "stopName": "South L/T",
+        "sequenceNumber": 5,
+        "latitude": 22.2562518,
+        "longitude": 73.2304632,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-6",
+        "stopName": "Patparganj Road",
+        "sequenceNumber": 6,
+        "latitude": 28.6360258,
+        "longitude": 77.2857216,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-7",
+        "stopName": "Ganesh Nagar Extension II",
+        "sequenceNumber": 7,
+        "latitude": 26.8973452,
+        "longitude": 75.7766422,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-8",
+        "stopName": "Madhuban Enclave",
+        "sequenceNumber": 8,
+        "latitude": 28.6754071,
+        "longitude": 77.1207528,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-9",
+        "stopName": "Shakarpur Extension",
+        "sequenceNumber": 9,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-10",
+        "stopName": "Nirman Vihar Metro Station",
+        "sequenceNumber": 10,
+        "latitude": 28.6365981,
+        "longitude": 77.2868014,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-11",
+        "stopName": "Madhuban Chowk",
+        "sequenceNumber": 11,
+        "latitude": 28.7032404,
+        "longitude": 77.1303515,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-12",
+        "stopName": "Guru Angad Nagar East",
+        "sequenceNumber": 12,
+        "latitude": 28.6423057,
+        "longitude": 77.2837942,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-13",
+        "stopName": "Khureji Khas",
+        "sequenceNumber": 13,
+        "latitude": 28.646034,
+        "longitude": 77.2801851,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-14",
+        "stopName": "Geeta Colony",
+        "sequenceNumber": 14,
+        "latitude": 28.6510892,
+        "longitude": 77.2749996,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-15",
+        "stopName": "Jheel Gandhi Nagar Market",
+        "sequenceNumber": 15,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-9-16",
+        "stopName": "Shastri Park Metro Station.",
+        "sequenceNumber": 16,
+        "latitude": 28.6683942,
+        "longitude": 77.2503094,
+        "routeId": "ROUTE-9"
+    },
+    {
+        "stopId": "STOP-10-1",
+        "stopName": "Mayur Vihar Phase-II",
+        "sequenceNumber": 1,
+        "latitude": 28.604166,
+        "longitude": 77.2904442,
+        "routeId": "ROUTE-10"
+    },
+    {
+        "stopId": "STOP-10-2",
+        "stopName": "Kalyanvas",
+        "sequenceNumber": 2,
+        "latitude": 28.6199066,
+        "longitude": 77.3109512,
+        "routeId": "ROUTE-10"
+    },
+    {
+        "stopId": "STOP-10-3",
+        "stopName": "Chand Cinema",
+        "sequenceNumber": 3,
+        "latitude": 28.6128241,
+        "longitude": 77.3127259,
+        "routeId": "ROUTE-10"
+    },
+    {
+        "stopId": "STOP-10-4",
+        "stopName": "Trilokpuri 13 Block",
+        "sequenceNumber": 4,
+        "latitude": 28.6127672,
+        "longitude": 77.3076099,
+        "routeId": "ROUTE-10"
+    },
+    {
+        "stopId": "STOP-10-5",
+        "stopName": "Shahi Garden",
+        "sequenceNumber": 5,
+        "latitude": 24.8867657,
+        "longitude": 67.032979,
+        "routeId": "ROUTE-10"
+    },
+    {
+        "stopId": "STOP-10-6",
+        "stopName": "Mayur Vihar Phase-I",
+        "sequenceNumber": 6,
+        "latitude": 28.6035543,
+        "longitude": 77.2899208,
+        "routeId": "ROUTE-10"
+    },
+    {
+        "stopId": "STOP-10-7",
+        "stopName": "Mayur Vihar Phase-I Metro Station.",
+        "sequenceNumber": 7,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-10"
+    },
+    {
+        "stopId": "STOP-11-1",
+        "stopName": "Mayur Vihar Phase-III",
+        "sequenceNumber": 1,
+        "latitude": 28.6013974,
+        "longitude": 77.3261466,
+        "routeId": "ROUTE-11"
+    },
+    {
+        "stopId": "STOP-11-2",
+        "stopName": "Gharoli",
+        "sequenceNumber": 2,
+        "latitude": 28.6165864,
+        "longitude": 77.3319912,
+        "routeId": "ROUTE-11"
+    },
+    {
+        "stopId": "STOP-11-3",
+        "stopName": "Kondli",
+        "sequenceNumber": 3,
+        "latitude": 22.3132763,
+        "longitude": 74.4350576,
+        "routeId": "ROUTE-11"
+    },
+    {
+        "stopId": "STOP-11-4",
+        "stopName": "Kalyanpuri",
+        "sequenceNumber": 4,
+        "latitude": 28.6194913,
+        "longitude": 77.3179579,
+        "routeId": "ROUTE-11"
+    },
+    {
+        "stopId": "STOP-11-5",
+        "stopName": "Chand Cinema",
+        "sequenceNumber": 5,
+        "latitude": 28.6128241,
+        "longitude": 77.3127259,
+        "routeId": "ROUTE-11"
+    },
+    {
+        "stopId": "STOP-11-6",
+        "stopName": "Trilokpuri 13 Block",
+        "sequenceNumber": 6,
+        "latitude": 28.6127672,
+        "longitude": 77.3076099,
+        "routeId": "ROUTE-11"
+    },
+    {
+        "stopId": "STOP-11-7",
+        "stopName": "Mayur Vihar Phase-I",
+        "sequenceNumber": 7,
+        "latitude": 28.6035543,
+        "longitude": 77.2899208,
+        "routeId": "ROUTE-11"
+    },
+    {
+        "stopId": "STOP-11-8",
+        "stopName": "Mayur Vihar Phase-I Metro Station.",
+        "sequenceNumber": 8,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-11"
+    },
+    {
+        "stopId": "STOP-12-1",
+        "stopName": "Mayur Vihar Phase-III",
+        "sequenceNumber": 1,
+        "latitude": 28.6013974,
+        "longitude": 77.3261466,
+        "routeId": "ROUTE-12"
+    },
+    {
+        "stopId": "STOP-12-2",
+        "stopName": "Gharoli",
+        "sequenceNumber": 2,
+        "latitude": 28.6165864,
+        "longitude": 77.3319912,
+        "routeId": "ROUTE-12"
+    },
+    {
+        "stopId": "STOP-12-3",
+        "stopName": "Kondli",
+        "sequenceNumber": 3,
+        "latitude": 22.3132763,
+        "longitude": 74.4350576,
+        "routeId": "ROUTE-12"
+    },
+    {
+        "stopId": "STOP-12-4",
+        "stopName": "DDA Sports Club",
+        "sequenceNumber": 4,
+        "latitude": 30.1407844,
+        "longitude": -94.2500443,
+        "routeId": "ROUTE-12"
+    },
+    {
+        "stopId": "STOP-12-5",
+        "stopName": "Dharamshila Cancer Hospital",
+        "sequenceNumber": 5,
+        "latitude": 52.47306,
+        "longitude": -8.43056,
+        "routeId": "ROUTE-12"
+    },
+    {
+        "stopId": "STOP-12-6",
+        "stopName": "Vasundhara Enclave",
+        "sequenceNumber": 6,
+        "latitude": 28.6017259,
+        "longitude": 77.3211206,
+        "routeId": "ROUTE-12"
+    },
+    {
+        "stopId": "STOP-12-7",
+        "stopName": "New Ashok Nagar",
+        "sequenceNumber": 7,
+        "latitude": 28.5890885,
+        "longitude": 77.3015085,
+        "routeId": "ROUTE-12"
+    },
+    {
+        "stopId": "STOP-12-8",
+        "stopName": "New Ashok NagarMetro Station.",
+        "sequenceNumber": 8,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-12"
+    },
+    {
+        "stopId": "STOP-13-1",
+        "stopName": "Rajgarh Colony",
+        "sequenceNumber": 1,
+        "latitude": 26.1813653,
+        "longitude": 91.7733645,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-2",
+        "stopName": "Geeta Colony",
+        "sequenceNumber": 2,
+        "latitude": 28.6510892,
+        "longitude": 77.2749996,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-3",
+        "stopName": "Khureji Khas",
+        "sequenceNumber": 3,
+        "latitude": 28.646034,
+        "longitude": 77.2801851,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-4",
+        "stopName": "Gurunanak Nagar",
+        "sequenceNumber": 4,
+        "latitude": 16.4984832,
+        "longitude": 80.6583419,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-5",
+        "stopName": "Priyadarshini Vihar",
+        "sequenceNumber": 5,
+        "latitude": 28.6913861,
+        "longitude": 77.1935229,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-6",
+        "stopName": "Bank Enclave",
+        "sequenceNumber": 6,
+        "latitude": 28.6415879,
+        "longitude": 77.2749546,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-7",
+        "stopName": "Krishan Kunj",
+        "sequenceNumber": 7,
+        "latitude": 32.2065963,
+        "longitude": 76.3215993,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-8",
+        "stopName": "Geeta Colony Road(Pushta)",
+        "sequenceNumber": 8,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-9",
+        "stopName": "Ramesh Park",
+        "sequenceNumber": 9,
+        "latitude": 28.6352913,
+        "longitude": 77.270571,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-10",
+        "stopName": "Lalita Park",
+        "sequenceNumber": 10,
+        "latitude": 28.6321536,
+        "longitude": 77.2716477,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-13-11",
+        "stopName": "Yamuna Bank Metro Station",
+        "sequenceNumber": 11,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-13"
+    },
+    {
+        "stopId": "STOP-14-1",
+        "stopName": "Nangli Poonam",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-14"
+    },
+    {
+        "stopId": "STOP-14-2",
+        "stopName": "Budhpur",
+        "sequenceNumber": 2,
+        "latitude": 28.7814151,
+        "longitude": 77.1374385,
+        "routeId": "ROUTE-14"
+    },
+    {
+        "stopId": "STOP-14-3",
+        "stopName": "Khera Kalan",
+        "sequenceNumber": 3,
+        "latitude": 28.7696903,
+        "longitude": 77.1158609,
+        "routeId": "ROUTE-14"
+    },
+    {
+        "stopId": "STOP-14-4",
+        "stopName": "Khera Khurd",
+        "sequenceNumber": 4,
+        "latitude": 28.7756713,
+        "longitude": 77.0984424,
+        "routeId": "ROUTE-14"
+    },
+    {
+        "stopId": "STOP-14-5",
+        "stopName": "Holambi Kalan",
+        "sequenceNumber": 5,
+        "latitude": 28.8070269,
+        "longitude": 77.0967976,
+        "routeId": "ROUTE-14"
+    },
+    {
+        "stopId": "STOP-14-6",
+        "stopName": "SannothCrossing",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-14"
+    },
+    {
+        "stopId": "STOP-15-1",
+        "stopName": "GTB Nagar",
+        "sequenceNumber": 1,
+        "latitude": 28.6981333,
+        "longitude": 77.2063998,
+        "routeId": "ROUTE-15"
+    },
+    {
+        "stopId": "STOP-15-2",
+        "stopName": "Batra Complex",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-15"
+    },
+    {
+        "stopId": "STOP-15-3",
+        "stopName": "Mukherjee Nagar Bandh",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-15"
+    },
+    {
+        "stopId": "STOP-15-4",
+        "stopName": "Gandhi Vihar",
+        "sequenceNumber": 4,
+        "latitude": 28.7208721,
+        "longitude": 77.2139623,
+        "routeId": "ROUTE-15"
+    },
+    {
+        "stopId": "STOP-16-1",
+        "stopName": "GTB Nagar",
+        "sequenceNumber": 1,
+        "latitude": 28.6981333,
+        "longitude": 77.2063998,
+        "routeId": "ROUTE-16"
+    },
+    {
+        "stopId": "STOP-16-2",
+        "stopName": "Nirankari Colony",
+        "sequenceNumber": 2,
+        "latitude": 28.7165712,
+        "longitude": 77.2064187,
+        "routeId": "ROUTE-16"
+    },
+    {
+        "stopId": "STOP-16-3",
+        "stopName": "Jharoda Dairy Crossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-16"
+    },
+    {
+        "stopId": "STOP-16-4",
+        "stopName": "Burari Village",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-16"
+    },
+    {
+        "stopId": "STOP-16-5",
+        "stopName": "Loniyan Industrial Area",
+        "sequenceNumber": 5,
+        "latitude": 5.63935,
+        "longitude": -0.12423,
+        "routeId": "ROUTE-16"
+    },
+    {
+        "stopId": "STOP-16-6",
+        "stopName": "Ibrahimpur",
+        "sequenceNumber": 6,
+        "latitude": 20.7097666,
+        "longitude": 77.9775638,
+        "routeId": "ROUTE-16"
+    },
+    {
+        "stopId": "STOP-16-7",
+        "stopName": "Hiranki",
+        "sequenceNumber": 7,
+        "latitude": 28.7995809,
+        "longitude": 77.1811692,
+        "routeId": "ROUTE-16"
+    },
+    {
+        "stopId": "STOP-16-8",
+        "stopName": "Mukhmelpur",
+        "sequenceNumber": 8,
+        "latitude": 28.7921344,
+        "longitude": 77.1621577,
+        "routeId": "ROUTE-16"
+    },
+    {
+        "stopId": "STOP-17-1",
+        "stopName": "Nangli Poonam",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-17"
+    },
+    {
+        "stopId": "STOP-17-2",
+        "stopName": "Budhpur",
+        "sequenceNumber": 2,
+        "latitude": 28.7814151,
+        "longitude": 77.1374385,
+        "routeId": "ROUTE-17"
+    },
+    {
+        "stopId": "STOP-17-3",
+        "stopName": "Alipur",
+        "sequenceNumber": 3,
+        "latitude": 22.4239405,
+        "longitude": 80.1728925,
+        "routeId": "ROUTE-17"
+    },
+    {
+        "stopId": "STOP-17-4",
+        "stopName": "Bakoli Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-17"
+    },
+    {
+        "stopId": "STOP-17-5",
+        "stopName": "Bakhtawarpur",
+        "sequenceNumber": 5,
+        "latitude": 28.5336502,
+        "longitude": 77.3516275,
+        "routeId": "ROUTE-17"
+    },
+    {
+        "stopId": "STOP-17-6",
+        "stopName": "Mohammadpur",
+        "sequenceNumber": 6,
+        "latitude": 23.7636683,
+        "longitude": 90.363244,
+        "routeId": "ROUTE-17"
+    },
+    {
+        "stopId": "STOP-18-1",
+        "stopName": "Sangam Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.5057128,
+        "longitude": 77.2484672,
+        "routeId": "ROUTE-18"
+    },
+    {
+        "stopId": "STOP-18-2",
+        "stopName": "Wazirabad",
+        "sequenceNumber": 2,
+        "latitude": 32.4417427,
+        "longitude": 74.1182117,
+        "routeId": "ROUTE-18"
+    },
+    {
+        "stopId": "STOP-18-3",
+        "stopName": "Timarpur",
+        "sequenceNumber": 3,
+        "latitude": 28.7012628,
+        "longitude": 77.2186795,
+        "routeId": "ROUTE-18"
+    },
+    {
+        "stopId": "STOP-18-4",
+        "stopName": "Lucknow Road",
+        "sequenceNumber": 4,
+        "latitude": 51.1845347,
+        "longitude": 0.3887114,
+        "routeId": "ROUTE-18"
+    },
+    {
+        "stopId": "STOP-19-1",
+        "stopName": "Jyonti Village - Ladpur",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-19"
+    },
+    {
+        "stopId": "STOP-20-1",
+        "stopName": "Khera Kalan",
+        "sequenceNumber": 1,
+        "latitude": 28.7696903,
+        "longitude": 77.1158609,
+        "routeId": "ROUTE-20"
+    },
+    {
+        "stopId": "STOP-20-2",
+        "stopName": "Khera Khurd",
+        "sequenceNumber": 2,
+        "latitude": 28.7756713,
+        "longitude": 77.0984424,
+        "routeId": "ROUTE-20"
+    },
+    {
+        "stopId": "STOP-20-3",
+        "stopName": "Holumbi Khurd",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-20"
+    },
+    {
+        "stopId": "STOP-20-4",
+        "stopName": "Holumbi Kalan",
+        "sequenceNumber": 4,
+        "latitude": 39.09921,
+        "longitude": 39.54351,
+        "routeId": "ROUTE-20"
+    },
+    {
+        "stopId": "STOP-20-5",
+        "stopName": "Shahpur Garhi",
+        "sequenceNumber": 5,
+        "latitude": 28.8196612,
+        "longitude": 77.1064429,
+        "routeId": "ROUTE-20"
+    },
+    {
+        "stopId": "STOP-20-6",
+        "stopName": "Bhor Garh",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-20"
+    },
+    {
+        "stopId": "STOP-20-7",
+        "stopName": "Narela",
+        "sequenceNumber": 7,
+        "latitude": 28.8464766,
+        "longitude": 77.0856631,
+        "routeId": "ROUTE-20"
+    },
+    {
+        "stopId": "STOP-21-1",
+        "stopName": "Khera Kalan",
+        "sequenceNumber": 1,
+        "latitude": 28.7696903,
+        "longitude": 77.1158609,
+        "routeId": "ROUTE-21"
+    },
+    {
+        "stopId": "STOP-21-2",
+        "stopName": "Khera Khurd",
+        "sequenceNumber": 2,
+        "latitude": 28.7756713,
+        "longitude": 77.0984424,
+        "routeId": "ROUTE-21"
+    },
+    {
+        "stopId": "STOP-21-3",
+        "stopName": "Holumbi Khurd",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-21"
+    },
+    {
+        "stopId": "STOP-21-4",
+        "stopName": "Holumbi Kalan",
+        "sequenceNumber": 4,
+        "latitude": 39.09921,
+        "longitude": 39.54351,
+        "routeId": "ROUTE-21"
+    },
+    {
+        "stopId": "STOP-21-5",
+        "stopName": "Sannoth Crossing",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-21"
+    },
+    {
+        "stopId": "STOP-21-6",
+        "stopName": "Ghoga Village",
+        "sequenceNumber": 6,
+        "latitude": 28.8309445,
+        "longitude": 77.0489351,
+        "routeId": "ROUTE-21"
+    },
+    {
+        "stopId": "STOP-22-1",
+        "stopName": "Jindpur",
+        "sequenceNumber": 1,
+        "latitude": 26.3168248,
+        "longitude": 77.8640771,
+        "routeId": "ROUTE-22"
+    },
+    {
+        "stopId": "STOP-22-2",
+        "stopName": "Alipur",
+        "sequenceNumber": 2,
+        "latitude": 22.4239405,
+        "longitude": 80.1728925,
+        "routeId": "ROUTE-22"
+    },
+    {
+        "stopId": "STOP-22-3",
+        "stopName": "Budhpur",
+        "sequenceNumber": 3,
+        "latitude": 28.7814151,
+        "longitude": 77.1374385,
+        "routeId": "ROUTE-22"
+    },
+    {
+        "stopId": "STOP-22-4",
+        "stopName": "Nangli Poonam",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-22"
+    },
+    {
+        "stopId": "STOP-23-1",
+        "stopName": "Dayalpur",
+        "sequenceNumber": 1,
+        "latitude": 25.1887022,
+        "longitude": 87.4854616,
+        "routeId": "ROUTE-23"
+    },
+    {
+        "stopId": "STOP-24-1",
+        "stopName": "Sonia Vihar E Block",
+        "sequenceNumber": 1,
+        "latitude": 45.4246,
+        "longitude": -75.6975,
+        "routeId": "ROUTE-24"
+    },
+    {
+        "stopId": "STOP-24-2",
+        "stopName": "Nanaksar",
+        "sequenceNumber": 2,
+        "latitude": 30.5396886,
+        "longitude": 74.8396562,
+        "routeId": "ROUTE-24"
+    },
+    {
+        "stopId": "STOP-25-1",
+        "stopName": "Harsh Vihar",
+        "sequenceNumber": 1,
+        "latitude": 29.2296962,
+        "longitude": 79.5106004,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-25-2",
+        "stopName": "Gagan Cinema",
+        "sequenceNumber": 2,
+        "latitude": 28.6957346,
+        "longitude": 77.3153785,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-25-3",
+        "stopName": "Sunder Nagari",
+        "sequenceNumber": 3,
+        "latitude": 28.6927747,
+        "longitude": 77.315801,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-25-4",
+        "stopName": "Tahirpur Chowk",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-25-5",
+        "stopName": "Tahirpur",
+        "sequenceNumber": 5,
+        "latitude": 24.1675305,
+        "longitude": 77.7334543,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-25-6",
+        "stopName": "New Seemapuri",
+        "sequenceNumber": 6,
+        "latitude": 28.6882462,
+        "longitude": 77.3236,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-25-7",
+        "stopName": "Dilshad Colony",
+        "sequenceNumber": 7,
+        "latitude": 17.3924427,
+        "longitude": 78.4332714,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-25-8",
+        "stopName": "J&KBlock Dilshad Garden",
+        "sequenceNumber": 8,
+        "latitude": 45.7747,
+        "longitude": -86.5507,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-25-9",
+        "stopName": "Dilshad Garden Metro Station.",
+        "sequenceNumber": 9,
+        "latitude": 28.6757033,
+        "longitude": 77.3125046,
+        "routeId": "ROUTE-25"
+    },
+    {
+        "stopId": "STOP-26-1",
+        "stopName": "Shiv Vihar - Wazirabad Road Crossing\u2013 HarshVihar",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-26"
+    },
+    {
+        "stopId": "STOP-27-1",
+        "stopName": "Shiv Vihar - Wazirabad Road Crossing\u2013 Nand Nagri",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-27"
+    },
+    {
+        "stopId": "STOP-28-1",
+        "stopName": "Saboli/Mandoli",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-2",
+        "stopName": "Mandoli ExtensionCrossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-3",
+        "stopName": "Bank Colony",
+        "sequenceNumber": 3,
+        "latitude": 14.4097838,
+        "longitude": 79.9694981,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-4",
+        "stopName": "Gagan Cinema",
+        "sequenceNumber": 4,
+        "latitude": 28.6957346,
+        "longitude": 77.3153785,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-5",
+        "stopName": "Nand Nagri (T)",
+        "sequenceNumber": 5,
+        "latitude": 28.697809,
+        "longitude": 77.3057011,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-6",
+        "stopName": "GTB Enclave",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-7",
+        "stopName": "GTB Hospital Crossing",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-8",
+        "stopName": "Dilshad Garden",
+        "sequenceNumber": 8,
+        "latitude": 28.6758864,
+        "longitude": 77.321446,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-9",
+        "stopName": "Dilshad Garden GT Road",
+        "sequenceNumber": 9,
+        "latitude": 28.6758798,
+        "longitude": 77.3116919,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-28-10",
+        "stopName": "Jhilmil Metro Station",
+        "sequenceNumber": 10,
+        "latitude": 28.6757033,
+        "longitude": 77.3125046,
+        "routeId": "ROUTE-28"
+    },
+    {
+        "stopId": "STOP-29-1",
+        "stopName": "Bhagirathi Vihar",
+        "sequenceNumber": 1,
+        "latitude": 30.1056175,
+        "longitude": 78.2781758,
+        "routeId": "ROUTE-29"
+    },
+    {
+        "stopId": "STOP-29-2",
+        "stopName": "Brijpuri",
+        "sequenceNumber": 2,
+        "latitude": 28.704747,
+        "longitude": 77.2751662,
+        "routeId": "ROUTE-29"
+    },
+    {
+        "stopId": "STOP-29-3",
+        "stopName": "Mangal Pandey Marg",
+        "sequenceNumber": 3,
+        "latitude": 28.6285362,
+        "longitude": 77.1109266,
+        "routeId": "ROUTE-29"
+    },
+    {
+        "stopId": "STOP-29-4",
+        "stopName": "Gokulpuri",
+        "sequenceNumber": 4,
+        "latitude": 28.7024752,
+        "longitude": 77.2861253,
+        "routeId": "ROUTE-29"
+    },
+    {
+        "stopId": "STOP-29-5",
+        "stopName": "Ambedkar College More",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-29"
+    },
+    {
+        "stopId": "STOP-29-6",
+        "stopName": "C-4 Yamuna Vihar",
+        "sequenceNumber": 6,
+        "latitude": 28.7006347,
+        "longitude": 77.283389,
+        "routeId": "ROUTE-29"
+    },
+    {
+        "stopId": "STOP-29-7",
+        "stopName": "Jaffrabad Road",
+        "sequenceNumber": 7,
+        "latitude": 28.6826822,
+        "longitude": 77.2748055,
+        "routeId": "ROUTE-29"
+    },
+    {
+        "stopId": "STOP-29-8",
+        "stopName": "Seelampur",
+        "sequenceNumber": 8,
+        "latitude": 28.6698165,
+        "longitude": 77.2668137,
+        "routeId": "ROUTE-29"
+    },
+    {
+        "stopId": "STOP-30-1",
+        "stopName": "Yamuna Vihar Depot",
+        "sequenceNumber": 1,
+        "latitude": 28.6974873,
+        "longitude": 77.271371,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-30-2",
+        "stopName": "Atul Marg",
+        "sequenceNumber": 2,
+        "latitude": 28.5227813,
+        "longitude": 77.156634,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-30-3",
+        "stopName": "Kardampuri",
+        "sequenceNumber": 3,
+        "latitude": 28.6802124,
+        "longitude": 77.2744804,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-30-4",
+        "stopName": "Kabir Nagar",
+        "sequenceNumber": 4,
+        "latitude": 28.6926703,
+        "longitude": 77.2835443,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-30-5",
+        "stopName": "Babarpur",
+        "sequenceNumber": 5,
+        "latitude": 29.4638769,
+        "longitude": 76.955875,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-30-6",
+        "stopName": "Jaffrabad",
+        "sequenceNumber": 6,
+        "latitude": 28.6826822,
+        "longitude": 77.2748055,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-30-7",
+        "stopName": "Subhash Park",
+        "sequenceNumber": 7,
+        "latitude": 23.8514963,
+        "longitude": 73.710408,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-30-8",
+        "stopName": "Seelampur",
+        "sequenceNumber": 8,
+        "latitude": 28.6698165,
+        "longitude": 77.2668137,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-30-9",
+        "stopName": "Seelampur Metro Station.",
+        "sequenceNumber": 9,
+        "latitude": 28.6698704,
+        "longitude": 77.2667031,
+        "routeId": "ROUTE-30"
+    },
+    {
+        "stopId": "STOP-31-1",
+        "stopName": "Karawal Nagar East",
+        "sequenceNumber": 1,
+        "latitude": 28.7311406,
+        "longitude": 77.2747898,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-2",
+        "stopName": "Dayalpur",
+        "sequenceNumber": 2,
+        "latitude": 25.1887022,
+        "longitude": 87.4854616,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-3",
+        "stopName": "Mustafabad",
+        "sequenceNumber": 3,
+        "latitude": 31.2521717,
+        "longitude": 74.4202195,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-4",
+        "stopName": "Brijpuri",
+        "sequenceNumber": 4,
+        "latitude": 28.704747,
+        "longitude": 77.2751662,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-5",
+        "stopName": "Yamuna Vihar Depot",
+        "sequenceNumber": 5,
+        "latitude": 28.6974873,
+        "longitude": 77.271371,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-6",
+        "stopName": "Ghonda Chowk",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-7",
+        "stopName": "Maujpur",
+        "sequenceNumber": 7,
+        "latitude": 25.6002411,
+        "longitude": 77.9848662,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-8",
+        "stopName": "Gautampuri",
+        "sequenceNumber": 8,
+        "latitude": 28.5115704,
+        "longitude": 77.3026233,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-9",
+        "stopName": "Chouhan Banger",
+        "sequenceNumber": 9,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-31-10",
+        "stopName": "SeelamPur Metro Station.",
+        "sequenceNumber": 10,
+        "latitude": 28.6698704,
+        "longitude": 77.2667031,
+        "routeId": "ROUTE-31"
+    },
+    {
+        "stopId": "STOP-32-1",
+        "stopName": "Saboli/Mandoli",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-32"
+    },
+    {
+        "stopId": "STOP-32-2",
+        "stopName": "Mandoli Crossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-32"
+    },
+    {
+        "stopId": "STOP-32-3",
+        "stopName": "Nand Nagri Depot",
+        "sequenceNumber": 3,
+        "latitude": 28.697809,
+        "longitude": 77.3057011,
+        "routeId": "ROUTE-32"
+    },
+    {
+        "stopId": "STOP-32-4",
+        "stopName": "Ashok Nagar",
+        "sequenceNumber": 4,
+        "latitude": 13.0400731,
+        "longitude": 80.2159247,
+        "routeId": "ROUTE-32"
+    },
+    {
+        "stopId": "STOP-32-5",
+        "stopName": "Mandoli Road",
+        "sequenceNumber": 5,
+        "latitude": 28.6784615,
+        "longitude": 77.2935412,
+        "routeId": "ROUTE-32"
+    },
+    {
+        "stopId": "STOP-32-6",
+        "stopName": "Ram Nagar",
+        "sequenceNumber": 6,
+        "latitude": 17.4114232,
+        "longitude": 78.5076081,
+        "routeId": "ROUTE-32"
+    },
+    {
+        "stopId": "STOP-32-7",
+        "stopName": "Mansarovar Park",
+        "sequenceNumber": 7,
+        "latitude": 28.675385,
+        "longitude": 77.3008678,
+        "routeId": "ROUTE-32"
+    },
+    {
+        "stopId": "STOP-32-8",
+        "stopName": "ShahdaraMetro Station",
+        "sequenceNumber": 8,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-32"
+    },
+    {
+        "stopId": "STOP-33-1",
+        "stopName": "Karawal Nagar East",
+        "sequenceNumber": 1,
+        "latitude": 28.7311406,
+        "longitude": 77.2747898,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-33-2",
+        "stopName": "Shiv Vihar",
+        "sequenceNumber": 2,
+        "latitude": 28.6175376,
+        "longitude": 77.0354302,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-33-3",
+        "stopName": "Johripur",
+        "sequenceNumber": 3,
+        "latitude": 28.7172505,
+        "longitude": 77.2869559,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-33-4",
+        "stopName": "LIG flats",
+        "sequenceNumber": 4,
+        "latitude": 28.634899,
+        "longitude": 77.0598615,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-33-5",
+        "stopName": "Loni Road",
+        "sequenceNumber": 5,
+        "latitude": 28.8314271,
+        "longitude": 77.2674674,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-33-6",
+        "stopName": "Durgapuri",
+        "sequenceNumber": 6,
+        "latitude": 30.4113865,
+        "longitude": 79.387085,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-33-7",
+        "stopName": "Ram Nagar",
+        "sequenceNumber": 7,
+        "latitude": 17.4114232,
+        "longitude": 78.5076081,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-33-8",
+        "stopName": "Kabul Nagar",
+        "sequenceNumber": 8,
+        "latitude": 28.5706695,
+        "longitude": 77.2424491,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-33-9",
+        "stopName": "ShahdaraMetro Station.",
+        "sequenceNumber": 9,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-33"
+    },
+    {
+        "stopId": "STOP-34-1",
+        "stopName": "Karawal Nagar West",
+        "sequenceNumber": 1,
+        "latitude": 5.5,
+        "longitude": 10.66667,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-2",
+        "stopName": "Sadatpur",
+        "sequenceNumber": 2,
+        "latitude": 26.1591901,
+        "longitude": 85.3495615,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-3",
+        "stopName": "Delhi Police Training Complex",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-4",
+        "stopName": "Biharipur",
+        "sequenceNumber": 4,
+        "latitude": 18.4959483,
+        "longitude": 77.3860457,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-5",
+        "stopName": "Rajeev Nagar",
+        "sequenceNumber": 5,
+        "latitude": 19.2925655,
+        "longitude": 77.931936,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-6",
+        "stopName": "Khajoori Khas",
+        "sequenceNumber": 6,
+        "latitude": 31.52919,
+        "longitude": 62.79055,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-7",
+        "stopName": "Wazirabad Road Crossing",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-8",
+        "stopName": "Bhajanpura",
+        "sequenceNumber": 8,
+        "latitude": 28.7588936,
+        "longitude": 78.9748764,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-9",
+        "stopName": "Gamri Extension",
+        "sequenceNumber": 9,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-10",
+        "stopName": "Pushta 5",
+        "sequenceNumber": 10,
+        "latitude": 34.5589176,
+        "longitude": 69.1359256,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-11",
+        "stopName": "Kartar Nagar",
+        "sequenceNumber": 11,
+        "latitude": 28.6895771,
+        "longitude": 77.2541673,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-12",
+        "stopName": "New Usmanpur",
+        "sequenceNumber": 12,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-13",
+        "stopName": "Zero Pusta",
+        "sequenceNumber": 13,
+        "latitude": 46.6781226,
+        "longitude": 24.3581487,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-14",
+        "stopName": "Shastri Park",
+        "sequenceNumber": 14,
+        "latitude": 28.6684339,
+        "longitude": 77.2505301,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-15",
+        "stopName": "Buland Masjid/Yamuna Bridge East",
+        "sequenceNumber": 15,
+        "latitude": 27.23998,
+        "longitude": 87.14802,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-34-16",
+        "stopName": "Shastri Park Metro Station.",
+        "sequenceNumber": 16,
+        "latitude": 28.6683942,
+        "longitude": 77.2503094,
+        "routeId": "ROUTE-34"
+    },
+    {
+        "stopId": "STOP-35-1",
+        "stopName": "Wazirpur Depot-I",
+        "sequenceNumber": 1,
+        "latitude": 18.16667,
+        "longitude": -7.08333,
+        "routeId": "ROUTE-35"
+    },
+    {
+        "stopId": "STOP-35-2",
+        "stopName": "K.D.Block Maurya Enclave",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-35"
+    },
+    {
+        "stopId": "STOP-35-3",
+        "stopName": "Rajapuri (Prashant Vihar )",
+        "sequenceNumber": 3,
+        "latitude": 28.60683,
+        "longitude": 77.05982,
+        "routeId": "ROUTE-35"
+    },
+    {
+        "stopId": "STOP-35-4",
+        "stopName": "ESI Hospital Rohini",
+        "sequenceNumber": 4,
+        "latitude": 28.7279282,
+        "longitude": 77.1257749,
+        "routeId": "ROUTE-35"
+    },
+    {
+        "stopId": "STOP-36-1",
+        "stopName": "Wazirpur Depot",
+        "sequenceNumber": 1,
+        "latitude": 28.6938954,
+        "longitude": 77.1551921,
+        "routeId": "ROUTE-36"
+    },
+    {
+        "stopId": "STOP-36-2",
+        "stopName": "K.D. Block Pitampura",
+        "sequenceNumber": 2,
+        "latitude": 28.68964,
+        "longitude": 77.13126,
+        "routeId": "ROUTE-36"
+    },
+    {
+        "stopId": "STOP-36-3",
+        "stopName": "Rohini Sec-7 & 8 Crossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-36"
+    },
+    {
+        "stopId": "STOP-36-4",
+        "stopName": "Rohini Sec-6 (T) (Rohini Depot-I)",
+        "sequenceNumber": 4,
+        "latitude": 26.66667,
+        "longitude": 87.16667,
+        "routeId": "ROUTE-36"
+    },
+    {
+        "stopId": "STOP-36-5",
+        "stopName": "Rithala Village Main Road",
+        "sequenceNumber": 5,
+        "latitude": 21.73709,
+        "longitude": 81.93955,
+        "routeId": "ROUTE-36"
+    },
+    {
+        "stopId": "STOP-36-6",
+        "stopName": "Rohini Sector-25",
+        "sequenceNumber": 6,
+        "latitude": 28.7342953,
+        "longitude": 77.0938918,
+        "routeId": "ROUTE-36"
+    },
+    {
+        "stopId": "STOP-37-1",
+        "stopName": "Wazirpur Depot-I",
+        "sequenceNumber": 1,
+        "latitude": 18.16667,
+        "longitude": -7.08333,
+        "routeId": "ROUTE-37"
+    },
+    {
+        "stopId": "STOP-37-2",
+        "stopName": "K.D.Block Pitampura",
+        "sequenceNumber": 2,
+        "latitude": 28.68964,
+        "longitude": 77.13126,
+        "routeId": "ROUTE-37"
+    },
+    {
+        "stopId": "STOP-37-3",
+        "stopName": "Rohini Sec-7",
+        "sequenceNumber": 3,
+        "latitude": 28.7162092,
+        "longitude": 77.1170743,
+        "routeId": "ROUTE-37"
+    },
+    {
+        "stopId": "STOP-37-4",
+        "stopName": "8",
+        "sequenceNumber": 4,
+        "latitude": 28.6276911,
+        "longitude": 77.2273571,
+        "routeId": "ROUTE-37"
+    },
+    {
+        "stopId": "STOP-37-5",
+        "stopName": "9 Crossing",
+        "sequenceNumber": 5,
+        "latitude": 9.4509853,
+        "longitude": 125.5742548,
+        "routeId": "ROUTE-37"
+    },
+    {
+        "stopId": "STOP-37-6",
+        "stopName": "Vidya Vihar Marg Crossing",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-37"
+    },
+    {
+        "stopId": "STOP-37-7",
+        "stopName": "Rohini Sec-18.",
+        "sequenceNumber": 7,
+        "latitude": 28.7408129,
+        "longitude": 77.1331213,
+        "routeId": "ROUTE-37"
+    },
+    {
+        "stopId": "STOP-38-1",
+        "stopName": "Shani Bazaar Road",
+        "sequenceNumber": 1,
+        "latitude": 32.2153049,
+        "longitude": 76.3549429,
+        "routeId": "ROUTE-38"
+    },
+    {
+        "stopId": "STOP-38-2",
+        "stopName": "Harijan Colony",
+        "sequenceNumber": 2,
+        "latitude": 9.8197396,
+        "longitude": 78.2698631,
+        "routeId": "ROUTE-38"
+    },
+    {
+        "stopId": "STOP-38-3",
+        "stopName": "Nangloi-Sultanpuri Road",
+        "sequenceNumber": 3,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-38"
+    },
+    {
+        "stopId": "STOP-39-1",
+        "stopName": "Alipur",
+        "sequenceNumber": 1,
+        "latitude": 22.4239405,
+        "longitude": 80.1728925,
+        "routeId": "ROUTE-39"
+    },
+    {
+        "stopId": "STOP-39-2",
+        "stopName": "Bakoli Crossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-39"
+    },
+    {
+        "stopId": "STOP-39-3",
+        "stopName": "Khampur",
+        "sequenceNumber": 3,
+        "latitude": 28.8243987,
+        "longitude": 77.1335761,
+        "routeId": "ROUTE-39"
+    },
+    {
+        "stopId": "STOP-39-4",
+        "stopName": "Tikri Khurd",
+        "sequenceNumber": 4,
+        "latitude": 26.3797673,
+        "longitude": 78.7490291,
+        "routeId": "ROUTE-39"
+    },
+    {
+        "stopId": "STOP-39-5",
+        "stopName": "RajaHarishChandra Hospital",
+        "sequenceNumber": 5,
+        "latitude": 52.47306,
+        "longitude": -8.43056,
+        "routeId": "ROUTE-39"
+    },
+    {
+        "stopId": "STOP-39-6",
+        "stopName": "Narela (A-7)",
+        "sequenceNumber": 6,
+        "latitude": 23.2872689,
+        "longitude": 77.1497984,
+        "routeId": "ROUTE-39"
+    },
+    {
+        "stopId": "STOP-40-1",
+        "stopName": "Rohini Suraj Park",
+        "sequenceNumber": 1,
+        "latitude": 28.7443687,
+        "longitude": 77.134978,
+        "routeId": "ROUTE-40"
+    },
+    {
+        "stopId": "STOP-40-2",
+        "stopName": "Rohini Sector 18",
+        "sequenceNumber": 2,
+        "latitude": 28.7363576,
+        "longitude": 77.1356358,
+        "routeId": "ROUTE-40"
+    },
+    {
+        "stopId": "STOP-40-3",
+        "stopName": "15",
+        "sequenceNumber": 3,
+        "latitude": 48.906345,
+        "longitude": 2.44594,
+        "routeId": "ROUTE-40"
+    },
+    {
+        "stopId": "STOP-40-4",
+        "stopName": "13",
+        "sequenceNumber": 4,
+        "latitude": -37.8184694,
+        "longitude": 144.9515933,
+        "routeId": "ROUTE-40"
+    },
+    {
+        "stopId": "STOP-40-5",
+        "stopName": "9",
+        "sequenceNumber": 5,
+        "latitude": 28.7026273,
+        "longitude": 77.228609,
+        "routeId": "ROUTE-40"
+    },
+    {
+        "stopId": "STOP-41-1",
+        "stopName": "Bawana JJ Colony",
+        "sequenceNumber": 1,
+        "latitude": 38.07086,
+        "longitude": -95.36554,
+        "routeId": "ROUTE-41"
+    },
+    {
+        "stopId": "STOP-41-2",
+        "stopName": "DSIDC",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-41"
+    },
+    {
+        "stopId": "STOP-41-3",
+        "stopName": "Holumbi Kalan JJ Colony",
+        "sequenceNumber": 3,
+        "latitude": 38.07086,
+        "longitude": -95.36554,
+        "routeId": "ROUTE-41"
+    },
+    {
+        "stopId": "STOP-42-1",
+        "stopName": "Shiv Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.6175376,
+        "longitude": 77.0354302,
+        "routeId": "ROUTE-42"
+    },
+    {
+        "stopId": "STOP-42-2",
+        "stopName": "Shahbad Dairy",
+        "sequenceNumber": 2,
+        "latitude": 28.7436709,
+        "longitude": 77.1270451,
+        "routeId": "ROUTE-42"
+    },
+    {
+        "stopId": "STOP-42-3",
+        "stopName": "Rohini Sector25",
+        "sequenceNumber": 3,
+        "latitude": 28.7383795,
+        "longitude": 77.1398526,
+        "routeId": "ROUTE-42"
+    },
+    {
+        "stopId": "STOP-42-4",
+        "stopName": "24",
+        "sequenceNumber": 4,
+        "latitude": 45.1429198,
+        "longitude": 0.6321258,
+        "routeId": "ROUTE-42"
+    },
+    {
+        "stopId": "STOP-43-1",
+        "stopName": "Bawana DSIDC",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-43"
+    },
+    {
+        "stopId": "STOP-43-2",
+        "stopName": "Pooth Khurd",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-43"
+    },
+    {
+        "stopId": "STOP-43-3",
+        "stopName": "Bhagvan Mahaveer Marg",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-43"
+    },
+    {
+        "stopId": "STOP-44-1",
+        "stopName": "Shraddhanand Park",
+        "sequenceNumber": 1,
+        "latitude": 28.7475849,
+        "longitude": 77.1589828,
+        "routeId": "ROUTE-44"
+    },
+    {
+        "stopId": "STOP-44-2",
+        "stopName": "New SwaroopNagar",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-44"
+    },
+    {
+        "stopId": "STOP-44-3",
+        "stopName": "GT Road",
+        "sequenceNumber": 3,
+        "latitude": 28.6753067,
+        "longitude": 77.2900478,
+        "routeId": "ROUTE-44"
+    },
+    {
+        "stopId": "STOP-45-1",
+        "stopName": "Sant Nagar",
+        "sequenceNumber": 1,
+        "latitude": 31.5720193,
+        "longitude": 74.2960011,
+        "routeId": "ROUTE-45"
+    },
+    {
+        "stopId": "STOP-45-2",
+        "stopName": "Gopal Nagar",
+        "sequenceNumber": 2,
+        "latitude": 24.1876866,
+        "longitude": 77.7846357,
+        "routeId": "ROUTE-45"
+    },
+    {
+        "stopId": "STOP-45-3",
+        "stopName": "Wazirabad",
+        "sequenceNumber": 3,
+        "latitude": 32.4417427,
+        "longitude": 74.1182117,
+        "routeId": "ROUTE-45"
+    },
+    {
+        "stopId": "STOP-45-4",
+        "stopName": "Timarpur",
+        "sequenceNumber": 4,
+        "latitude": 28.7012628,
+        "longitude": 77.2186795,
+        "routeId": "ROUTE-45"
+    },
+    {
+        "stopId": "STOP-46-1",
+        "stopName": "Daulatpur",
+        "sequenceNumber": 1,
+        "latitude": 26.7245712,
+        "longitude": 86.5288925,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-46-2",
+        "stopName": "Delhi  College  of Engineering",
+        "sequenceNumber": 2,
+        "latitude": 28.7508152,
+        "longitude": 77.1162765,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-46-3",
+        "stopName": "Giani  Gurumukhi Marg",
+        "sequenceNumber": 3,
+        "latitude": 28.7393462,
+        "longitude": 77.1179193,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-46-4",
+        "stopName": "Guru  Nanak  Dev  Marg",
+        "sequenceNumber": 4,
+        "latitude": 32.0425182,
+        "longitude": 75.029034,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-46-5",
+        "stopName": "Rohini  Sector  11  &  12",
+        "sequenceNumber": 5,
+        "latitude": 28.7279799,
+        "longitude": 77.1071832,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-46-6",
+        "stopName": "Swarna  Jayanti  Park",
+        "sequenceNumber": 6,
+        "latitude": 26.8884436,
+        "longitude": 80.9788894,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-46-7",
+        "stopName": "Rithala  Road",
+        "sequenceNumber": 7,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-46-8",
+        "stopName": "Rithala  Metro  Stn.",
+        "sequenceNumber": 8,
+        "latitude": 51.35835,
+        "longitude": -0.1926,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-46-9",
+        "stopName": "Rithala Village",
+        "sequenceNumber": 9,
+        "latitude": 28.719346,
+        "longitude": 77.1014238,
+        "routeId": "ROUTE-46"
+    },
+    {
+        "stopId": "STOP-47-1",
+        "stopName": "Rohini Sector 16",
+        "sequenceNumber": 1,
+        "latitude": 28.737976,
+        "longitude": 77.1235356,
+        "routeId": "ROUTE-47"
+    },
+    {
+        "stopId": "STOP-47-2",
+        "stopName": "17",
+        "sequenceNumber": 2,
+        "latitude": 48.9424842,
+        "longitude": 2.4346712,
+        "routeId": "ROUTE-47"
+    },
+    {
+        "stopId": "STOP-47-3",
+        "stopName": "Guru Nanak Dev Marg",
+        "sequenceNumber": 3,
+        "latitude": 32.0425182,
+        "longitude": 75.029034,
+        "routeId": "ROUTE-47"
+    },
+    {
+        "stopId": "STOP-47-4",
+        "stopName": "Rohini Sector 10",
+        "sequenceNumber": 4,
+        "latitude": 28.7183934,
+        "longitude": 77.1129891,
+        "routeId": "ROUTE-47"
+    },
+    {
+        "stopId": "STOP-47-5",
+        "stopName": "12",
+        "sequenceNumber": 5,
+        "latitude": -37.8183961,
+        "longitude": 144.9517935,
+        "routeId": "ROUTE-47"
+    },
+    {
+        "stopId": "STOP-47-6",
+        "stopName": "9",
+        "sequenceNumber": 6,
+        "latitude": 28.7026273,
+        "longitude": 77.228609,
+        "routeId": "ROUTE-47"
+    },
+    {
+        "stopId": "STOP-48-1",
+        "stopName": "Ghewra Village",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-48"
+    },
+    {
+        "stopId": "STOP-48-2",
+        "stopName": "Nizampur Village",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-48"
+    },
+    {
+        "stopId": "STOP-49-1",
+        "stopName": "Electronic Colony",
+        "sequenceNumber": 1,
+        "latitude": 22.3340187,
+        "longitude": 91.8136468,
+        "routeId": "ROUTE-49"
+    },
+    {
+        "stopId": "STOP-49-2",
+        "stopName": "Poorvi Shalimar Bagh",
+        "sequenceNumber": 2,
+        "latitude": 34.15,
+        "longitude": 74.86667,
+        "routeId": "ROUTE-49"
+    },
+    {
+        "stopId": "STOP-49-3",
+        "stopName": "Singlapur",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-49"
+    },
+    {
+        "stopId": "STOP-50-1",
+        "stopName": "ESI Hospital",
+        "sequenceNumber": 1,
+        "latitude": 17.4319714,
+        "longitude": 78.5521205,
+        "routeId": "ROUTE-50"
+    },
+    {
+        "stopId": "STOP-50-2",
+        "stopName": "Rohini Sec-16",
+        "sequenceNumber": 2,
+        "latitude": 28.7343884,
+        "longitude": 77.1241974,
+        "routeId": "ROUTE-50"
+    },
+    {
+        "stopId": "STOP-50-3",
+        "stopName": "Shahbad Daulatpur",
+        "sequenceNumber": 3,
+        "latitude": 28.7508152,
+        "longitude": 77.1162765,
+        "routeId": "ROUTE-50"
+    },
+    {
+        "stopId": "STOP-50-4",
+        "stopName": "St. Michael School",
+        "sequenceNumber": 4,
+        "latitude": 35.7876857,
+        "longitude": -78.8214306,
+        "routeId": "ROUTE-50"
+    },
+    {
+        "stopId": "STOP-50-5",
+        "stopName": "Prahladpur",
+        "sequenceNumber": 5,
+        "latitude": 28.5793345,
+        "longitude": 77.1001517,
+        "routeId": "ROUTE-50"
+    },
+    {
+        "stopId": "STOP-50-6",
+        "stopName": "Barwala",
+        "sequenceNumber": 6,
+        "latitude": 30.6179342,
+        "longitude": 76.9787382,
+        "routeId": "ROUTE-50"
+    },
+    {
+        "stopId": "STOP-50-7",
+        "stopName": "Pooth Khurd",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-50"
+    },
+    {
+        "stopId": "STOP-51-1",
+        "stopName": "Bawana JJ Colony",
+        "sequenceNumber": 1,
+        "latitude": 38.07086,
+        "longitude": -95.36554,
+        "routeId": "ROUTE-51"
+    },
+    {
+        "stopId": "STOP-51-2",
+        "stopName": "DSIDC",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-51"
+    },
+    {
+        "stopId": "STOP-51-3",
+        "stopName": "Rajiv Ratna Yojna",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-51"
+    },
+    {
+        "stopId": "STOP-51-4",
+        "stopName": "Barwala",
+        "sequenceNumber": 4,
+        "latitude": 30.6179342,
+        "longitude": 76.9787382,
+        "routeId": "ROUTE-51"
+    },
+    {
+        "stopId": "STOP-51-5",
+        "stopName": "Prahladpur",
+        "sequenceNumber": 5,
+        "latitude": 28.5793345,
+        "longitude": 77.1001517,
+        "routeId": "ROUTE-51"
+    },
+    {
+        "stopId": "STOP-52-1",
+        "stopName": "NangliPoonam",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-52"
+    },
+    {
+        "stopId": "STOP-52-2",
+        "stopName": "Swarup Nagar",
+        "sequenceNumber": 2,
+        "latitude": 22.6099476,
+        "longitude": 88.5882197,
+        "routeId": "ROUTE-52"
+    },
+    {
+        "stopId": "STOP-52-3",
+        "stopName": "New Swarup Nagar",
+        "sequenceNumber": 3,
+        "latitude": 27.42397,
+        "longitude": 77.09922,
+        "routeId": "ROUTE-52"
+    },
+    {
+        "stopId": "STOP-52-4",
+        "stopName": "Sanjay Gandhi Transport Nagar",
+        "sequenceNumber": 4,
+        "latitude": 28.7391309,
+        "longitude": 77.1499765,
+        "routeId": "ROUTE-52"
+    },
+    {
+        "stopId": "STOP-53-1",
+        "stopName": "Kanjhawala",
+        "sequenceNumber": 1,
+        "latitude": 28.7358173,
+        "longitude": 77.0043151,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-53-2",
+        "stopName": "Chandpur",
+        "sequenceNumber": 2,
+        "latitude": 23.2241763,
+        "longitude": 90.6531005,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-53-3",
+        "stopName": "Prem Piao",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-53-4",
+        "stopName": "Bajitpur Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-53-5",
+        "stopName": "Bawana",
+        "sequenceNumber": 5,
+        "latitude": 28.79966,
+        "longitude": 77.0328847,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-53-6",
+        "stopName": "Ghoga A/F Station",
+        "sequenceNumber": 6,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-53-7",
+        "stopName": "Sannoth Crossing",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-53-8",
+        "stopName": "Vishal Bagh",
+        "sequenceNumber": 8,
+        "latitude": 28.6409016,
+        "longitude": 77.2118997,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-53-9",
+        "stopName": "Narela",
+        "sequenceNumber": 9,
+        "latitude": 28.8464766,
+        "longitude": 77.0856631,
+        "routeId": "ROUTE-53"
+    },
+    {
+        "stopId": "STOP-54-1",
+        "stopName": "Kirari More",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-54"
+    },
+    {
+        "stopId": "STOP-54-2",
+        "stopName": "Ratan Bihar",
+        "sequenceNumber": 2,
+        "latitude": 25.4301048,
+        "longitude": 86.6470037,
+        "routeId": "ROUTE-54"
+    },
+    {
+        "stopId": "STOP-54-3",
+        "stopName": "Jalebi Chowk",
+        "sequenceNumber": 3,
+        "latitude": 28.6560137,
+        "longitude": 77.2334875,
+        "routeId": "ROUTE-54"
+    },
+    {
+        "stopId": "STOP-54-4",
+        "stopName": "Sultanpuri",
+        "sequenceNumber": 4,
+        "latitude": 28.6996553,
+        "longitude": 77.0662843,
+        "routeId": "ROUTE-54"
+    },
+    {
+        "stopId": "STOP-54-5",
+        "stopName": "S-Block Mangolpuri",
+        "sequenceNumber": 5,
+        "latitude": 28.6926748,
+        "longitude": 77.0937042,
+        "routeId": "ROUTE-54"
+    },
+    {
+        "stopId": "STOP-54-6",
+        "stopName": "Q-Block Mangolpuri",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-54"
+    },
+    {
+        "stopId": "STOP-54-7",
+        "stopName": "Peeragarhi",
+        "sequenceNumber": 7,
+        "latitude": 28.6797476,
+        "longitude": 77.0926593,
+        "routeId": "ROUTE-54"
+    },
+    {
+        "stopId": "STOP-54-8",
+        "stopName": "Paschim Vihar Water Tank",
+        "sequenceNumber": 8,
+        "latitude": 36.54758,
+        "longitude": -83.64491,
+        "routeId": "ROUTE-54"
+    },
+    {
+        "stopId": "STOP-55-1",
+        "stopName": "Bawana",
+        "sequenceNumber": 1,
+        "latitude": 28.79966,
+        "longitude": 77.0328847,
+        "routeId": "ROUTE-55"
+    },
+    {
+        "stopId": "STOP-55-2",
+        "stopName": "Daryapur",
+        "sequenceNumber": 2,
+        "latitude": 20.9244231,
+        "longitude": 77.3240074,
+        "routeId": "ROUTE-55"
+    },
+    {
+        "stopId": "STOP-55-3",
+        "stopName": "Auchandi Border",
+        "sequenceNumber": 3,
+        "latitude": 28.8054026,
+        "longitude": 77.026163,
+        "routeId": "ROUTE-55"
+    },
+    {
+        "stopId": "STOP-56-1",
+        "stopName": "Rohini Sector 2",
+        "sequenceNumber": 1,
+        "latitude": 28.6986276,
+        "longitude": 77.1006232,
+        "routeId": "ROUTE-56"
+    },
+    {
+        "stopId": "STOP-56-2",
+        "stopName": "Pradeep Bhatia Road",
+        "sequenceNumber": 2,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-56"
+    },
+    {
+        "stopId": "STOP-56-3",
+        "stopName": "Rohini Sector 7",
+        "sequenceNumber": 3,
+        "latitude": 28.7023192,
+        "longitude": 77.1168821,
+        "routeId": "ROUTE-56"
+    },
+    {
+        "stopId": "STOP-56-4",
+        "stopName": "8",
+        "sequenceNumber": 4,
+        "latitude": 28.6276911,
+        "longitude": 77.2273571,
+        "routeId": "ROUTE-56"
+    },
+    {
+        "stopId": "STOP-57-1",
+        "stopName": "Rohini Sector2",
+        "sequenceNumber": 1,
+        "latitude": 28.6996241,
+        "longitude": 77.1002822,
+        "routeId": "ROUTE-57"
+    },
+    {
+        "stopId": "STOP-57-2",
+        "stopName": "Avantika Road",
+        "sequenceNumber": 2,
+        "latitude": 18.033388,
+        "longitude": -63.0915336,
+        "routeId": "ROUTE-57"
+    },
+    {
+        "stopId": "STOP-58-1",
+        "stopName": "Mubarakpur",
+        "sequenceNumber": 1,
+        "latitude": 26.0875514,
+        "longitude": 83.2905851,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-58-2",
+        "stopName": "Agar Nagar",
+        "sequenceNumber": 2,
+        "latitude": 30.8863895,
+        "longitude": 75.7946656,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-58-3",
+        "stopName": "Gorakh Nagar",
+        "sequenceNumber": 3,
+        "latitude": 28.684077,
+        "longitude": 77.2828225,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-58-4",
+        "stopName": "Kirari Nahar",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-58-5",
+        "stopName": "Prem Nagar II",
+        "sequenceNumber": 5,
+        "latitude": 32.2624631,
+        "longitude": 75.6321085,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-58-6",
+        "stopName": "Kirari Village",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-58-7",
+        "stopName": "Shani Bazaar Road",
+        "sequenceNumber": 7,
+        "latitude": 32.2153049,
+        "longitude": 76.3549429,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-58-8",
+        "stopName": "Sultanpuri",
+        "sequenceNumber": 8,
+        "latitude": 28.6996553,
+        "longitude": 77.0662843,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-58-9",
+        "stopName": "Sanjay Gandhi Hospital",
+        "sequenceNumber": 9,
+        "latitude": 18.4348744,
+        "longitude": 73.1167436,
+        "routeId": "ROUTE-58"
+    },
+    {
+        "stopId": "STOP-59-1",
+        "stopName": "Agar Nagar",
+        "sequenceNumber": 1,
+        "latitude": 30.8863895,
+        "longitude": 75.7946656,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-2",
+        "stopName": "Inder Enclave-II",
+        "sequenceNumber": 2,
+        "latitude": 28.6795173,
+        "longitude": 77.0837339,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-3",
+        "stopName": "Kirari Nahar",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-4",
+        "stopName": "Kirari Mor",
+        "sequenceNumber": 4,
+        "latitude": 18.75,
+        "longitude": -99.0,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-5",
+        "stopName": "Pratap Vihar",
+        "sequenceNumber": 5,
+        "latitude": 28.6444638,
+        "longitude": 77.4097432,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-6",
+        "stopName": "Nithari Village",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-7",
+        "stopName": "Inder Enclave Bus Stand",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-8",
+        "stopName": "Sharma Enclave",
+        "sequenceNumber": 8,
+        "latitude": 28.5279564,
+        "longitude": 77.207335,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-9",
+        "stopName": "Vikas Vihar",
+        "sequenceNumber": 9,
+        "latitude": 28.6450154,
+        "longitude": 77.0350282,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-10",
+        "stopName": "Dhruv Enclave",
+        "sequenceNumber": 10,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-11",
+        "stopName": "Laxmi Ram Park",
+        "sequenceNumber": 11,
+        "latitude": 28.634958,
+        "longitude": 77.2774691,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-12",
+        "stopName": "Aman Vihar Police Station",
+        "sequenceNumber": 12,
+        "latitude": 28.7178512,
+        "longitude": 77.0649881,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-13",
+        "stopName": "Rohini Sector 20",
+        "sequenceNumber": 13,
+        "latitude": 28.7101946,
+        "longitude": 77.0709271,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-14",
+        "stopName": "Puth Kalan",
+        "sequenceNumber": 14,
+        "latitude": 28.7106673,
+        "longitude": 77.0774999,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-15",
+        "stopName": "Rohini Sector 24",
+        "sequenceNumber": 15,
+        "latitude": 28.728312,
+        "longitude": 77.08789,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-59-16",
+        "stopName": "Rithala Metro Station",
+        "sequenceNumber": 16,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-59"
+    },
+    {
+        "stopId": "STOP-60-1",
+        "stopName": "Azadpur Road",
+        "sequenceNumber": 1,
+        "latitude": 28.7065662,
+        "longitude": 77.1796475,
+        "routeId": "ROUTE-60"
+    },
+    {
+        "stopId": "STOP-60-2",
+        "stopName": "Majlis Park",
+        "sequenceNumber": 2,
+        "latitude": 28.7244312,
+        "longitude": 77.181964,
+        "routeId": "ROUTE-60"
+    },
+    {
+        "stopId": "STOP-61-1",
+        "stopName": "Nangloi",
+        "sequenceNumber": 1,
+        "latitude": 28.6862813,
+        "longitude": 77.0573608,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-2",
+        "stopName": "Railway Phatak",
+        "sequenceNumber": 2,
+        "latitude": 30.4360683,
+        "longitude": 72.3527074,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-3",
+        "stopName": "Kirari Mor",
+        "sequenceNumber": 3,
+        "latitude": 18.75,
+        "longitude": -99.0,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-4",
+        "stopName": "Station Block Metal Chowk",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-5",
+        "stopName": "July Public School",
+        "sequenceNumber": 5,
+        "latitude": 45.14914,
+        "longitude": 11.82057,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-6",
+        "stopName": "Dayanath Mishra Chowk",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-7",
+        "stopName": "Janaki Vihar Mandir",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-8",
+        "stopName": "Vakil Chowk",
+        "sequenceNumber": 8,
+        "latitude": 28.6248659,
+        "longitude": 77.2270173,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-9",
+        "stopName": "Pandey Chowk",
+        "sequenceNumber": 9,
+        "latitude": 22.7790632,
+        "longitude": 86.1437663,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-10",
+        "stopName": "Hindu Vihar",
+        "sequenceNumber": 10,
+        "latitude": 20.9101726,
+        "longitude": 77.7401887,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-11",
+        "stopName": "Mundka Phatak",
+        "sequenceNumber": 11,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-61-12",
+        "stopName": "Mundka Factory",
+        "sequenceNumber": 12,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-61"
+    },
+    {
+        "stopId": "STOP-62-1",
+        "stopName": "Nangloi",
+        "sequenceNumber": 1,
+        "latitude": 28.6862813,
+        "longitude": 77.0573608,
+        "routeId": "ROUTE-62"
+    },
+    {
+        "stopId": "STOP-62-2",
+        "stopName": "Nithari",
+        "sequenceNumber": 2,
+        "latitude": 27.2546677,
+        "longitude": 76.8791485,
+        "routeId": "ROUTE-62"
+    },
+    {
+        "stopId": "STOP-62-3",
+        "stopName": "Mubarakpur Dabas",
+        "sequenceNumber": 3,
+        "latitude": 47.18594,
+        "longitude": 19.31091,
+        "routeId": "ROUTE-62"
+    },
+    {
+        "stopId": "STOP-62-4",
+        "stopName": "Rani Khera Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-62"
+    },
+    {
+        "stopId": "STOP-62-5",
+        "stopName": "Madanpur",
+        "sequenceNumber": 5,
+        "latitude": 23.0054108,
+        "longitude": 88.4898057,
+        "routeId": "ROUTE-62"
+    },
+    {
+        "stopId": "STOP-62-6",
+        "stopName": "Karala",
+        "sequenceNumber": 6,
+        "latitude": 58.2623324,
+        "longitude": 21.9066064,
+        "routeId": "ROUTE-62"
+    },
+    {
+        "stopId": "STOP-62-7",
+        "stopName": "Kanjhawala.",
+        "sequenceNumber": 7,
+        "latitude": 28.7358173,
+        "longitude": 77.0043151,
+        "routeId": "ROUTE-62"
+    },
+    {
+        "stopId": "STOP-63-1",
+        "stopName": "Nangloi JJ Colony",
+        "sequenceNumber": 1,
+        "latitude": 38.07086,
+        "longitude": -95.36554,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-63-2",
+        "stopName": "Kamruddin Nagar Crossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-63-3",
+        "stopName": "Mundka",
+        "sequenceNumber": 3,
+        "latitude": 28.6824341,
+        "longitude": 77.0305741,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-63-4",
+        "stopName": "Hiran Kudna Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-63-5",
+        "stopName": "Ghewar Village",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-63-6",
+        "stopName": "Kanjhawala School",
+        "sequenceNumber": 6,
+        "latitude": 45.14914,
+        "longitude": 11.82057,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-63-7",
+        "stopName": "Kanjhawala Village",
+        "sequenceNumber": 7,
+        "latitude": 28.7972303,
+        "longitude": 77.0304569,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-63-8",
+        "stopName": "Chandpur",
+        "sequenceNumber": 8,
+        "latitude": 23.2241763,
+        "longitude": 90.6531005,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-63-9",
+        "stopName": "Majra Dabas",
+        "sequenceNumber": 9,
+        "latitude": 28.770039,
+        "longitude": 76.9978885,
+        "routeId": "ROUTE-63"
+    },
+    {
+        "stopId": "STOP-64-1",
+        "stopName": "Sultanpuri",
+        "sequenceNumber": 1,
+        "latitude": 28.6996553,
+        "longitude": 77.0662843,
+        "routeId": "ROUTE-64"
+    },
+    {
+        "stopId": "STOP-64-2",
+        "stopName": "Puth Kalan",
+        "sequenceNumber": 2,
+        "latitude": 28.7106673,
+        "longitude": 77.0774999,
+        "routeId": "ROUTE-64"
+    },
+    {
+        "stopId": "STOP-64-3",
+        "stopName": "Budh Vihar P1",
+        "sequenceNumber": 3,
+        "latitude": 28.6322297,
+        "longitude": 77.400109,
+        "routeId": "ROUTE-64"
+    },
+    {
+        "stopId": "STOP-64-4",
+        "stopName": "Vijay Vihar Phase 1",
+        "sequenceNumber": 4,
+        "latitude": 29.2250412,
+        "longitude": 79.4870569,
+        "routeId": "ROUTE-64"
+    },
+    {
+        "stopId": "STOP-64-5",
+        "stopName": "2",
+        "sequenceNumber": 5,
+        "latitude": 28.6445908,
+        "longitude": 77.2002238,
+        "routeId": "ROUTE-64"
+    },
+    {
+        "stopId": "STOP-64-6",
+        "stopName": "Rohini Sector 5",
+        "sequenceNumber": 6,
+        "latitude": 28.7183155,
+        "longitude": 77.1076881,
+        "routeId": "ROUTE-64"
+    },
+    {
+        "stopId": "STOP-64-7",
+        "stopName": "6",
+        "sequenceNumber": 7,
+        "latitude": 28.6468632,
+        "longitude": 77.1892706,
+        "routeId": "ROUTE-64"
+    },
+    {
+        "stopId": "STOP-65-1",
+        "stopName": "Sannoth",
+        "sequenceNumber": 1,
+        "latitude": 28.8165754,
+        "longitude": 77.0715165,
+        "routeId": "ROUTE-65"
+    },
+    {
+        "stopId": "STOP-65-2",
+        "stopName": "Bawana JJ Colony",
+        "sequenceNumber": 2,
+        "latitude": 38.07086,
+        "longitude": -95.36554,
+        "routeId": "ROUTE-65"
+    },
+    {
+        "stopId": "STOP-65-3",
+        "stopName": "DSIDC",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-65"
+    },
+    {
+        "stopId": "STOP-66-1",
+        "stopName": "Burari",
+        "sequenceNumber": 1,
+        "latitude": 11.469906,
+        "longitude": 13.757859,
+        "routeId": "ROUTE-66"
+    },
+    {
+        "stopId": "STOP-66-2",
+        "stopName": "Baba Nagar",
+        "sequenceNumber": 2,
+        "latitude": 18.7105129,
+        "longitude": 78.4754864,
+        "routeId": "ROUTE-66"
+    },
+    {
+        "stopId": "STOP-66-3",
+        "stopName": "Sant Nagar",
+        "sequenceNumber": 3,
+        "latitude": 31.5720193,
+        "longitude": 74.2960011,
+        "routeId": "ROUTE-66"
+    },
+    {
+        "stopId": "STOP-66-4",
+        "stopName": "Nirankari Colony",
+        "sequenceNumber": 4,
+        "latitude": 28.7165712,
+        "longitude": 77.2064187,
+        "routeId": "ROUTE-66"
+    },
+    {
+        "stopId": "STOP-66-5",
+        "stopName": "Bhai Parmanand Marg",
+        "sequenceNumber": 5,
+        "latitude": 29.1376031,
+        "longitude": 75.7224224,
+        "routeId": "ROUTE-66"
+    },
+    {
+        "stopId": "STOP-67-1",
+        "stopName": "Outer Ring Road",
+        "sequenceNumber": 1,
+        "latitude": 12.9243137,
+        "longitude": 77.5520893,
+        "routeId": "ROUTE-67"
+    },
+    {
+        "stopId": "STOP-67-2",
+        "stopName": "Parwana Road",
+        "sequenceNumber": 2,
+        "latitude": 30.1920618,
+        "longitude": 71.4590076,
+        "routeId": "ROUTE-67"
+    },
+    {
+        "stopId": "STOP-67-3",
+        "stopName": "Saraswati Vihar Road",
+        "sequenceNumber": 3,
+        "latitude": 28.7002238,
+        "longitude": 77.1249359,
+        "routeId": "ROUTE-67"
+    },
+    {
+        "stopId": "STOP-67-4",
+        "stopName": "Ashram Vihar Road",
+        "sequenceNumber": 4,
+        "latitude": 28.5738117,
+        "longitude": 77.2575022,
+        "routeId": "ROUTE-67"
+    },
+    {
+        "stopId": "STOP-68-1",
+        "stopName": "Rohini Sector22",
+        "sequenceNumber": 1,
+        "latitude": 28.7383795,
+        "longitude": 77.1398526,
+        "routeId": "ROUTE-68"
+    },
+    {
+        "stopId": "STOP-68-2",
+        "stopName": "21",
+        "sequenceNumber": 2,
+        "latitude": 4.628248,
+        "longitude": -74.0649998,
+        "routeId": "ROUTE-68"
+    },
+    {
+        "stopId": "STOP-68-3",
+        "stopName": "23",
+        "sequenceNumber": 3,
+        "latitude": 34.7837305,
+        "longitude": 137.3329944,
+        "routeId": "ROUTE-68"
+    },
+    {
+        "stopId": "STOP-68-4",
+        "stopName": "24",
+        "sequenceNumber": 4,
+        "latitude": 45.1429198,
+        "longitude": 0.6321258,
+        "routeId": "ROUTE-68"
+    },
+    {
+        "stopId": "STOP-69-1",
+        "stopName": "Rohini Sec-7&8",
+        "sequenceNumber": 1,
+        "latitude": 28.750624,
+        "longitude": 77.0639728,
+        "routeId": "ROUTE-69"
+    },
+    {
+        "stopId": "STOP-69-2",
+        "stopName": "Rohini Sec-9/10   Sec-3",
+        "sequenceNumber": 2,
+        "latitude": 26.91667,
+        "longitude": 87.91667,
+        "routeId": "ROUTE-69"
+    },
+    {
+        "stopId": "STOP-69-3",
+        "stopName": "5",
+        "sequenceNumber": 3,
+        "latitude": 28.5680509,
+        "longitude": 77.2466202,
+        "routeId": "ROUTE-69"
+    },
+    {
+        "stopId": "STOP-69-4",
+        "stopName": "6 Crossing",
+        "sequenceNumber": 4,
+        "latitude": 9.4509853,
+        "longitude": 125.5742548,
+        "routeId": "ROUTE-69"
+    },
+    {
+        "stopId": "STOP-69-5",
+        "stopName": "Mangolpuri Khurd",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-69"
+    },
+    {
+        "stopId": "STOP-69-6",
+        "stopName": "Mangolpuri Y-Block",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-69"
+    },
+    {
+        "stopId": "STOP-69-7",
+        "stopName": "Mangolpuri Q- Block",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-69"
+    },
+    {
+        "stopId": "STOP-69-8",
+        "stopName": "Sultanpuri",
+        "sequenceNumber": 8,
+        "latitude": 28.6996553,
+        "longitude": 77.0662843,
+        "routeId": "ROUTE-69"
+    },
+    {
+        "stopId": "STOP-70-1",
+        "stopName": "Shalimar Village",
+        "sequenceNumber": 1,
+        "latitude": 19.0592466,
+        "longitude": 72.8252174,
+        "routeId": "ROUTE-70"
+    },
+    {
+        "stopId": "STOP-70-2",
+        "stopName": "Shalimar Road",
+        "sequenceNumber": 2,
+        "latitude": 22.5584267,
+        "longitude": 88.3124111,
+        "routeId": "ROUTE-70"
+    },
+    {
+        "stopId": "STOP-70-3",
+        "stopName": "Sanjay Nagar",
+        "sequenceNumber": 3,
+        "latitude": 23.1485712,
+        "longitude": 81.6048241,
+        "routeId": "ROUTE-70"
+    },
+    {
+        "stopId": "STOP-71-1",
+        "stopName": "Gurunanak Marg - Rohini Sector 13 - Pitampura Road - Uttari Pitampura - Poorvi Pitampura",
+        "sequenceNumber": 1,
+        "latitude": 28.68964,
+        "longitude": 77.13126,
+        "routeId": "ROUTE-71"
+    },
+    {
+        "stopId": "STOP-72-1",
+        "stopName": "Rana Park",
+        "sequenceNumber": 1,
+        "latitude": 32.19803,
+        "longitude": -95.3224035,
+        "routeId": "ROUTE-72"
+    },
+    {
+        "stopId": "STOP-72-2",
+        "stopName": "Bhagat Singh Park",
+        "sequenceNumber": 2,
+        "latitude": 27.5711407,
+        "longitude": 76.6204299,
+        "routeId": "ROUTE-72"
+    },
+    {
+        "stopId": "STOP-72-3",
+        "stopName": "Samaipur",
+        "sequenceNumber": 3,
+        "latitude": 28.7467295,
+        "longitude": 77.1437899,
+        "routeId": "ROUTE-72"
+    },
+    {
+        "stopId": "STOP-73-1",
+        "stopName": "D-BlockOkhla Industrial Estate",
+        "sequenceNumber": 1,
+        "latitude": 27.72865,
+        "longitude": 85.30309,
+        "routeId": "ROUTE-73"
+    },
+    {
+        "stopId": "STOP-73-2",
+        "stopName": "Hindustan Steel",
+        "sequenceNumber": 2,
+        "latitude": 12.0920642,
+        "longitude": 75.3854583,
+        "routeId": "ROUTE-73"
+    },
+    {
+        "stopId": "STOP-73-3",
+        "stopName": "CWS-II",
+        "sequenceNumber": 3,
+        "latitude": 20.9227122,
+        "longitude": 85.1466918,
+        "routeId": "ROUTE-73"
+    },
+    {
+        "stopId": "STOP-73-4",
+        "stopName": "Pulpehladpur",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-73"
+    },
+    {
+        "stopId": "STOP-73-5",
+        "stopName": "Tughlakabad RailwayColony",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-73"
+    },
+    {
+        "stopId": "STOP-74-1",
+        "stopName": "DDA Flats Kalkaji",
+        "sequenceNumber": 1,
+        "latitude": 28.5285768,
+        "longitude": 77.2577065,
+        "routeId": "ROUTE-74"
+    },
+    {
+        "stopId": "STOP-74-2",
+        "stopName": "Hamdard Nagar",
+        "sequenceNumber": 2,
+        "latitude": 28.5158323,
+        "longitude": 77.2501396,
+        "routeId": "ROUTE-74"
+    },
+    {
+        "stopId": "STOP-74-3",
+        "stopName": "Tughlakabad Village",
+        "sequenceNumber": 3,
+        "latitude": 28.5126328,
+        "longitude": 77.2670313,
+        "routeId": "ROUTE-74"
+    },
+    {
+        "stopId": "STOP-74-4",
+        "stopName": "Pulpehladpur",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-74"
+    },
+    {
+        "stopId": "STOP-74-5",
+        "stopName": "Badarpur New MB Road",
+        "sequenceNumber": 5,
+        "latitude": 28.5204237,
+        "longitude": 77.2022859,
+        "routeId": "ROUTE-74"
+    },
+    {
+        "stopId": "STOP-75-1",
+        "stopName": "Hamdard Nagar",
+        "sequenceNumber": 1,
+        "latitude": 28.5158323,
+        "longitude": 77.2501396,
+        "routeId": "ROUTE-75"
+    },
+    {
+        "stopId": "STOP-75-2",
+        "stopName": "Tughlakabad Fort",
+        "sequenceNumber": 2,
+        "latitude": 28.5139311,
+        "longitude": 77.2601179,
+        "routeId": "ROUTE-75"
+    },
+    {
+        "stopId": "STOP-75-3",
+        "stopName": "Container Depot",
+        "sequenceNumber": 3,
+        "latitude": -4.19907,
+        "longitude": 152.1757363,
+        "routeId": "ROUTE-75"
+    },
+    {
+        "stopId": "STOP-75-4",
+        "stopName": "Railway Colony",
+        "sequenceNumber": 4,
+        "latitude": 23.0789335,
+        "longitude": 70.1423289,
+        "routeId": "ROUTE-75"
+    },
+    {
+        "stopId": "STOP-75-5",
+        "stopName": "Pulpehladpur",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-75"
+    },
+    {
+        "stopId": "STOP-76-1",
+        "stopName": "Viswas Park",
+        "sequenceNumber": 1,
+        "latitude": 39.11251,
+        "longitude": -100.35875,
+        "routeId": "ROUTE-76"
+    },
+    {
+        "stopId": "STOP-76-2",
+        "stopName": "Uttam Vihar",
+        "sequenceNumber": 2,
+        "latitude": 28.6102008,
+        "longitude": 77.0632874,
+        "routeId": "ROUTE-76"
+    },
+    {
+        "stopId": "STOP-76-3",
+        "stopName": "Subhash Park",
+        "sequenceNumber": 3,
+        "latitude": 23.8514963,
+        "longitude": 73.710408,
+        "routeId": "ROUTE-76"
+    },
+    {
+        "stopId": "STOP-76-4",
+        "stopName": "Dwarka Sector 4",
+        "sequenceNumber": 4,
+        "latitude": 28.601669,
+        "longitude": 77.0489574,
+        "routeId": "ROUTE-76"
+    },
+    {
+        "stopId": "STOP-77-1",
+        "stopName": "Dwarka Sector-16",
+        "sequenceNumber": 1,
+        "latitude": 22.2408009,
+        "longitude": 68.9662602,
+        "routeId": "ROUTE-77"
+    },
+    {
+        "stopId": "STOP-77-2",
+        "stopName": "17",
+        "sequenceNumber": 2,
+        "latitude": 48.9424842,
+        "longitude": 2.4346712,
+        "routeId": "ROUTE-77"
+    },
+    {
+        "stopId": "STOP-77-3",
+        "stopName": "18",
+        "sequenceNumber": 3,
+        "latitude": 48.719179,
+        "longitude": 2.1693753,
+        "routeId": "ROUTE-77"
+    },
+    {
+        "stopId": "STOP-77-4",
+        "stopName": "19",
+        "sequenceNumber": 4,
+        "latitude": 48.2612506,
+        "longitude": 16.328471,
+        "routeId": "ROUTE-77"
+    },
+    {
+        "stopId": "STOP-78-1",
+        "stopName": "Tughlakabad Extension",
+        "sequenceNumber": 1,
+        "latitude": 28.5228329,
+        "longitude": 77.2590819,
+        "routeId": "ROUTE-78"
+    },
+    {
+        "stopId": "STOP-78-2",
+        "stopName": "Tara Apartment",
+        "sequenceNumber": 2,
+        "latitude": 28.5243012,
+        "longitude": 77.2562726,
+        "routeId": "ROUTE-78"
+    },
+    {
+        "stopId": "STOP-78-3",
+        "stopName": "Govindpuri",
+        "sequenceNumber": 3,
+        "latitude": 26.4536771,
+        "longitude": 80.312879,
+        "routeId": "ROUTE-78"
+    },
+    {
+        "stopId": "STOP-78-4",
+        "stopName": "GiriNagar",
+        "sequenceNumber": 4,
+        "latitude": 12.9401439,
+        "longitude": 77.5444995,
+        "routeId": "ROUTE-78"
+    },
+    {
+        "stopId": "STOP-79-1",
+        "stopName": "Jaitpur Pushta Road",
+        "sequenceNumber": 1,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-79"
+    },
+    {
+        "stopId": "STOP-79-2",
+        "stopName": "Kalindi Kunj-Mithapur Road",
+        "sequenceNumber": 2,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-79"
+    },
+    {
+        "stopId": "STOP-80-1",
+        "stopName": "Chittaranjan Park",
+        "sequenceNumber": 1,
+        "latitude": 28.5376883,
+        "longitude": 77.2516536,
+        "routeId": "ROUTE-80"
+    },
+    {
+        "stopId": "STOP-80-2",
+        "stopName": "Kalkaji Main Road",
+        "sequenceNumber": 2,
+        "latitude": 21.73709,
+        "longitude": 81.93955,
+        "routeId": "ROUTE-80"
+    },
+    {
+        "stopId": "STOP-81-1",
+        "stopName": "Samalkha",
+        "sequenceNumber": 1,
+        "latitude": 29.230736,
+        "longitude": 77.0019919,
+        "routeId": "ROUTE-81"
+    },
+    {
+        "stopId": "STOP-81-2",
+        "stopName": "Dwarka Link Road",
+        "sequenceNumber": 2,
+        "latitude": 19.244306,
+        "longitude": 72.845847,
+        "routeId": "ROUTE-81"
+    },
+    {
+        "stopId": "STOP-81-3",
+        "stopName": "Dwarka Sector26",
+        "sequenceNumber": 3,
+        "latitude": 28.602684,
+        "longitude": 77.0432335,
+        "routeId": "ROUTE-81"
+    },
+    {
+        "stopId": "STOP-81-4",
+        "stopName": "22",
+        "sequenceNumber": 4,
+        "latitude": 46.0883398,
+        "longitude": 14.6415113,
+        "routeId": "ROUTE-81"
+    },
+    {
+        "stopId": "STOP-81-5",
+        "stopName": "23",
+        "sequenceNumber": 5,
+        "latitude": 34.7837305,
+        "longitude": 137.3329944,
+        "routeId": "ROUTE-81"
+    },
+    {
+        "stopId": "STOP-81-6",
+        "stopName": "20",
+        "sequenceNumber": 6,
+        "latitude": 48.2438222,
+        "longitude": 16.3781413,
+        "routeId": "ROUTE-81"
+    },
+    {
+        "stopId": "STOP-82-1",
+        "stopName": "Zakir Nagar",
+        "sequenceNumber": 1,
+        "latitude": 19.056363,
+        "longitude": 72.927568,
+        "routeId": "ROUTE-82"
+    },
+    {
+        "stopId": "STOP-82-2",
+        "stopName": "New Friends Colony",
+        "sequenceNumber": 2,
+        "latitude": 28.5671008,
+        "longitude": 77.2697643,
+        "routeId": "ROUTE-82"
+    },
+    {
+        "stopId": "STOP-82-3",
+        "stopName": "Holy Family Hospital",
+        "sequenceNumber": 3,
+        "latitude": 24.8721154,
+        "longitude": 67.0278646,
+        "routeId": "ROUTE-82"
+    },
+    {
+        "stopId": "STOP-82-4",
+        "stopName": "Jamia Milia Islamia Gate",
+        "sequenceNumber": 4,
+        "latitude": 36.85336,
+        "longitude": -100.05541,
+        "routeId": "ROUTE-82"
+    },
+    {
+        "stopId": "STOP-82-5",
+        "stopName": "Sukhdev Vihar",
+        "sequenceNumber": 5,
+        "latitude": 28.5597477,
+        "longitude": 77.2749004,
+        "routeId": "ROUTE-82"
+    },
+    {
+        "stopId": "STOP-82-6",
+        "stopName": "CRRI",
+        "sequenceNumber": 6,
+        "latitude": 45.7627747,
+        "longitude": 3.1093906,
+        "routeId": "ROUTE-82"
+    },
+    {
+        "stopId": "STOP-83-1",
+        "stopName": "Madanpur Khadar",
+        "sequenceNumber": 1,
+        "latitude": 28.53493,
+        "longitude": 77.3005184,
+        "routeId": "ROUTE-83"
+    },
+    {
+        "stopId": "STOP-83-2",
+        "stopName": "Sarita Vihar",
+        "sequenceNumber": 2,
+        "latitude": 28.5334785,
+        "longitude": 77.2935232,
+        "routeId": "ROUTE-83"
+    },
+    {
+        "stopId": "STOP-84-1",
+        "stopName": "Shekhawati Lines",
+        "sequenceNumber": 1,
+        "latitude": 28.585089,
+        "longitude": 77.1132041,
+        "routeId": "ROUTE-84"
+    },
+    {
+        "stopId": "STOP-84-2",
+        "stopName": "Dwarka Road",
+        "sequenceNumber": 2,
+        "latitude": 28.5983011,
+        "longitude": 77.0748854,
+        "routeId": "ROUTE-84"
+    },
+    {
+        "stopId": "STOP-84-3",
+        "stopName": "Raj Nagar",
+        "sequenceNumber": 3,
+        "latitude": 28.4480285,
+        "longitude": 77.0180396,
+        "routeId": "ROUTE-84"
+    },
+    {
+        "stopId": "STOP-84-4",
+        "stopName": "Palam Extension",
+        "sequenceNumber": 4,
+        "latitude": 28.5007712,
+        "longitude": 77.0398992,
+        "routeId": "ROUTE-84"
+    },
+    {
+        "stopId": "STOP-84-5",
+        "stopName": "Dwarka Sector 9",
+        "sequenceNumber": 5,
+        "latitude": 28.574272,
+        "longitude": 77.0653316,
+        "routeId": "ROUTE-84"
+    },
+    {
+        "stopId": "STOP-85-1",
+        "stopName": "Mithapur",
+        "sequenceNumber": 1,
+        "latitude": 22.4117955,
+        "longitude": 69.0089392,
+        "routeId": "ROUTE-85"
+    },
+    {
+        "stopId": "STOP-85-2",
+        "stopName": "Om Nagar",
+        "sequenceNumber": 2,
+        "latitude": 28.4500334,
+        "longitude": 77.0211592,
+        "routeId": "ROUTE-85"
+    },
+    {
+        "stopId": "STOP-85-3",
+        "stopName": "Tajpur",
+        "sequenceNumber": 3,
+        "latitude": 25.8594772,
+        "longitude": 85.6613318,
+        "routeId": "ROUTE-85"
+    },
+    {
+        "stopId": "STOP-85-4",
+        "stopName": "Tajpur Pahari",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-85"
+    },
+    {
+        "stopId": "STOP-86-1",
+        "stopName": "Abul Fazal Enclave",
+        "sequenceNumber": 1,
+        "latitude": 28.6019678,
+        "longitude": 77.3213455,
+        "routeId": "ROUTE-86"
+    },
+    {
+        "stopId": "STOP-86-2",
+        "stopName": "Kalindi Kunj",
+        "sequenceNumber": 2,
+        "latitude": 28.542916,
+        "longitude": 77.3101107,
+        "routeId": "ROUTE-86"
+    },
+    {
+        "stopId": "STOP-86-3",
+        "stopName": "Jasola Vihar",
+        "sequenceNumber": 3,
+        "latitude": 28.5427353,
+        "longitude": 77.2913342,
+        "routeId": "ROUTE-86"
+    },
+    {
+        "stopId": "STOP-86-4",
+        "stopName": "Sarita Vihar",
+        "sequenceNumber": 4,
+        "latitude": 28.5334785,
+        "longitude": 77.2935232,
+        "routeId": "ROUTE-86"
+    },
+    {
+        "stopId": "STOP-87-1",
+        "stopName": "Qutub",
+        "sequenceNumber": 1,
+        "latitude": 28.524413,
+        "longitude": 77.1854501,
+        "routeId": "ROUTE-87"
+    },
+    {
+        "stopId": "STOP-87-2",
+        "stopName": "Neb Sarai",
+        "sequenceNumber": 2,
+        "latitude": 28.5055007,
+        "longitude": 77.2014964,
+        "routeId": "ROUTE-87"
+    },
+    {
+        "stopId": "STOP-87-3",
+        "stopName": "Maidan Garhi",
+        "sequenceNumber": 3,
+        "latitude": 28.4987734,
+        "longitude": 77.1944475,
+        "routeId": "ROUTE-87"
+    },
+    {
+        "stopId": "STOP-88-1",
+        "stopName": "Dwarka Sector-8",
+        "sequenceNumber": 1,
+        "latitude": 28.5656109,
+        "longitude": 77.0670366,
+        "routeId": "ROUTE-88"
+    },
+    {
+        "stopId": "STOP-88-2",
+        "stopName": "Palam Extension",
+        "sequenceNumber": 2,
+        "latitude": 28.5007712,
+        "longitude": 77.0398992,
+        "routeId": "ROUTE-88"
+    },
+    {
+        "stopId": "STOP-89-1",
+        "stopName": "Vikas Nagar",
+        "sequenceNumber": 1,
+        "latitude": 26.8942443,
+        "longitude": 80.9640683,
+        "routeId": "ROUTE-89"
+    },
+    {
+        "stopId": "STOP-89-2",
+        "stopName": "Mohan Garden",
+        "sequenceNumber": 2,
+        "latitude": 28.6296564,
+        "longitude": 77.0380083,
+        "routeId": "ROUTE-89"
+    },
+    {
+        "stopId": "STOP-89-3",
+        "stopName": "Rama Park",
+        "sequenceNumber": 3,
+        "latitude": 28.664739,
+        "longitude": 77.1959169,
+        "routeId": "ROUTE-89"
+    },
+    {
+        "stopId": "STOP-90-1",
+        "stopName": "IGNOU",
+        "sequenceNumber": 1,
+        "latitude": 28.586079,
+        "longitude": 77.0716609,
+        "routeId": "ROUTE-90"
+    },
+    {
+        "stopId": "STOP-90-2",
+        "stopName": "Neb Sarai Road",
+        "sequenceNumber": 2,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-90"
+    },
+    {
+        "stopId": "STOP-90-3",
+        "stopName": "Mehrauli Badarpur road",
+        "sequenceNumber": 3,
+        "latitude": 28.5173874,
+        "longitude": 77.2176652,
+        "routeId": "ROUTE-90"
+    },
+    {
+        "stopId": "STOP-91-1",
+        "stopName": "Mangolpuri-II",
+        "sequenceNumber": 1,
+        "latitude": 28.6948263,
+        "longitude": 77.0896186,
+        "routeId": "ROUTE-91"
+    },
+    {
+        "stopId": "STOP-91-2",
+        "stopName": "Palam-Najafgarh Road",
+        "sequenceNumber": 2,
+        "latitude": 28.6049208,
+        "longitude": 77.0528617,
+        "routeId": "ROUTE-91"
+    },
+    {
+        "stopId": "STOP-91-3",
+        "stopName": "Madhu Vihar",
+        "sequenceNumber": 3,
+        "latitude": 28.6360559,
+        "longitude": 77.3043835,
+        "routeId": "ROUTE-91"
+    },
+    {
+        "stopId": "STOP-91-4",
+        "stopName": "Sector 5",
+        "sequenceNumber": 4,
+        "latitude": 44.404906,
+        "longitude": 26.0718655,
+        "routeId": "ROUTE-91"
+    },
+    {
+        "stopId": "STOP-92-1",
+        "stopName": "Sangam Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.5057128,
+        "longitude": 77.2484672,
+        "routeId": "ROUTE-92"
+    },
+    {
+        "stopId": "STOP-92-2",
+        "stopName": "HastsalMandir",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-92"
+    },
+    {
+        "stopId": "STOP-92-3",
+        "stopName": "Saket",
+        "sequenceNumber": 3,
+        "latitude": 28.521168,
+        "longitude": 77.2022237,
+        "routeId": "ROUTE-92"
+    },
+    {
+        "stopId": "STOP-93-1",
+        "stopName": "Holi Chowk",
+        "sequenceNumber": 1,
+        "latitude": 26.4899173,
+        "longitude": 74.5531531,
+        "routeId": "ROUTE-93"
+    },
+    {
+        "stopId": "STOP-93-2",
+        "stopName": "MB Road",
+        "sequenceNumber": 2,
+        "latitude": 28.5057529,
+        "longitude": 77.2763879,
+        "routeId": "ROUTE-93"
+    },
+    {
+        "stopId": "STOP-94-1",
+        "stopName": "Lal Kuan",
+        "sequenceNumber": 1,
+        "latitude": 28.633381,
+        "longitude": 77.4737197,
+        "routeId": "ROUTE-94"
+    },
+    {
+        "stopId": "STOP-94-2",
+        "stopName": "Tughlakabad Colony",
+        "sequenceNumber": 2,
+        "latitude": 28.5015735,
+        "longitude": 77.290823,
+        "routeId": "ROUTE-94"
+    },
+    {
+        "stopId": "STOP-95-1",
+        "stopName": "Dwarka Sector 21",
+        "sequenceNumber": 1,
+        "latitude": 28.5519218,
+        "longitude": 77.0585605,
+        "routeId": "ROUTE-95"
+    },
+    {
+        "stopId": "STOP-95-2",
+        "stopName": "8",
+        "sequenceNumber": 2,
+        "latitude": 28.6276911,
+        "longitude": 77.2273571,
+        "routeId": "ROUTE-95"
+    },
+    {
+        "stopId": "STOP-96-1",
+        "stopName": "Goela Khurd",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-96"
+    },
+    {
+        "stopId": "STOP-96-2",
+        "stopName": "Goela Dairy",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-96"
+    },
+    {
+        "stopId": "STOP-96-3",
+        "stopName": "Samta Enclave",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-96"
+    },
+    {
+        "stopId": "STOP-96-4",
+        "stopName": "Dwarka Sector 19",
+        "sequenceNumber": 4,
+        "latitude": 28.5757718,
+        "longitude": 77.048712,
+        "routeId": "ROUTE-96"
+    },
+    {
+        "stopId": "STOP-96-5",
+        "stopName": "20",
+        "sequenceNumber": 5,
+        "latitude": 48.2438222,
+        "longitude": 16.3781413,
+        "routeId": "ROUTE-96"
+    },
+    {
+        "stopId": "STOP-97-1",
+        "stopName": "Benito Juarez Marg",
+        "sequenceNumber": 1,
+        "latitude": 28.589781,
+        "longitude": 77.1688471,
+        "routeId": "ROUTE-97"
+    },
+    {
+        "stopId": "STOP-97-2",
+        "stopName": "BalakRam Marg",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-97"
+    },
+    {
+        "stopId": "STOP-97-3",
+        "stopName": "Rao Tula Ram Marg",
+        "sequenceNumber": 3,
+        "latitude": 28.5765608,
+        "longitude": 77.1717671,
+        "routeId": "ROUTE-97"
+    },
+    {
+        "stopId": "STOP-97-4",
+        "stopName": "Major Somnath Marg",
+        "sequenceNumber": 4,
+        "latitude": 28.5715956,
+        "longitude": 77.1721621,
+        "routeId": "ROUTE-97"
+    },
+    {
+        "stopId": "STOP-97-5",
+        "stopName": "Tamil Sangam Marg",
+        "sequenceNumber": 5,
+        "latitude": 28.568725,
+        "longitude": 77.1741219,
+        "routeId": "ROUTE-97"
+    },
+    {
+        "stopId": "STOP-97-6",
+        "stopName": "Venkateshwara Marg",
+        "sequenceNumber": 6,
+        "latitude": 28.5596844,
+        "longitude": 77.181808,
+        "routeId": "ROUTE-97"
+    },
+    {
+        "stopId": "STOP-97-7",
+        "stopName": "Africa Avenue",
+        "sequenceNumber": 7,
+        "latitude": 45.5082025,
+        "longitude": -122.7133124,
+        "routeId": "ROUTE-97"
+    },
+    {
+        "stopId": "STOP-97-8",
+        "stopName": "IIT",
+        "sequenceNumber": 8,
+        "latitude": 28.5470121,
+        "longitude": 77.1945546,
+        "routeId": "ROUTE-97"
+    },
+    {
+        "stopId": "STOP-98-1",
+        "stopName": "Hamdard Nagar",
+        "sequenceNumber": 1,
+        "latitude": 28.5158323,
+        "longitude": 77.2501396,
+        "routeId": "ROUTE-98"
+    },
+    {
+        "stopId": "STOP-98-2",
+        "stopName": "Govindpuri",
+        "sequenceNumber": 2,
+        "latitude": 26.4536771,
+        "longitude": 80.312879,
+        "routeId": "ROUTE-98"
+    },
+    {
+        "stopId": "STOP-98-3",
+        "stopName": "Kalkaji",
+        "sequenceNumber": 3,
+        "latitude": 28.5469476,
+        "longitude": 77.258801,
+        "routeId": "ROUTE-98"
+    },
+    {
+        "stopId": "STOP-99-1",
+        "stopName": "R.K.Puram \u2013I",
+        "sequenceNumber": 1,
+        "latitude": 25.6155175,
+        "longitude": 85.040487,
+        "routeId": "ROUTE-99"
+    },
+    {
+        "stopId": "STOP-99-2",
+        "stopName": "N.I.H.F.W",
+        "sequenceNumber": 2,
+        "latitude": 22.2622955,
+        "longitude": 114.1972794,
+        "routeId": "ROUTE-99"
+    },
+    {
+        "stopId": "STOP-99-3",
+        "stopName": "B-3 Vasant Kunj",
+        "sequenceNumber": 3,
+        "latitude": 28.5292495,
+        "longitude": 77.1541335,
+        "routeId": "ROUTE-99"
+    },
+    {
+        "stopId": "STOP-99-4",
+        "stopName": "Vasant Kunj Sect-A",
+        "sequenceNumber": 4,
+        "latitude": 38.5,
+        "longitude": -0.5,
+        "routeId": "ROUTE-99"
+    },
+    {
+        "stopId": "STOP-100-1",
+        "stopName": "R.K.Puram Sec-I",
+        "sequenceNumber": 1,
+        "latitude": 18.16667,
+        "longitude": -7.08333,
+        "routeId": "ROUTE-100"
+    },
+    {
+        "stopId": "STOP-100-2",
+        "stopName": "S.M.Temple",
+        "sequenceNumber": 2,
+        "latitude": 11.875398,
+        "longitude": 75.5795355,
+        "routeId": "ROUTE-100"
+    },
+    {
+        "stopId": "STOP-100-3",
+        "stopName": "V.V Depot",
+        "sequenceNumber": 3,
+        "latitude": 51.4967395,
+        "longitude": 7.0077769,
+        "routeId": "ROUTE-100"
+    },
+    {
+        "stopId": "STOP-100-4",
+        "stopName": "Power House",
+        "sequenceNumber": 4,
+        "latitude": 22.9799871,
+        "longitude": 88.4479758,
+        "routeId": "ROUTE-100"
+    },
+    {
+        "stopId": "STOP-100-5",
+        "stopName": "Manav Sthali School",
+        "sequenceNumber": 5,
+        "latitude": 28.6329597,
+        "longitude": 77.1837137,
+        "routeId": "ROUTE-100"
+    },
+    {
+        "stopId": "STOP-100-6",
+        "stopName": "Vasant Kunj C-9.",
+        "sequenceNumber": 6,
+        "latitude": 28.5394017,
+        "longitude": 77.1438959,
+        "routeId": "ROUTE-100"
+    },
+    {
+        "stopId": "STOP-101-1",
+        "stopName": "Shaheed Jeet Singh Marg",
+        "sequenceNumber": 1,
+        "latitude": 28.5427647,
+        "longitude": 77.1812249,
+        "routeId": "ROUTE-101"
+    },
+    {
+        "stopId": "STOP-101-2",
+        "stopName": "Aurobindo Marg",
+        "sequenceNumber": 2,
+        "latitude": 28.5867318,
+        "longitude": 77.212537,
+        "routeId": "ROUTE-101"
+    },
+    {
+        "stopId": "STOP-101-3",
+        "stopName": "Qutub Minar",
+        "sequenceNumber": 3,
+        "latitude": 28.524413,
+        "longitude": 77.1854501,
+        "routeId": "ROUTE-101"
+    },
+    {
+        "stopId": "STOP-102-1",
+        "stopName": "Bharthal Village",
+        "sequenceNumber": 1,
+        "latitude": 28.5437276,
+        "longitude": 77.048947,
+        "routeId": "ROUTE-102"
+    },
+    {
+        "stopId": "STOP-102-2",
+        "stopName": "Bijwasan School",
+        "sequenceNumber": 2,
+        "latitude": 45.14914,
+        "longitude": 11.82057,
+        "routeId": "ROUTE-102"
+    },
+    {
+        "stopId": "STOP-102-3",
+        "stopName": "Kapas Hera Crossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-102"
+    },
+    {
+        "stopId": "STOP-102-4",
+        "stopName": "Samalkha",
+        "sequenceNumber": 4,
+        "latitude": 29.230736,
+        "longitude": 77.0019919,
+        "routeId": "ROUTE-102"
+    },
+    {
+        "stopId": "STOP-102-5",
+        "stopName": "Nangal Dairy",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-102"
+    },
+    {
+        "stopId": "STOP-103-1",
+        "stopName": "Palam Air Port",
+        "sequenceNumber": 1,
+        "latitude": 28.5901,
+        "longitude": 77.0888,
+        "routeId": "ROUTE-103"
+    },
+    {
+        "stopId": "STOP-103-2",
+        "stopName": "Prehladpur",
+        "sequenceNumber": 2,
+        "latitude": 28.4994,
+        "longitude": 77.2918,
+        "routeId": "ROUTE-103"
+    },
+    {
+        "stopId": "STOP-103-3",
+        "stopName": "Palam Colony",
+        "sequenceNumber": 3,
+        "latitude": 28.5901,
+        "longitude": 77.0888,
+        "routeId": "ROUTE-103"
+    },
+    {
+        "stopId": "STOP-103-4",
+        "stopName": "Palam Village",
+        "sequenceNumber": 4,
+        "latitude": 28.5885,
+        "longitude": 77.078,
+        "routeId": "ROUTE-103"
+    },
+    {
+        "stopId": "STOP-103-5",
+        "stopName": "AmbarhaiCrossing",
+        "sequenceNumber": 5,
+        "latitude": 28.5782,
+        "longitude": 77.0496,
+        "routeId": "ROUTE-103"
+    },
+    {
+        "stopId": "STOP-103-6",
+        "stopName": "BagrolaCrossing",
+        "sequenceNumber": 6,
+        "latitude": 28.5715,
+        "longitude": 77.073,
+        "routeId": "ROUTE-103"
+    },
+    {
+        "stopId": "STOP-103-7",
+        "stopName": "Pochanpur",
+        "sequenceNumber": 7,
+        "latitude": 28.5607671,
+        "longitude": 77.0481516,
+        "routeId": "ROUTE-103"
+    },
+    {
+        "stopId": "STOP-103-8",
+        "stopName": "DhoolSiras",
+        "sequenceNumber": 8,
+        "latitude": 28.56,
+        "longitude": 77.04,
+        "routeId": "ROUTE-103"
+    },
+    {
+        "stopId": "STOP-104-1",
+        "stopName": "Madhu Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.6274,
+        "longitude": 77.2956,
+        "routeId": "ROUTE-104"
+    },
+    {
+        "stopId": "STOP-104-2",
+        "stopName": "Mahavir Colony",
+        "sequenceNumber": 2,
+        "latitude": 28.58,
+        "longitude": 77.082,
+        "routeId": "ROUTE-104"
+    },
+    {
+        "stopId": "STOP-104-3",
+        "stopName": "Pankha Road",
+        "sequenceNumber": 3,
+        "latitude": 28.621,
+        "longitude": 77.0827,
+        "routeId": "ROUTE-104"
+    },
+    {
+        "stopId": "STOP-104-4",
+        "stopName": "C3 Road",
+        "sequenceNumber": 4,
+        "latitude": 28.6215,
+        "longitude": 77.0896,
+        "routeId": "ROUTE-104"
+    },
+    {
+        "stopId": "STOP-104-5",
+        "stopName": "Lal Sai Mandir Marg",
+        "sequenceNumber": 5,
+        "latitude": 28.6209,
+        "longitude": 77.0906,
+        "routeId": "ROUTE-104"
+    },
+    {
+        "stopId": "STOP-104-6",
+        "stopName": "Hari Nagar Road",
+        "sequenceNumber": 6,
+        "latitude": 28.634,
+        "longitude": 77.1024,
+        "routeId": "ROUTE-104"
+    },
+    {
+        "stopId": "STOP-104-7",
+        "stopName": "HariNagar Clock Tower",
+        "sequenceNumber": 7,
+        "latitude": 28.6302,
+        "longitude": 77.1005,
+        "routeId": "ROUTE-104"
+    },
+    {
+        "stopId": "STOP-105-1",
+        "stopName": "Sat Bari",
+        "sequenceNumber": 1,
+        "latitude": 30.283394,
+        "longitude": 97.9600357,
+        "routeId": "ROUTE-105"
+    },
+    {
+        "stopId": "STOP-105-2",
+        "stopName": "Rajpur Khurd",
+        "sequenceNumber": 2,
+        "latitude": 27.5018766,
+        "longitude": 76.9087171,
+        "routeId": "ROUTE-105"
+    },
+    {
+        "stopId": "STOP-105-3",
+        "stopName": "Chhatarpur Mandir",
+        "sequenceNumber": 3,
+        "latitude": 28.5033155,
+        "longitude": 77.1787621,
+        "routeId": "ROUTE-105"
+    },
+    {
+        "stopId": "STOP-106-1",
+        "stopName": "Vasant Kunj",
+        "sequenceNumber": 1,
+        "latitude": 28.5292495,
+        "longitude": 77.1541335,
+        "routeId": "ROUTE-106"
+    },
+    {
+        "stopId": "STOP-106-2",
+        "stopName": "Kishan Garh",
+        "sequenceNumber": 2,
+        "latitude": 31.8020297,
+        "longitude": 73.3280485,
+        "routeId": "ROUTE-106"
+    },
+    {
+        "stopId": "STOP-107-1",
+        "stopName": "Bijwasan",
+        "sequenceNumber": 1,
+        "latitude": 28.5369587,
+        "longitude": 77.0512889,
+        "routeId": "ROUTE-107"
+    },
+    {
+        "stopId": "STOP-107-2",
+        "stopName": "Bamroli",
+        "sequenceNumber": 2,
+        "latitude": 26.2567211,
+        "longitude": 78.5804604,
+        "routeId": "ROUTE-107"
+    },
+    {
+        "stopId": "STOP-107-3",
+        "stopName": "Chhawla Camp",
+        "sequenceNumber": 3,
+        "latitude": 19.0,
+        "longitude": -90.5,
+        "routeId": "ROUTE-107"
+    },
+    {
+        "stopId": "STOP-107-4",
+        "stopName": "Chhawla Village",
+        "sequenceNumber": 4,
+        "latitude": 28.5623044,
+        "longitude": 77.0037102,
+        "routeId": "ROUTE-107"
+    },
+    {
+        "stopId": "STOP-107-5",
+        "stopName": "Jhatikra village",
+        "sequenceNumber": 5,
+        "latitude": 28.5203516,
+        "longitude": 76.9635884,
+        "routeId": "ROUTE-107"
+    },
+    {
+        "stopId": "STOP-108-1",
+        "stopName": "Ghumman Hera Crossing",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-108"
+    },
+    {
+        "stopId": "STOP-108-2",
+        "stopName": "Mitrau",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-108"
+    },
+    {
+        "stopId": "STOP-108-3",
+        "stopName": "SurerhraCrossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-108"
+    },
+    {
+        "stopId": "STOP-108-4",
+        "stopName": "Rawta Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-108"
+    },
+    {
+        "stopId": "STOP-109-1",
+        "stopName": "Roshanpura",
+        "sequenceNumber": 1,
+        "latitude": 22.1247171,
+        "longitude": 76.2805143,
+        "routeId": "ROUTE-109"
+    },
+    {
+        "stopId": "STOP-109-2",
+        "stopName": "Jhatikra More",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-109"
+    },
+    {
+        "stopId": "STOP-109-3",
+        "stopName": "Rewla Khanpur",
+        "sequenceNumber": 3,
+        "latitude": 28.5647239,
+        "longitude": 76.9816987,
+        "routeId": "ROUTE-109"
+    },
+    {
+        "stopId": "STOP-109-4",
+        "stopName": "Pandawla Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-109"
+    },
+    {
+        "stopId": "STOP-110-1",
+        "stopName": "Roshanpura",
+        "sequenceNumber": 1,
+        "latitude": 22.1247171,
+        "longitude": 76.2805143,
+        "routeId": "ROUTE-110"
+    },
+    {
+        "stopId": "STOP-110-2",
+        "stopName": "GhewraCrossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-110"
+    },
+    {
+        "stopId": "STOP-111-1",
+        "stopName": "Ghumman Hera Crossing",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-111"
+    },
+    {
+        "stopId": "STOP-112-1",
+        "stopName": "Najafgarh",
+        "sequenceNumber": 1,
+        "latitude": 28.6124504,
+        "longitude": 76.9865067,
+        "routeId": "ROUTE-112"
+    },
+    {
+        "stopId": "STOP-112-2",
+        "stopName": "Ghumman Hera Crossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-112"
+    },
+    {
+        "stopId": "STOP-112-3",
+        "stopName": "Kair Village Kharkhari Nahar",
+        "sequenceNumber": 3,
+        "latitude": 28.58516,
+        "longitude": 76.96011,
+        "routeId": "ROUTE-112"
+    },
+    {
+        "stopId": "STOP-112-4",
+        "stopName": "Hasanpur",
+        "sequenceNumber": 4,
+        "latitude": 28.7227817,
+        "longitude": 78.2826224,
+        "routeId": "ROUTE-112"
+    },
+    {
+        "stopId": "STOP-112-5",
+        "stopName": "Ghumman Hera Amaravati Piao",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-112"
+    },
+    {
+        "stopId": "STOP-113-1",
+        "stopName": "Ghumman Hera Crossing",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-113"
+    },
+    {
+        "stopId": "STOP-113-2",
+        "stopName": "Mitrau",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-113"
+    },
+    {
+        "stopId": "STOP-113-3",
+        "stopName": "SurerhraCrossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-113"
+    },
+    {
+        "stopId": "STOP-113-4",
+        "stopName": "Rawta Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-113"
+    },
+    {
+        "stopId": "STOP-113-5",
+        "stopName": "MundelaCrossing",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-113"
+    },
+    {
+        "stopId": "STOP-113-6",
+        "stopName": "Kadipur",
+        "sequenceNumber": 6,
+        "latitude": 26.1407423,
+        "longitude": 82.4102397,
+        "routeId": "ROUTE-113"
+    },
+    {
+        "stopId": "STOP-113-7",
+        "stopName": "Ishapur M.C. School",
+        "sequenceNumber": 7,
+        "latitude": 45.14914,
+        "longitude": 11.82057,
+        "routeId": "ROUTE-113"
+    },
+    {
+        "stopId": "STOP-114-1",
+        "stopName": "Palam Village",
+        "sequenceNumber": 1,
+        "latitude": 28.5884408,
+        "longitude": 77.0782435,
+        "routeId": "ROUTE-114"
+    },
+    {
+        "stopId": "STOP-114-2",
+        "stopName": "AmberhaiCrossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-114"
+    },
+    {
+        "stopId": "STOP-114-3",
+        "stopName": "Bagrola Crossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-114"
+    },
+    {
+        "stopId": "STOP-114-4",
+        "stopName": "Pochhanpur",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-114"
+    },
+    {
+        "stopId": "STOP-114-5",
+        "stopName": "DhoolSirasCrossing",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-114"
+    },
+    {
+        "stopId": "STOP-114-6",
+        "stopName": "Bharathal Village",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-114"
+    },
+    {
+        "stopId": "STOP-114-7",
+        "stopName": "Bijwasan Rly. Station",
+        "sequenceNumber": 7,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-114"
+    },
+    {
+        "stopId": "STOP-114-8",
+        "stopName": "Bijwasan Border.",
+        "sequenceNumber": 8,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-114"
+    },
+    {
+        "stopId": "STOP-115-1",
+        "stopName": "Shastri Bazaar",
+        "sequenceNumber": 1,
+        "latitude": 28.5964396,
+        "longitude": 77.1358177,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-115-2",
+        "stopName": "More Line",
+        "sequenceNumber": 2,
+        "latitude": 16.3045294,
+        "longitude": 80.4429629,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-115-3",
+        "stopName": "Palam Air Port",
+        "sequenceNumber": 3,
+        "latitude": 14.5833,
+        "longitude": 120.9667,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-115-4",
+        "stopName": "N.H.W 8 Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-115-5",
+        "stopName": "Mahipalpur",
+        "sequenceNumber": 5,
+        "latitude": 28.544537,
+        "longitude": 77.1279229,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-115-6",
+        "stopName": "Rangpuri",
+        "sequenceNumber": 6,
+        "latitude": 28.5400349,
+        "longitude": 77.1197754,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-115-7",
+        "stopName": "Samalkha",
+        "sequenceNumber": 7,
+        "latitude": 29.230736,
+        "longitude": 77.0019919,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-115-8",
+        "stopName": "Kapashera Crossing",
+        "sequenceNumber": 8,
+        "latitude": 28.5312381,
+        "longitude": 77.0880379,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-115-9",
+        "stopName": "Kapashera  Border",
+        "sequenceNumber": 9,
+        "latitude": 28.5214319,
+        "longitude": 77.0819265,
+        "routeId": "ROUTE-115"
+    },
+    {
+        "stopId": "STOP-116-1",
+        "stopName": "Ranhola",
+        "sequenceNumber": 1,
+        "latitude": 28.6580019,
+        "longitude": 77.0359234,
+        "routeId": "ROUTE-116"
+    },
+    {
+        "stopId": "STOP-116-2",
+        "stopName": "Rithala Garden",
+        "sequenceNumber": 2,
+        "latitude": 45.7747,
+        "longitude": -86.5507,
+        "routeId": "ROUTE-116"
+    },
+    {
+        "stopId": "STOP-116-3",
+        "stopName": "Dhaka Colony",
+        "sequenceNumber": 3,
+        "latitude": 32.3710726,
+        "longitude": 73.0145399,
+        "routeId": "ROUTE-116"
+    },
+    {
+        "stopId": "STOP-116-4",
+        "stopName": "Naresh Park",
+        "sequenceNumber": 4,
+        "latitude": 23.0758048,
+        "longitude": 88.5275222,
+        "routeId": "ROUTE-116"
+    },
+    {
+        "stopId": "STOP-117-1",
+        "stopName": "Nilothi",
+        "sequenceNumber": 1,
+        "latitude": 28.6501688,
+        "longitude": 77.0553212,
+        "routeId": "ROUTE-117"
+    },
+    {
+        "stopId": "STOP-117-2",
+        "stopName": "Syed Village",
+        "sequenceNumber": 2,
+        "latitude": 62.3905047,
+        "longitude": 17.3140563,
+        "routeId": "ROUTE-117"
+    },
+    {
+        "stopId": "STOP-117-3",
+        "stopName": "Meera Bagh",
+        "sequenceNumber": 3,
+        "latitude": 28.658844,
+        "longitude": 77.0908475,
+        "routeId": "ROUTE-117"
+    },
+    {
+        "stopId": "STOP-117-4",
+        "stopName": "District Centre",
+        "sequenceNumber": 4,
+        "latitude": 32.0842827,
+        "longitude": 34.9168736,
+        "routeId": "ROUTE-117"
+    },
+    {
+        "stopId": "STOP-118-1",
+        "stopName": "D-Block Janakpuri",
+        "sequenceNumber": 1,
+        "latitude": 28.6077149,
+        "longitude": 77.1040283,
+        "routeId": "ROUTE-118"
+    },
+    {
+        "stopId": "STOP-118-2",
+        "stopName": "Dabri Village",
+        "sequenceNumber": 2,
+        "latitude": 28.6093027,
+        "longitude": 77.0841377,
+        "routeId": "ROUTE-118"
+    },
+    {
+        "stopId": "STOP-118-3",
+        "stopName": "Dwarka Crossing",
+        "sequenceNumber": 3,
+        "latitude": 28.6026251,
+        "longitude": 77.0411234,
+        "routeId": "ROUTE-118"
+    },
+    {
+        "stopId": "STOP-118-4",
+        "stopName": "Madhu Vihar",
+        "sequenceNumber": 4,
+        "latitude": 28.6360559,
+        "longitude": 77.3043835,
+        "routeId": "ROUTE-118"
+    },
+    {
+        "stopId": "STOP-118-5",
+        "stopName": "Netaji Subhash Eng. College",
+        "sequenceNumber": 5,
+        "latitude": 64.85694,
+        "longitude": -147.80278,
+        "routeId": "ROUTE-118"
+    },
+    {
+        "stopId": "STOP-118-6",
+        "stopName": "Kakrola JJ Colony",
+        "sequenceNumber": 6,
+        "latitude": 38.07086,
+        "longitude": -95.36554,
+        "routeId": "ROUTE-118"
+    },
+    {
+        "stopId": "STOP-119-1",
+        "stopName": "Samalkha",
+        "sequenceNumber": 1,
+        "latitude": 29.230736,
+        "longitude": 77.0019919,
+        "routeId": "ROUTE-119"
+    },
+    {
+        "stopId": "STOP-119-2",
+        "stopName": "Under Pass",
+        "sequenceNumber": 2,
+        "latitude": 40.9437535,
+        "longitude": -90.3646505,
+        "routeId": "ROUTE-119"
+    },
+    {
+        "stopId": "STOP-119-3",
+        "stopName": "Sector 21",
+        "sequenceNumber": 3,
+        "latitude": 28.5143629,
+        "longitude": 77.0730087,
+        "routeId": "ROUTE-119"
+    },
+    {
+        "stopId": "STOP-119-4",
+        "stopName": "22",
+        "sequenceNumber": 4,
+        "latitude": 46.0883398,
+        "longitude": 14.6415113,
+        "routeId": "ROUTE-119"
+    },
+    {
+        "stopId": "STOP-119-5",
+        "stopName": "Geetanjali Enclave",
+        "sequenceNumber": 5,
+        "latitude": 28.5303586,
+        "longitude": 77.2020662,
+        "routeId": "ROUTE-119"
+    },
+    {
+        "stopId": "STOP-120-1",
+        "stopName": "Nangli Extension",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-120"
+    },
+    {
+        "stopId": "STOP-120-2",
+        "stopName": "Nangli Dairy",
+        "sequenceNumber": 2,
+        "latitude": 28.6206226,
+        "longitude": 77.0157877,
+        "routeId": "ROUTE-120"
+    },
+    {
+        "stopId": "STOP-121-1",
+        "stopName": "Rama Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.6620531,
+        "longitude": 77.1577026,
+        "routeId": "ROUTE-121"
+    },
+    {
+        "stopId": "STOP-121-2",
+        "stopName": "Qutub Garh-Kanjhawala Road",
+        "sequenceNumber": 2,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-121"
+    },
+    {
+        "stopId": "STOP-121-3",
+        "stopName": "Rohini Sec- 22",
+        "sequenceNumber": 3,
+        "latitude": 28.719436,
+        "longitude": 77.0672351,
+        "routeId": "ROUTE-121"
+    },
+    {
+        "stopId": "STOP-121-4",
+        "stopName": "21",
+        "sequenceNumber": 4,
+        "latitude": 4.628248,
+        "longitude": -74.0649998,
+        "routeId": "ROUTE-121"
+    },
+    {
+        "stopId": "STOP-121-5",
+        "stopName": "Ratan Bagh",
+        "sequenceNumber": 5,
+        "latitude": 22.7282613,
+        "longitude": 75.8211631,
+        "routeId": "ROUTE-121"
+    },
+    {
+        "stopId": "STOP-122-1",
+        "stopName": "Keshopur Road",
+        "sequenceNumber": 1,
+        "latitude": 26.533378,
+        "longitude": 82.5561593,
+        "routeId": "ROUTE-122"
+    },
+    {
+        "stopId": "STOP-122-2",
+        "stopName": "Vishnu Garden",
+        "sequenceNumber": 2,
+        "latitude": 28.6524333,
+        "longitude": 77.1000592,
+        "routeId": "ROUTE-122"
+    },
+    {
+        "stopId": "STOP-122-3",
+        "stopName": "Paschim Vihar GH-II",
+        "sequenceNumber": 3,
+        "latitude": 28.6644852,
+        "longitude": 77.085181,
+        "routeId": "ROUTE-122"
+    },
+    {
+        "stopId": "STOP-122-4",
+        "stopName": "Paschim Vihar Water Tank",
+        "sequenceNumber": 4,
+        "latitude": 36.54758,
+        "longitude": -83.64491,
+        "routeId": "ROUTE-122"
+    },
+    {
+        "stopId": "STOP-123-1",
+        "stopName": "Subhash Park",
+        "sequenceNumber": 1,
+        "latitude": 23.8514963,
+        "longitude": 73.710408,
+        "routeId": "ROUTE-123"
+    },
+    {
+        "stopId": "STOP-123-2",
+        "stopName": "MansRamPark",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-123"
+    },
+    {
+        "stopId": "STOP-123-3",
+        "stopName": "Sukhram Park",
+        "sequenceNumber": 3,
+        "latitude": 39.11251,
+        "longitude": -100.35875,
+        "routeId": "ROUTE-123"
+    },
+    {
+        "stopId": "STOP-124-1",
+        "stopName": "Inder Enclave",
+        "sequenceNumber": 1,
+        "latitude": 28.6795173,
+        "longitude": 77.0837339,
+        "routeId": "ROUTE-124"
+    },
+    {
+        "stopId": "STOP-124-2",
+        "stopName": "Mubarakpur Main Road",
+        "sequenceNumber": 2,
+        "latitude": 21.73709,
+        "longitude": 81.93955,
+        "routeId": "ROUTE-124"
+    },
+    {
+        "stopId": "STOP-124-3",
+        "stopName": "Indira Gandhi Chowk",
+        "sequenceNumber": 3,
+        "latitude": 23.353899,
+        "longitude": 85.3387656,
+        "routeId": "ROUTE-124"
+    },
+    {
+        "stopId": "STOP-124-4",
+        "stopName": "Friends Enclave",
+        "sequenceNumber": 4,
+        "latitude": 28.6862015,
+        "longitude": 77.0715059,
+        "routeId": "ROUTE-124"
+    },
+    {
+        "stopId": "STOP-125-1",
+        "stopName": "Hiran Kudna Village",
+        "sequenceNumber": 1,
+        "latitude": 28.6723367,
+        "longitude": 76.9984106,
+        "routeId": "ROUTE-125"
+    },
+    {
+        "stopId": "STOP-126-1",
+        "stopName": "Nilothi Crossing",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-126"
+    },
+    {
+        "stopId": "STOP-126-2",
+        "stopName": "Ranhola Village",
+        "sequenceNumber": 2,
+        "latitude": 28.6580019,
+        "longitude": 77.0359234,
+        "routeId": "ROUTE-126"
+    },
+    {
+        "stopId": "STOP-126-3",
+        "stopName": "Vikas Nagar",
+        "sequenceNumber": 3,
+        "latitude": 26.8942443,
+        "longitude": 80.9640683,
+        "routeId": "ROUTE-126"
+    },
+    {
+        "stopId": "STOP-126-4",
+        "stopName": "Kakrola Nala Village",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-126"
+    },
+    {
+        "stopId": "STOP-127-1",
+        "stopName": "Jharoda Crossing",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-127"
+    },
+    {
+        "stopId": "STOP-127-2",
+        "stopName": "Jharoda Camp",
+        "sequenceNumber": 2,
+        "latitude": 19.0,
+        "longitude": -90.5,
+        "routeId": "ROUTE-127"
+    },
+    {
+        "stopId": "STOP-128-1",
+        "stopName": "Mitrau",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-128"
+    },
+    {
+        "stopId": "STOP-128-2",
+        "stopName": "Surehra",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-128"
+    },
+    {
+        "stopId": "STOP-128-3",
+        "stopName": "RawataCrossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-128"
+    },
+    {
+        "stopId": "STOP-129-1",
+        "stopName": "Naresh Park",
+        "sequenceNumber": 1,
+        "latitude": 23.0758048,
+        "longitude": 88.5275222,
+        "routeId": "ROUTE-129"
+    },
+    {
+        "stopId": "STOP-129-2",
+        "stopName": "Laxmi Park",
+        "sequenceNumber": 2,
+        "latitude": 22.7708562,
+        "longitude": 86.2108864,
+        "routeId": "ROUTE-129"
+    },
+    {
+        "stopId": "STOP-129-3",
+        "stopName": "Nihal Vihar",
+        "sequenceNumber": 3,
+        "latitude": 28.6593089,
+        "longitude": 77.0744632,
+        "routeId": "ROUTE-129"
+    },
+    {
+        "stopId": "STOP-129-4",
+        "stopName": "Paschim Vihar",
+        "sequenceNumber": 4,
+        "latitude": 28.6695782,
+        "longitude": 77.095956,
+        "routeId": "ROUTE-129"
+    },
+    {
+        "stopId": "STOP-130-1",
+        "stopName": "Rajdhani Park",
+        "sequenceNumber": 1,
+        "latitude": 28.6823085,
+        "longitude": 77.0439437,
+        "routeId": "ROUTE-130"
+    },
+    {
+        "stopId": "STOP-130-2",
+        "stopName": "Mundka Railway. Phatak",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-130"
+    },
+    {
+        "stopId": "STOP-131-1",
+        "stopName": "Adyapak Nagar",
+        "sequenceNumber": 1,
+        "latitude": 27.42397,
+        "longitude": 77.09922,
+        "routeId": "ROUTE-131"
+    },
+    {
+        "stopId": "STOP-131-2",
+        "stopName": "Shivram Park",
+        "sequenceNumber": 2,
+        "latitude": 40.6895164,
+        "longitude": -73.8162728,
+        "routeId": "ROUTE-131"
+    },
+    {
+        "stopId": "STOP-131-3",
+        "stopName": "50 Foota road",
+        "sequenceNumber": 3,
+        "latitude": 28.7466106,
+        "longitude": 77.1611552,
+        "routeId": "ROUTE-131"
+    },
+    {
+        "stopId": "STOP-131-4",
+        "stopName": "Nihal Vihar",
+        "sequenceNumber": 4,
+        "latitude": 28.6593089,
+        "longitude": 77.0744632,
+        "routeId": "ROUTE-131"
+    },
+    {
+        "stopId": "STOP-131-5",
+        "stopName": "Paschim Vihar",
+        "sequenceNumber": 5,
+        "latitude": 28.6695782,
+        "longitude": 77.095956,
+        "routeId": "ROUTE-131"
+    },
+    {
+        "stopId": "STOP-132-1",
+        "stopName": "Mundka",
+        "sequenceNumber": 1,
+        "latitude": 28.6824341,
+        "longitude": 77.0305741,
+        "routeId": "ROUTE-132"
+    },
+    {
+        "stopId": "STOP-132-2",
+        "stopName": "GhewraCrossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-132"
+    },
+    {
+        "stopId": "STOP-133-1",
+        "stopName": "Raja Garden",
+        "sequenceNumber": 1,
+        "latitude": 28.652182,
+        "longitude": 77.1263056,
+        "routeId": "ROUTE-133"
+    },
+    {
+        "stopId": "STOP-133-2",
+        "stopName": "Raghubir Nagar",
+        "sequenceNumber": 2,
+        "latitude": 28.6565574,
+        "longitude": 77.1122381,
+        "routeId": "ROUTE-133"
+    },
+    {
+        "stopId": "STOP-133-3",
+        "stopName": "Gurudwara   Road No 29 &30 Crossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-133"
+    },
+    {
+        "stopId": "STOP-133-4",
+        "stopName": "Paschim Vihar W/T",
+        "sequenceNumber": 4,
+        "latitude": 29.217742,
+        "longitude": 79.5035902,
+        "routeId": "ROUTE-133"
+    },
+    {
+        "stopId": "STOP-133-5",
+        "stopName": "Peera Garhi",
+        "sequenceNumber": 5,
+        "latitude": 28.6798074,
+        "longitude": 77.0926793,
+        "routeId": "ROUTE-133"
+    },
+    {
+        "stopId": "STOP-133-6",
+        "stopName": "Jawalapuri",
+        "sequenceNumber": 6,
+        "latitude": 28.5306947,
+        "longitude": 78.8291357,
+        "routeId": "ROUTE-133"
+    },
+    {
+        "stopId": "STOP-133-7",
+        "stopName": "Nangloi",
+        "sequenceNumber": 7,
+        "latitude": 28.6862813,
+        "longitude": 77.0573608,
+        "routeId": "ROUTE-133"
+    },
+    {
+        "stopId": "STOP-134-1",
+        "stopName": "Geetanjali Park",
+        "sequenceNumber": 1,
+        "latitude": 22.5825554,
+        "longitude": 88.4864415,
+        "routeId": "ROUTE-134"
+    },
+    {
+        "stopId": "STOP-134-2",
+        "stopName": "Vaishali",
+        "sequenceNumber": 2,
+        "latitude": 25.7491702,
+        "longitude": 85.3972164,
+        "routeId": "ROUTE-134"
+    },
+    {
+        "stopId": "STOP-134-3",
+        "stopName": "Janakpuri",
+        "sequenceNumber": 3,
+        "latitude": 28.6219272,
+        "longitude": 77.0874757,
+        "routeId": "ROUTE-134"
+    },
+    {
+        "stopId": "STOP-135-1",
+        "stopName": "Nangloi Syed",
+        "sequenceNumber": 1,
+        "latitude": 62.0,
+        "longitude": 15.0,
+        "routeId": "ROUTE-135"
+    },
+    {
+        "stopId": "STOP-135-2",
+        "stopName": "Sunder Vihar",
+        "sequenceNumber": 2,
+        "latitude": 28.662678,
+        "longitude": 77.0890083,
+        "routeId": "ROUTE-135"
+    },
+    {
+        "stopId": "STOP-135-3",
+        "stopName": "Paschim Vihar",
+        "sequenceNumber": 3,
+        "latitude": 28.6695782,
+        "longitude": 77.095956,
+        "routeId": "ROUTE-135"
+    },
+    {
+        "stopId": "STOP-135-4",
+        "stopName": "Inder Enclave",
+        "sequenceNumber": 4,
+        "latitude": 28.6795173,
+        "longitude": 77.0837339,
+        "routeId": "ROUTE-135"
+    },
+    {
+        "stopId": "STOP-136-1",
+        "stopName": "Ghewra",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-136"
+    },
+    {
+        "stopId": "STOP-136-2",
+        "stopName": "Mundka",
+        "sequenceNumber": 2,
+        "latitude": 28.6824341,
+        "longitude": 77.0305741,
+        "routeId": "ROUTE-136"
+    },
+    {
+        "stopId": "STOP-137-1",
+        "stopName": "Paschim Vihar Extension",
+        "sequenceNumber": 1,
+        "latitude": 26.9228384,
+        "longitude": 75.7344735,
+        "routeId": "ROUTE-137"
+    },
+    {
+        "stopId": "STOP-137-2",
+        "stopName": "Paschimpuri",
+        "sequenceNumber": 2,
+        "latitude": 28.6661807,
+        "longitude": 77.1156957,
+        "routeId": "ROUTE-137"
+    },
+    {
+        "stopId": "STOP-138-1",
+        "stopName": "Qutab Garh",
+        "sequenceNumber": 1,
+        "latitude": 34.37462,
+        "longitude": 71.88179,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-138-2",
+        "stopName": "Punjab Khor",
+        "sequenceNumber": 2,
+        "latitude": 28.7755887,
+        "longitude": 76.9630186,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-138-3",
+        "stopName": "Jyonti",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-138-4",
+        "stopName": "Garhi Randhala",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-138-5",
+        "stopName": "Nizampur",
+        "sequenceNumber": 5,
+        "latitude": 32.2431194,
+        "longitude": 74.2611426,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-138-6",
+        "stopName": "Savada",
+        "sequenceNumber": 6,
+        "latitude": 32.77055,
+        "longitude": 36.8776335,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-138-7",
+        "stopName": "Ghewra Village",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-138-8",
+        "stopName": "Hiran Kudna Crossing",
+        "sequenceNumber": 8,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-138-9",
+        "stopName": "Mundka",
+        "sequenceNumber": 9,
+        "latitude": 28.6824341,
+        "longitude": 77.0305741,
+        "routeId": "ROUTE-138"
+    },
+    {
+        "stopId": "STOP-139-1",
+        "stopName": "Khyala",
+        "sequenceNumber": 1,
+        "latitude": 26.5106534,
+        "longitude": 71.06148,
+        "routeId": "ROUTE-139"
+    },
+    {
+        "stopId": "STOP-139-2",
+        "stopName": "Vishnu Garden",
+        "sequenceNumber": 2,
+        "latitude": 28.6524333,
+        "longitude": 77.1000592,
+        "routeId": "ROUTE-139"
+    },
+    {
+        "stopId": "STOP-139-3",
+        "stopName": "Shyam Nagar",
+        "sequenceNumber": 3,
+        "latitude": 26.8964768,
+        "longitude": 75.7706279,
+        "routeId": "ROUTE-139"
+    },
+    {
+        "stopId": "STOP-139-4",
+        "stopName": "Mukherjee Park",
+        "sequenceNumber": 4,
+        "latitude": 22.7402518,
+        "longitude": 88.3567637,
+        "routeId": "ROUTE-139"
+    },
+    {
+        "stopId": "STOP-139-5",
+        "stopName": "Meenakshi Garden",
+        "sequenceNumber": 5,
+        "latitude": 28.6392363,
+        "longitude": 77.1048444,
+        "routeId": "ROUTE-139"
+    },
+    {
+        "stopId": "STOP-139-6",
+        "stopName": "Subhash Nagar",
+        "sequenceNumber": 6,
+        "latitude": 21.1233162,
+        "longitude": 79.0420532,
+        "routeId": "ROUTE-139"
+    },
+    {
+        "stopId": "STOP-139-7",
+        "stopName": "Hari Nagar Clock Tower",
+        "sequenceNumber": 7,
+        "latitude": 38.83111,
+        "longitude": -77.30722,
+        "routeId": "ROUTE-139"
+    },
+    {
+        "stopId": "STOP-140-1",
+        "stopName": "Shiv Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.6175376,
+        "longitude": 77.0354302,
+        "routeId": "ROUTE-140"
+    },
+    {
+        "stopId": "STOP-140-2",
+        "stopName": "LIG Flats Hastsal",
+        "sequenceNumber": 2,
+        "latitude": 28.634899,
+        "longitude": 77.0598615,
+        "routeId": "ROUTE-140"
+    },
+    {
+        "stopId": "STOP-140-3",
+        "stopName": "Vikaspuri C Block",
+        "sequenceNumber": 3,
+        "latitude": 28.6349063,
+        "longitude": 77.0721872,
+        "routeId": "ROUTE-140"
+    },
+    {
+        "stopId": "STOP-140-4",
+        "stopName": "Uttam Nagar",
+        "sequenceNumber": 4,
+        "latitude": 28.6215226,
+        "longitude": 77.0611064,
+        "routeId": "ROUTE-140"
+    },
+    {
+        "stopId": "STOP-141-1",
+        "stopName": "C Block Janakpuri Road",
+        "sequenceNumber": 1,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-141"
+    },
+    {
+        "stopId": "STOP-141-2",
+        "stopName": "Virendra Nagar",
+        "sequenceNumber": 2,
+        "latitude": 28.6233169,
+        "longitude": 77.0956707,
+        "routeId": "ROUTE-141"
+    },
+    {
+        "stopId": "STOP-142-1",
+        "stopName": "Tilak Nagar",
+        "sequenceNumber": 1,
+        "latitude": 28.6365482,
+        "longitude": 77.0964961,
+        "routeId": "ROUTE-142"
+    },
+    {
+        "stopId": "STOP-142-2",
+        "stopName": "District Centre",
+        "sequenceNumber": 2,
+        "latitude": 32.0842827,
+        "longitude": 34.9168736,
+        "routeId": "ROUTE-142"
+    },
+    {
+        "stopId": "STOP-142-3",
+        "stopName": "C-Block Vikaspuri",
+        "sequenceNumber": 3,
+        "latitude": 28.6349063,
+        "longitude": 77.0721872,
+        "routeId": "ROUTE-142"
+    },
+    {
+        "stopId": "STOP-142-4",
+        "stopName": "Sant Garh (MB   Singh Nagar )",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-142"
+    },
+    {
+        "stopId": "STOP-143-1",
+        "stopName": "Budhela",
+        "sequenceNumber": 1,
+        "latitude": 24.0966626,
+        "longitude": 82.5203584,
+        "routeId": "ROUTE-143"
+    },
+    {
+        "stopId": "STOP-143-2",
+        "stopName": "Krishna Park",
+        "sequenceNumber": 2,
+        "latitude": 21.5248169,
+        "longitude": 70.4436064,
+        "routeId": "ROUTE-143"
+    },
+    {
+        "stopId": "STOP-144-1",
+        "stopName": "Paschim Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.6695782,
+        "longitude": 77.095956,
+        "routeId": "ROUTE-144"
+    },
+    {
+        "stopId": "STOP-144-2",
+        "stopName": "Jwala Heri Market",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-144"
+    },
+    {
+        "stopId": "STOP-144-3",
+        "stopName": "Ch. Balbir Singh Marg",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-144"
+    },
+    {
+        "stopId": "STOP-144-4",
+        "stopName": "",
+        "sequenceNumber": 4,
+        "latitude": 28.6273928,
+        "longitude": 77.1716954,
+        "routeId": "ROUTE-144"
+    },
+    {
+        "stopId": "STOP-145-1",
+        "stopName": "Bhajanpura",
+        "sequenceNumber": 1,
+        "latitude": 28.7588936,
+        "longitude": 78.9748764,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-145-2",
+        "stopName": "C - 4 Yamuna Vihar",
+        "sequenceNumber": 2,
+        "latitude": 28.7006347,
+        "longitude": 77.283389,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-145-3",
+        "stopName": "C - 9 Yamuna Vihar",
+        "sequenceNumber": 3,
+        "latitude": 28.700372,
+        "longitude": 77.2727728,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-145-4",
+        "stopName": "Babarpur Extension",
+        "sequenceNumber": 4,
+        "latitude": 28.6910482,
+        "longitude": 77.2791203,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-145-5",
+        "stopName": "Jaffrabad School",
+        "sequenceNumber": 5,
+        "latitude": 45.14914,
+        "longitude": 11.82057,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-145-6",
+        "stopName": "Seelampur",
+        "sequenceNumber": 6,
+        "latitude": 28.6698165,
+        "longitude": 77.2668137,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-145-7",
+        "stopName": "Welcome",
+        "sequenceNumber": 7,
+        "latitude": 43.6671139,
+        "longitude": -94.6187863,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-145-8",
+        "stopName": "Shyamlal College",
+        "sequenceNumber": 8,
+        "latitude": 64.85694,
+        "longitude": -147.80278,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-145-9",
+        "stopName": "Shahdara",
+        "sequenceNumber": 9,
+        "latitude": 28.6758661,
+        "longitude": 77.2985078,
+        "routeId": "ROUTE-145"
+    },
+    {
+        "stopId": "STOP-146-1",
+        "stopName": "Chhachi",
+        "sequenceNumber": 1,
+        "latitude": 24.3328854,
+        "longitude": 69.7236244,
+        "routeId": "ROUTE-146"
+    },
+    {
+        "stopId": "STOP-146-2",
+        "stopName": "Jheel Chowk",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-146"
+    },
+    {
+        "stopId": "STOP-146-3",
+        "stopName": "Azad Nagar",
+        "sequenceNumber": 3,
+        "latitude": 26.2558913,
+        "longitude": 88.1905154,
+        "routeId": "ROUTE-146"
+    },
+    {
+        "stopId": "STOP-146-4",
+        "stopName": "Kranti Nagar",
+        "sequenceNumber": 4,
+        "latitude": 19.4285837,
+        "longitude": 76.0370958,
+        "routeId": "ROUTE-146"
+    },
+    {
+        "stopId": "STOP-146-5",
+        "stopName": "Shahdara",
+        "sequenceNumber": 5,
+        "latitude": 28.6758661,
+        "longitude": 77.2985078,
+        "routeId": "ROUTE-146"
+    },
+    {
+        "stopId": "STOP-147-1",
+        "stopName": "Jheel",
+        "sequenceNumber": 1,
+        "latitude": 35.2174697,
+        "longitude": 72.5431643,
+        "routeId": "ROUTE-147"
+    },
+    {
+        "stopId": "STOP-147-2",
+        "stopName": "Geeta Colony",
+        "sequenceNumber": 2,
+        "latitude": 28.6510892,
+        "longitude": 77.2749996,
+        "routeId": "ROUTE-147"
+    },
+    {
+        "stopId": "STOP-147-3",
+        "stopName": "Radhu Place",
+        "sequenceNumber": 3,
+        "latitude": 48.253,
+        "longitude": -0.77716,
+        "routeId": "ROUTE-147"
+    },
+    {
+        "stopId": "STOP-147-4",
+        "stopName": "Shakarpur",
+        "sequenceNumber": 4,
+        "latitude": 28.6294888,
+        "longitude": 77.2810607,
+        "routeId": "ROUTE-147"
+    },
+    {
+        "stopId": "STOP-147-5",
+        "stopName": "Laxmi Nagar",
+        "sequenceNumber": 5,
+        "latitude": 6.8952194,
+        "longitude": 93.8898315,
+        "routeId": "ROUTE-147"
+    },
+    {
+        "stopId": "STOP-147-6",
+        "stopName": "Mother Diary",
+        "sequenceNumber": 6,
+        "latitude": 28.6842102,
+        "longitude": 77.3142484,
+        "routeId": "ROUTE-147"
+    },
+    {
+        "stopId": "STOP-147-7",
+        "stopName": "Chand Cinema",
+        "sequenceNumber": 7,
+        "latitude": 28.6128241,
+        "longitude": 77.3127259,
+        "routeId": "ROUTE-147"
+    },
+    {
+        "stopId": "STOP-147-8",
+        "stopName": "Kalyanpuri",
+        "sequenceNumber": 8,
+        "latitude": 28.6194913,
+        "longitude": 77.3179579,
+        "routeId": "ROUTE-147"
+    },
+    {
+        "stopId": "STOP-148-1",
+        "stopName": "Karawal Nagar",
+        "sequenceNumber": 1,
+        "latitude": 28.7311406,
+        "longitude": 77.2747898,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-2",
+        "stopName": "Gola Factory",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-3",
+        "stopName": "Johripur",
+        "sequenceNumber": 3,
+        "latitude": 28.7172505,
+        "longitude": 77.2869559,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-4",
+        "stopName": "Loni Road Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-5",
+        "stopName": "Nand Nagri Depot",
+        "sequenceNumber": 5,
+        "latitude": 28.697809,
+        "longitude": 77.3057011,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-6",
+        "stopName": "Gagan Cinema",
+        "sequenceNumber": 6,
+        "latitude": 28.6957346,
+        "longitude": 77.3153785,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-7",
+        "stopName": "Nand Nagri Terminal",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-8",
+        "stopName": "GTB Hospital",
+        "sequenceNumber": 8,
+        "latitude": 28.6832783,
+        "longitude": 77.3096469,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-9",
+        "stopName": "GTB Chowk",
+        "sequenceNumber": 9,
+        "latitude": 28.6819003,
+        "longitude": 77.3124522,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-148-10",
+        "stopName": "Swami Dayanand Hospital",
+        "sequenceNumber": 10,
+        "latitude": 28.6791284,
+        "longitude": 77.3037006,
+        "routeId": "ROUTE-148"
+    },
+    {
+        "stopId": "STOP-149-1",
+        "stopName": "Bawana",
+        "sequenceNumber": 1,
+        "latitude": 28.79966,
+        "longitude": 77.0328847,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-2",
+        "stopName": "Bawana Canal",
+        "sequenceNumber": 2,
+        "latitude": 44.79532,
+        "longitude": 7.99373,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-3",
+        "stopName": "Ghoga Air Force Station",
+        "sequenceNumber": 3,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-4",
+        "stopName": "Sannoth Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-5",
+        "stopName": "Vishal Bagh",
+        "sequenceNumber": 5,
+        "latitude": 28.6409016,
+        "longitude": 77.2118997,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-6",
+        "stopName": "Narela Railway Crossing",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-7",
+        "stopName": "Narela",
+        "sequenceNumber": 7,
+        "latitude": 28.8464766,
+        "longitude": 77.0856631,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-8",
+        "stopName": "Pithori",
+        "sequenceNumber": 8,
+        "latitude": 21.4759936,
+        "longitude": 78.6065769,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-9",
+        "stopName": "Police Colony",
+        "sequenceNumber": 9,
+        "latitude": 25.894493,
+        "longitude": 86.5890792,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-10",
+        "stopName": "Raja Swami Satsang",
+        "sequenceNumber": 10,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-149-11",
+        "stopName": "Singhu Border",
+        "sequenceNumber": 11,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-149"
+    },
+    {
+        "stopId": "STOP-150-1",
+        "stopName": "Bhajanpura",
+        "sequenceNumber": 1,
+        "latitude": 28.7588936,
+        "longitude": 78.9748764,
+        "routeId": "ROUTE-150"
+    },
+    {
+        "stopId": "STOP-150-2",
+        "stopName": "C - 4 Yamuna Vihar",
+        "sequenceNumber": 2,
+        "latitude": 28.7006347,
+        "longitude": 77.283389,
+        "routeId": "ROUTE-150"
+    },
+    {
+        "stopId": "STOP-150-3",
+        "stopName": "Johripur Crossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-150"
+    },
+    {
+        "stopId": "STOP-150-4",
+        "stopName": "Johar Nagar",
+        "sequenceNumber": 4,
+        "latitude": 28.4760656,
+        "longitude": 77.1308858,
+        "routeId": "ROUTE-150"
+    },
+    {
+        "stopId": "STOP-150-5",
+        "stopName": "P.S. Inderpuri",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-150"
+    },
+    {
+        "stopId": "STOP-150-6",
+        "stopName": "Inderpuri (Loni Road)",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-150"
+    },
+    {
+        "stopId": "STOP-151-1",
+        "stopName": "Suraj Park",
+        "sequenceNumber": 1,
+        "latitude": 28.7443687,
+        "longitude": 77.134978,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-2",
+        "stopName": "Road No. B - 3",
+        "sequenceNumber": 2,
+        "latitude": 21.1686932,
+        "longitude": 72.7920602,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-3",
+        "stopName": "Rohini  Sector 15/16",
+        "sequenceNumber": 3,
+        "latitude": 28.7314861,
+        "longitude": 77.1306262,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-4",
+        "stopName": "Guru Nanak Dev Marg",
+        "sequenceNumber": 4,
+        "latitude": 32.0425182,
+        "longitude": 75.029034,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-5",
+        "stopName": "HP Parwana Road (Suraj Jayanti Park)",
+        "sequenceNumber": 5,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-6",
+        "stopName": "Rohini  West Metro Station",
+        "sequenceNumber": 6,
+        "latitude": 28.7148678,
+        "longitude": 77.115446,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-7",
+        "stopName": "Ambedkar Hospital",
+        "sequenceNumber": 7,
+        "latitude": 21.2672315,
+        "longitude": 78.5887533,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-8",
+        "stopName": "Rohini Depot 1 (Sec - 6)",
+        "sequenceNumber": 8,
+        "latitude": 47.27541,
+        "longitude": 8.4897,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-9",
+        "stopName": "Rohini  Sec 5",
+        "sequenceNumber": 9,
+        "latitude": 28.7162092,
+        "longitude": 77.1170743,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-10",
+        "stopName": "Rithala Road",
+        "sequenceNumber": 10,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-151-11",
+        "stopName": "Rithala",
+        "sequenceNumber": 11,
+        "latitude": 28.7208064,
+        "longitude": 77.1071813,
+        "routeId": "ROUTE-151"
+    },
+    {
+        "stopId": "STOP-152-1",
+        "stopName": "Qutab Garh",
+        "sequenceNumber": 1,
+        "latitude": 34.37462,
+        "longitude": 71.88179,
+        "routeId": "ROUTE-152"
+    },
+    {
+        "stopId": "STOP-152-2",
+        "stopName": "Auchandi Border",
+        "sequenceNumber": 2,
+        "latitude": 28.8054026,
+        "longitude": 77.026163,
+        "routeId": "ROUTE-152"
+    },
+    {
+        "stopId": "STOP-152-3",
+        "stopName": "Bawana",
+        "sequenceNumber": 3,
+        "latitude": 28.79966,
+        "longitude": 77.0328847,
+        "routeId": "ROUTE-152"
+    },
+    {
+        "stopId": "STOP-152-4",
+        "stopName": "Ghoga",
+        "sequenceNumber": 4,
+        "latitude": 17.8276859,
+        "longitude": 77.0386936,
+        "routeId": "ROUTE-152"
+    },
+    {
+        "stopId": "STOP-152-5",
+        "stopName": "Narela",
+        "sequenceNumber": 5,
+        "latitude": 28.8464766,
+        "longitude": 77.0856631,
+        "routeId": "ROUTE-152"
+    },
+    {
+        "stopId": "STOP-153-1",
+        "stopName": "Captain Satish Marg",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-153"
+    },
+    {
+        "stopId": "STOP-153-2",
+        "stopName": "Bhagvan Mahavir Marg (Mangolpuri Industrial Area Road)",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-153"
+    },
+    {
+        "stopId": "STOP-153-3",
+        "stopName": "West Enclave",
+        "sequenceNumber": 3,
+        "latitude": 23.0673738,
+        "longitude": -109.6509737,
+        "routeId": "ROUTE-153"
+    },
+    {
+        "stopId": "STOP-153-4",
+        "stopName": "Sanjay Gandhi Hospital",
+        "sequenceNumber": 4,
+        "latitude": 18.4348744,
+        "longitude": 73.1167436,
+        "routeId": "ROUTE-153"
+    },
+    {
+        "stopId": "STOP-153-5",
+        "stopName": "Sultanpuri (Jalebi Chowk)",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-153"
+    },
+    {
+        "stopId": "STOP-154-1",
+        "stopName": "Deoli Village",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-154"
+    },
+    {
+        "stopId": "STOP-154-2",
+        "stopName": "Khanpur",
+        "sequenceNumber": 2,
+        "latitude": 31.1577067,
+        "longitude": 75.9322635,
+        "routeId": "ROUTE-154"
+    },
+    {
+        "stopId": "STOP-154-3",
+        "stopName": "M. B. Road",
+        "sequenceNumber": 3,
+        "latitude": 32.1789951,
+        "longitude": -90.1291913,
+        "routeId": "ROUTE-154"
+    },
+    {
+        "stopId": "STOP-154-4",
+        "stopName": "Neb Sarai Road",
+        "sequenceNumber": 4,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-154"
+    },
+    {
+        "stopId": "STOP-154-5",
+        "stopName": "Maidan Garhi (IGNOU)",
+        "sequenceNumber": 5,
+        "latitude": 28.5040363,
+        "longitude": 77.1986318,
+        "routeId": "ROUTE-154"
+    },
+    {
+        "stopId": "STOP-155-1",
+        "stopName": "Gola Kuan",
+        "sequenceNumber": 1,
+        "latitude": 6.32649,
+        "longitude": 99.8432,
+        "routeId": "ROUTE-155"
+    },
+    {
+        "stopId": "STOP-155-2",
+        "stopName": "Tehkhand",
+        "sequenceNumber": 2,
+        "latitude": 28.5103848,
+        "longitude": 77.282022,
+        "routeId": "ROUTE-155"
+    },
+    {
+        "stopId": "STOP-155-3",
+        "stopName": "Indra Kalyan Vihar",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-155"
+    },
+    {
+        "stopId": "STOP-155-4",
+        "stopName": "Ma Anandmayee Marg",
+        "sequenceNumber": 4,
+        "latitude": 28.5171825,
+        "longitude": 77.2796246,
+        "routeId": "ROUTE-155"
+    },
+    {
+        "stopId": "STOP-155-5",
+        "stopName": "Kalkaji Depot",
+        "sequenceNumber": 5,
+        "latitude": 28.5373172,
+        "longitude": 77.2674707,
+        "routeId": "ROUTE-155"
+    },
+    {
+        "stopId": "STOP-155-6",
+        "stopName": "Govindpuri Metro Station",
+        "sequenceNumber": 6,
+        "latitude": 28.5452631,
+        "longitude": 77.2640838,
+        "routeId": "ROUTE-155"
+    },
+    {
+        "stopId": "STOP-156-1",
+        "stopName": "Indra Kalyan Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-2",
+        "stopName": "DSIDC Complex",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-3",
+        "stopName": "Tehkhand",
+        "sequenceNumber": 3,
+        "latitude": 28.5103848,
+        "longitude": 77.282022,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-4",
+        "stopName": "Gola Kuan",
+        "sequenceNumber": 4,
+        "latitude": 6.32649,
+        "longitude": 99.8432,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-5",
+        "stopName": "ESI Hospital",
+        "sequenceNumber": 5,
+        "latitude": 17.4319714,
+        "longitude": 78.5521205,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-6",
+        "stopName": "Ma Anandmayee Marg",
+        "sequenceNumber": 6,
+        "latitude": 28.5171825,
+        "longitude": 77.2796246,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-7",
+        "stopName": "Tughlakabad (M.B. Road)",
+        "sequenceNumber": 7,
+        "latitude": 28.5054709,
+        "longitude": 77.2764802,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-8",
+        "stopName": "Hamdard Nagar",
+        "sequenceNumber": 8,
+        "latitude": 28.5158323,
+        "longitude": 77.2501396,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-9",
+        "stopName": "Khanpur",
+        "sequenceNumber": 9,
+        "latitude": 31.1577067,
+        "longitude": 75.9322635,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-156-10",
+        "stopName": "Deoli Village.",
+        "sequenceNumber": 10,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-156"
+    },
+    {
+        "stopId": "STOP-157-1",
+        "stopName": "Shyam Vihar",
+        "sequenceNumber": 1,
+        "latitude": 28.5917192,
+        "longitude": 77.0000946,
+        "routeId": "ROUTE-157"
+    },
+    {
+        "stopId": "STOP-157-2",
+        "stopName": "Roshan Vihar",
+        "sequenceNumber": 2,
+        "latitude": 28.6751133,
+        "longitude": 77.162161,
+        "routeId": "ROUTE-157"
+    },
+    {
+        "stopId": "STOP-157-3",
+        "stopName": "Kakrola Road",
+        "sequenceNumber": 3,
+        "latitude": 28.6073606,
+        "longitude": 76.9990962,
+        "routeId": "ROUTE-157"
+    },
+    {
+        "stopId": "STOP-157-4",
+        "stopName": "Najafgarh Drain",
+        "sequenceNumber": 4,
+        "latitude": 28.5910906,
+        "longitude": 77.0488654,
+        "routeId": "ROUTE-157"
+    },
+    {
+        "stopId": "STOP-157-5",
+        "stopName": "BSF Colony",
+        "sequenceNumber": 5,
+        "latitude": 25.667935,
+        "longitude": 94.1254341,
+        "routeId": "ROUTE-157"
+    },
+    {
+        "stopId": "STOP-157-6",
+        "stopName": "Delhi Police Colony",
+        "sequenceNumber": 6,
+        "latitude": 28.6561313,
+        "longitude": 77.2070539,
+        "routeId": "ROUTE-157"
+    },
+    {
+        "stopId": "STOP-157-7",
+        "stopName": "Dwarka Metro Station",
+        "sequenceNumber": 7,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-157"
+    },
+    {
+        "stopId": "STOP-158-1",
+        "stopName": "Sikarpur",
+        "sequenceNumber": 1,
+        "latitude": 21.8096537,
+        "longitude": 88.1622093,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-2",
+        "stopName": "Daulatpur Crossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-3",
+        "stopName": "PandawlaCrossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-4",
+        "stopName": "Rewla Khanpur",
+        "sequenceNumber": 4,
+        "latitude": 28.5647239,
+        "longitude": 76.9816987,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-5",
+        "stopName": "Jhatikra Crossing",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-6",
+        "stopName": "Roshanpura",
+        "sequenceNumber": 6,
+        "latitude": 22.1247171,
+        "longitude": 76.2805143,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-7",
+        "stopName": "Najafgarh",
+        "sequenceNumber": 7,
+        "latitude": 28.6124504,
+        "longitude": 76.9865067,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-8",
+        "stopName": "Ghuman Hera Crossing",
+        "sequenceNumber": 8,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-9",
+        "stopName": "Mitrau",
+        "sequenceNumber": 9,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-10",
+        "stopName": "SurheraCrossing",
+        "sequenceNumber": 10,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-11",
+        "stopName": "Rawta Crossing",
+        "sequenceNumber": 11,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-158-12",
+        "stopName": "Rao Tula Ram Hospital",
+        "sequenceNumber": 12,
+        "latitude": 28.5944834,
+        "longitude": 76.9132805,
+        "routeId": "ROUTE-158"
+    },
+    {
+        "stopId": "STOP-159-1",
+        "stopName": "Jhatikra Crossing",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-2",
+        "stopName": "Daulatpur Crossing",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-3",
+        "stopName": "PandawlaCrossing",
+        "sequenceNumber": 3,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-4",
+        "stopName": "Rewla Khanpur",
+        "sequenceNumber": 4,
+        "latitude": 28.5647239,
+        "longitude": 76.9816987,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-5",
+        "stopName": "Jhatikra Crossing",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-6",
+        "stopName": "Roshanpura",
+        "sequenceNumber": 6,
+        "latitude": 22.1247171,
+        "longitude": 76.2805143,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-7",
+        "stopName": "Najafgarh",
+        "sequenceNumber": 7,
+        "latitude": 28.6124504,
+        "longitude": 76.9865067,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-8",
+        "stopName": "Ghuman Hera Crossing",
+        "sequenceNumber": 8,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-9",
+        "stopName": "Mitrau",
+        "sequenceNumber": 9,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-10",
+        "stopName": "SurheraCrossing",
+        "sequenceNumber": 10,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-11",
+        "stopName": "RawtaCrossing",
+        "sequenceNumber": 11,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-159-12",
+        "stopName": "Rao Tula Ram Hospital",
+        "sequenceNumber": 12,
+        "latitude": 28.5944834,
+        "longitude": 76.9132805,
+        "routeId": "ROUTE-159"
+    },
+    {
+        "stopId": "STOP-160-1",
+        "stopName": "Najafgarh",
+        "sequenceNumber": 1,
+        "latitude": 28.6124504,
+        "longitude": 76.9865067,
+        "routeId": "ROUTE-160"
+    },
+    {
+        "stopId": "STOP-160-2",
+        "stopName": "Roshanpura",
+        "sequenceNumber": 2,
+        "latitude": 22.1247171,
+        "longitude": 76.2805143,
+        "routeId": "ROUTE-160"
+    },
+    {
+        "stopId": "STOP-160-3",
+        "stopName": "Jhatikra",
+        "sequenceNumber": 3,
+        "latitude": 28.5203516,
+        "longitude": 76.9635884,
+        "routeId": "ROUTE-160"
+    },
+    {
+        "stopId": "STOP-160-4",
+        "stopName": "Rewla",
+        "sequenceNumber": 4,
+        "latitude": 28.5647239,
+        "longitude": 76.9816987,
+        "routeId": "ROUTE-160"
+    },
+    {
+        "stopId": "STOP-160-5",
+        "stopName": "Khanpur",
+        "sequenceNumber": 5,
+        "latitude": 31.1577067,
+        "longitude": 75.9322635,
+        "routeId": "ROUTE-160"
+    },
+    {
+        "stopId": "STOP-160-6",
+        "stopName": "Pandawla and Daulatpur",
+        "sequenceNumber": 6,
+        "latitude": 26.50154,
+        "longitude": 67.97061,
+        "routeId": "ROUTE-160"
+    },
+    {
+        "stopId": "STOP-161-1",
+        "stopName": "Najafgarh",
+        "sequenceNumber": 1,
+        "latitude": 28.6124504,
+        "longitude": 76.9865067,
+        "routeId": "ROUTE-161"
+    },
+    {
+        "stopId": "STOP-161-2",
+        "stopName": "Roshanpura",
+        "sequenceNumber": 2,
+        "latitude": 22.1247171,
+        "longitude": 76.2805143,
+        "routeId": "ROUTE-161"
+    },
+    {
+        "stopId": "STOP-161-3",
+        "stopName": "Jhatikra",
+        "sequenceNumber": 3,
+        "latitude": 28.5203516,
+        "longitude": 76.9635884,
+        "routeId": "ROUTE-161"
+    },
+    {
+        "stopId": "STOP-161-4",
+        "stopName": "Chhawla",
+        "sequenceNumber": 4,
+        "latitude": 28.5623044,
+        "longitude": 77.0037102,
+        "routeId": "ROUTE-161"
+    },
+    {
+        "stopId": "STOP-161-5",
+        "stopName": "Kangan Heri",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-161"
+    },
+    {
+        "stopId": "STOP-161-6",
+        "stopName": "Badu Sarai",
+        "sequenceNumber": 6,
+        "latitude": 24.8881008,
+        "longitude": 77.6404881,
+        "routeId": "ROUTE-161"
+    },
+    {
+        "stopId": "STOP-161-7",
+        "stopName": "Nanak Heri",
+        "sequenceNumber": 7,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-161"
+    },
+    {
+        "stopId": "STOP-162-1",
+        "stopName": "Tikri Border",
+        "sequenceNumber": 1,
+        "latitude": 28.6880254,
+        "longitude": 76.9640828,
+        "routeId": "ROUTE-162"
+    },
+    {
+        "stopId": "STOP-162-2",
+        "stopName": "Tikri Piao",
+        "sequenceNumber": 2,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-162"
+    },
+    {
+        "stopId": "STOP-162-3",
+        "stopName": "Neelwal Village",
+        "sequenceNumber": 3,
+        "latitude": 28.667517,
+        "longitude": 76.9790987,
+        "routeId": "ROUTE-162"
+    },
+    {
+        "stopId": "STOP-162-4",
+        "stopName": "Bakkarwala Crossing",
+        "sequenceNumber": 4,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-162"
+    },
+    {
+        "stopId": "STOP-162-5",
+        "stopName": "Dichaon Kalan Village",
+        "sequenceNumber": 5,
+        "latitude": 28.6405697,
+        "longitude": 76.9827287,
+        "routeId": "ROUTE-162"
+    },
+    {
+        "stopId": "STOP-162-6",
+        "stopName": "Najafgarh",
+        "sequenceNumber": 6,
+        "latitude": 28.6124504,
+        "longitude": 76.9865067,
+        "routeId": "ROUTE-162"
+    },
+    {
+        "stopId": "STOP-163-1",
+        "stopName": "Sultanpuri",
+        "sequenceNumber": 1,
+        "latitude": 28.6996553,
+        "longitude": 77.0662843,
+        "routeId": "ROUTE-163"
+    },
+    {
+        "stopId": "STOP-163-2",
+        "stopName": "Sultanpur Majra",
+        "sequenceNumber": 2,
+        "latitude": 28.6893946,
+        "longitude": 77.0764331,
+        "routeId": "ROUTE-163"
+    },
+    {
+        "stopId": "STOP-163-3",
+        "stopName": "Mangolpuri",
+        "sequenceNumber": 3,
+        "latitude": 28.6873187,
+        "longitude": 77.0960253,
+        "routeId": "ROUTE-163"
+    },
+    {
+        "stopId": "STOP-163-4",
+        "stopName": "Peeragarhi",
+        "sequenceNumber": 4,
+        "latitude": 28.6797476,
+        "longitude": 77.0926593,
+        "routeId": "ROUTE-163"
+    },
+    {
+        "stopId": "STOP-163-5",
+        "stopName": "Paschim Vihar Extension",
+        "sequenceNumber": 5,
+        "latitude": 26.9228384,
+        "longitude": 75.7344735,
+        "routeId": "ROUTE-163"
+    },
+    {
+        "stopId": "STOP-163-6",
+        "stopName": "Raghubir Nagar Road",
+        "sequenceNumber": 6,
+        "latitude": 28.6750507,
+        "longitude": 77.0610089,
+        "routeId": "ROUTE-163"
+    },
+    {
+        "stopId": "STOP-163-7",
+        "stopName": "Khyala",
+        "sequenceNumber": 7,
+        "latitude": 26.5106534,
+        "longitude": 71.06148,
+        "routeId": "ROUTE-163"
+    },
+    {
+        "stopId": "STOP-164-1",
+        "stopName": "Jwalapuri Camp",
+        "sequenceNumber": 1,
+        "latitude": 19.0,
+        "longitude": -90.5,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-2",
+        "stopName": "Inder Enclave",
+        "sequenceNumber": 2,
+        "latitude": 28.6795173,
+        "longitude": 77.0837339,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-3",
+        "stopName": "Surajmal Metro Station",
+        "sequenceNumber": 3,
+        "latitude": 28.6536001,
+        "longitude": 77.2957877,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-4",
+        "stopName": "Nangloi Metro Station",
+        "sequenceNumber": 4,
+        "latitude": 47.27103,
+        "longitude": 8.8218,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-5",
+        "stopName": "Nangloi Railway Phatak",
+        "sequenceNumber": 5,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-6",
+        "stopName": "Indira\nGandhi Chowk",
+        "sequenceNumber": 6,
+        "latitude": 17.2489172,
+        "longitude": 80.142414,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-7",
+        "stopName": "Mubarakpur Main Road",
+        "sequenceNumber": 7,
+        "latitude": 21.73709,
+        "longitude": 81.93955,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-8",
+        "stopName": "Kiarai Extension Road",
+        "sequenceNumber": 8,
+        "latitude": 53.35222,
+        "longitude": -7.20167,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-9",
+        "stopName": "Rohini Sector 20-21 Crossing",
+        "sequenceNumber": 9,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-164-10",
+        "stopName": "Durga Chowk.",
+        "sequenceNumber": 10,
+        "latitude": 28.74172,
+        "longitude": 77.1631601,
+        "routeId": "ROUTE-164"
+    },
+    {
+        "stopId": "STOP-165-1",
+        "stopName": "B-Block Mangolpuri",
+        "sequenceNumber": 1,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-165"
+    },
+    {
+        "stopId": "STOP-165-2",
+        "stopName": "Jalebi Chowk",
+        "sequenceNumber": 2,
+        "latitude": 28.6560137,
+        "longitude": 77.2334875,
+        "routeId": "ROUTE-165"
+    },
+    {
+        "stopId": "STOP-165-3",
+        "stopName": "Outer Ring Road.",
+        "sequenceNumber": 3,
+        "latitude": 12.9338049,
+        "longitude": 77.5392648,
+        "routeId": "ROUTE-165"
+    },
+    {
+        "stopId": "STOP-166-1",
+        "stopName": "Vikaspuri mor",
+        "sequenceNumber": 1,
+        "latitude": 28.6192912,
+        "longitude": 77.0332835,
+        "routeId": "ROUTE-166"
+    },
+    {
+        "stopId": "STOP-166-2",
+        "stopName": "LIG Flats",
+        "sequenceNumber": 2,
+        "latitude": 28.634899,
+        "longitude": 77.0598615,
+        "routeId": "ROUTE-166"
+    },
+    {
+        "stopId": "STOP-166-3",
+        "stopName": "Hastsal Village",
+        "sequenceNumber": 3,
+        "latitude": 28.6341941,
+        "longitude": 77.0559245,
+        "routeId": "ROUTE-166"
+    },
+    {
+        "stopId": "STOP-166-4",
+        "stopName": "Rajdhani Public School",
+        "sequenceNumber": 4,
+        "latitude": 45.14914,
+        "longitude": 11.82057,
+        "routeId": "ROUTE-166"
+    },
+    {
+        "stopId": "STOP-166-5",
+        "stopName": "Sunday Bazaar",
+        "sequenceNumber": 5,
+        "latitude": 41.7319021,
+        "longitude": 82.905617,
+        "routeId": "ROUTE-166"
+    },
+    {
+        "stopId": "STOP-166-6",
+        "stopName": "Balajee Chowk",
+        "sequenceNumber": 6,
+        "latitude": 28.65381,
+        "longitude": 77.22897,
+        "routeId": "ROUTE-166"
+    },
+    {
+        "stopId": "STOP-166-7",
+        "stopName": "Friday Bazaar",
+        "sequenceNumber": 7,
+        "latitude": 24.9514775,
+        "longitude": 67.1071107,
+        "routeId": "ROUTE-166"
+    },
+    {
+        "stopId": "STOP-166-8",
+        "stopName": "MCD School.",
+        "sequenceNumber": 8,
+        "latitude": 28.6127135,
+        "longitude": 77.0472052,
+        "routeId": "ROUTE-166"
+    }
+]

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Header extends StatelessWidget implements PreferredSizeWidget {
   final bool isDriver;
 
-  Header({required this.isDriver});
+  const Header({super.key, required this.isDriver});
 
   @override
   Widget build(BuildContext context) {
@@ -44,80 +44,126 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
-      backgroundColor: Colors.white,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(16),
-          topRight: Radius.circular(16),
-        ),
+    backgroundColor: Colors.transparent, // Set background to transparent to show the gradient
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.only(
+        topLeft: Radius.circular(16),
+        topRight: Radius.circular(16),
       ),
-      builder: (context) {
-        return Container(
-          width: MediaQuery.of(context).size.width, // Half-screen height
-          padding: EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center, // Center the content
-            children: [
-              Align(
-                alignment: Alignment.topRight,
-                child: IconButton(
-                  icon: Icon(Icons.close, color: Colors.black), // Close button
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                ),
-              ),
-              SizedBox(height: 30),
-              GestureDetector(
-                onTap: () {
-                  Navigator.pushNamed(context, '/profile'); // Navigate to profile page
-                },
-                child: CircleAvatar(
-                  radius: 70, // Increased size for the profile image
-                  backgroundImage: AssetImage("assets/profile.jpg"), // Profile image
-                ),
-              ),
-              SizedBox(height: 16),
-              Text(
-                "Driver Name", // Display driver's name
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-              ),
-              SizedBox(height: 20),
-              ListTile(
-                leading: Icon(Icons.edit),
-                title: Text("Edit Profile"),
-                onTap: () {
-                  Navigator.pushNamed(context, '/edit');
-                },
-              ),
-              ListTile(
-                leading: Icon(Icons.settings),
-                title: Text("Settings"),
-                onTap: () {
-                  Navigator.pushNamed(context, '/settings');
-                },
-              ),
-              ListTile(
-                leading: Icon(Icons.help),
-                title: Text("Help"),
-                onTap: () {
-                  Navigator.pushNamed(context, '/help');
-                },
-              ),
-              ListTile(
-                leading: Icon(Icons.logout),
-                title: Text("Logout"),
-                onTap: () {
-                  Navigator.popUntil(context, ModalRoute.withName('/login'));
-                },
-              ),
-            ],
+    ),
+    builder: (context) {
+      return Container(
+        width: MediaQuery.of(context).size.width, // Full screen width
+        padding: EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(16),
+            topRight: Radius.circular(16),
           ),
-        );
-      },
-    );
-  }
-
-  @override
-  Size get preferredSize => Size.fromHeight(kToolbarHeight);
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black26,
+              blurRadius: 8,
+              spreadRadius: 2,
+            ),
+          ],
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center, // Center the content
+          children: [
+            Align(
+              alignment: Alignment.topRight,
+              child: IconButton(
+                icon: Icon(Icons.close, color: Colors.red), // Close button with color
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+              ),
+            ),
+            SizedBox(height: 20),
+            GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, '/profile'); // Navigate to profile page
+              },
+              child: CircleAvatar(
+                radius: 80, // Increased size for the profile image
+                backgroundImage: AssetImage("assets/profile.jpg"), // Profile image
+                backgroundColor: Colors.blueAccent, // Background color
+              ),
+            ),
+            SizedBox(height: 16),
+            Text(
+              "Driver Name", // Display driver's name
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: Colors.deepPurple, // Stylish color for the name
+              ),
+            ),
+            SizedBox(height: 20),
+            // Add a gradient effect to the list tiles
+            _buildListTile(
+              context,
+              Icons.notifications,
+              "Notifications",
+              '/driver_notifications',
+              const Color.fromARGB(255, 233, 9, 9),
+            ),
+            _buildListTile(
+              context,
+              Icons.edit,
+              "Edit Profile",
+              '/edit',
+              Colors.blueAccent,
+            ),
+            _buildListTile(
+              context,
+              Icons.settings,
+              "Settings",
+              '/settings',
+              Colors.green,
+            ),
+            _buildListTile(
+              context,
+              Icons.help,
+              "Help",
+              '/help',
+              Colors.orange,
+            ),
+            _buildListTile(
+              context,
+              Icons.logout,
+              "Logout",
+              '/login',
+              Colors.red,
+            ),
+          ],
+        ),
+      );
+    },
+  );
 }
+
+Widget _buildListTile(BuildContext context, IconData icon, String title, String route, Color iconColor) {
+  return Card(
+    margin: EdgeInsets.symmetric(vertical: 8),
+    elevation: 5,
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(10),
+    ),
+    child: ListTile(
+      leading: Icon(icon, color: iconColor),
+      title: Text(
+        title,
+        style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600, color: Colors.black87),
+      ),
+      onTap: () {
+        Navigator.pushNamed(context, route);
+      },
+    ),
+  );
+}
+
+@override
+Size get preferredSize => Size.fromHeight(kToolbarHeight);}

@@ -13,22 +13,21 @@ class DriverSignupPage extends StatefulWidget {
 }
 
 class _DriverSignupPageState extends State<DriverSignupPage> {
-  final TextEditingController nameController = TextEditingController();
-  final TextEditingController badgeController = TextEditingController();
-  final TextEditingController routeController = TextEditingController();
-  final TextEditingController emailController = TextEditingController();
-  final TextEditingController passwordController = TextEditingController();
-  final TextEditingController confirmPasswordController =
-      TextEditingController();
+  final TextEditingController name = TextEditingController();
+  final TextEditingController badge = TextEditingController();
+  final TextEditingController route = TextEditingController();
+  final TextEditingController email = TextEditingController();
+  final TextEditingController password = TextEditingController();
+  final TextEditingController confirmPassword =TextEditingController();
 
   @override
   void dispose() {
-    nameController.dispose();
-    badgeController.dispose();
-    routeController.dispose();
-    emailController.dispose();
-    passwordController.dispose();
-    confirmPasswordController.dispose();
+    name.dispose();
+    badge.dispose();
+    route.dispose();
+    email.dispose();
+    password.dispose();
+    confirmPassword.dispose();
     super.dispose();
   }
 
@@ -52,6 +51,7 @@ class _DriverSignupPageState extends State<DriverSignupPage> {
         ),
       ),
       body: AppScrollbar(
+        thumbVisibility: false,
         child: SingleChildScrollView(
           scrollDirection: Axis.vertical,
           child: Padding(
@@ -67,19 +67,19 @@ class _DriverSignupPageState extends State<DriverSignupPage> {
                   fit: BoxFit.cover,
                 ),
                 SizedBox(height: 30),
-                _buildInputField(label: "Name", controller: nameController),
+                _buildInputField(label: "Name", controller: name),
                 SizedBox(height: 15),
                 _buildInputField(
-                    label: "PS Badge Number", controller: badgeController),
+                    label: "PS Badge Number", controller: badge),
                 SizedBox(height: 15),
                 _buildInputField(
-                    label: "Route No", controller: routeController),
+                    label: "Route No", controller: route),
                 SizedBox(height: 15),
-                _buildInputField(label: "Email", controller: emailController),
+                _buildInputField(label: "Email", controller: email),
                 SizedBox(height: 15),
                 PasswordInputField(
                   label: "Password",
-                  controller: passwordController,
+                  controller: password,
                   validator: (value) {
                     if (value == null || value.isEmpty) {
                       return 'Please enter your password';
@@ -93,7 +93,7 @@ class _DriverSignupPageState extends State<DriverSignupPage> {
                 SizedBox(height: 15),
                 PasswordInputField(
                   label: "Confirm Password",
-                  controller: confirmPasswordController,
+                  controller: confirmPassword,
                   validator: (value) {
                     if (value == null || value.isEmpty) {
                       return 'Please enter your password';
@@ -128,7 +128,7 @@ class _DriverSignupPageState extends State<DriverSignupPage> {
               fontSize: 15, fontWeight: FontWeight.w400, color: Colors.black87),
         ),
         SizedBox(height: 5),
-        TextField(
+        TextFormField(
           controller: controller,
           decoration: InputDecoration(
             contentPadding: EdgeInsets.symmetric(vertical: 0, horizontal: 10),
@@ -155,9 +155,7 @@ class _DriverSignupPageState extends State<DriverSignupPage> {
         minWidth: double.infinity,
         height: 50,
         onPressed: () {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text("Signup Complete")),
-          );
+          Navigator.pushNamed(context, '/driver_delay');
         },
         color: Color(0xff0095FF),
         shape: RoundedRectangleBorder(

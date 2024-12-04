@@ -5,7 +5,7 @@ class PasswordInputField extends StatefulWidget {
   final TextEditingController controller;
   final String? Function(String?) validator;
 
-  PasswordInputField({
+  const PasswordInputField({super.key, 
     required this.label,
     required this.controller,
     required this.validator,

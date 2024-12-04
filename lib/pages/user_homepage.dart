@@ -1,51 +1,111 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:lottie/lottie.dart'; // Import Lottie package
-import 'package:sih/user_home.dart';
-import '../widgets/header.dart'; // Ensure to import the Header widget
-// Define a Bus Schedule model to represent the data structure with stops.
+import 'package:sih/pages/busdetails.dart';
+
+class UserHomeScreen extends StatefulWidget {
+  const UserHomeScreen({super.key});
+
+  @override
+  _UserHomeScreenState createState() => _UserHomeScreenState();
+}
+
 class _UserHomeScreenState extends State<UserHomeScreen> {
-  List<BusSchedule> busSchedules = [];
-  List<BusSchedule> filteredBuses = [];
-
-  String fromLocation = '';
-  String toLocation = '';
-
-  // Declare the TextEditingControllers
   final TextEditingController fromController = TextEditingController();
   final TextEditingController toController = TextEditingController();
+
+  List<dynamic> buses = [];
+  List<dynamic> routes = [];
+  List<dynamic> stops = [];
+  List<dynamic> schedules=[];
+  List<Map<String, dynamic>> tableData = [];
+  List<Map<String, dynamic>> filteredData = [];
 
   @override
   void initState() {
     super.initState();
-    loadBusSchedules();
+    loadJsonData();
   }
 
-  @override
-  void dispose() {
-    // Dispose the controllers when the widget is disposed
-    fromController.dispose();
-    toController.dispose();
-    super.dispose();
+  Future<void> loadJsonData() async {
+    try {
+      final String busesJson = await rootBundle.loadString('assets/buses.json');
+      final String routesJson =await rootBundle.loadString('assets/routes.json');
+      final String stopsJson = await rootBundle.loadString('assets/stops.json');
+      final String schedulejson = await rootBundle.loadString('assets/schedule.json');
+
+      setState(() {
+        buses = json.decode(busesJson);
+        routes = json.decode(routesJson);
+        stops = json.decode(stopsJson);
+        schedules = json.decode(schedulejson);
+      });
+
+      prepareTableData();
+    } catch (e) {
+      print('Error loading JSON data: $e');
+    }
   }
 
-  // Load bus schedule data from the JSON file.
-  Future<void> loadBusSchedules() async {
-    final String response = await rootBundle.loadString('assets/dtc.json');
-    final List<dynamic> data = json.decode(response);
+  void prepareTableData() {
+    List<Map<String, dynamic>> data = [];
+    for (var bus in buses) {
+      final route = routes.firstWhere((r) => r['routeId'] == bus['routeId'],
+          orElse: () => null);
+      if (route != null) {
+        final schedule = schedules.firstWhere((s) => s['busId'] == bus['busId'],
+            orElse: () => null);
+        final routeStops = stops
+            .where((stop) => stop['routeId'] == route['routeId'])
+            .map((stop) => stop['stopName'])
+            .toList();
+
+        data.add({
+          'busId': bus['busId'],
+          'driverId': bus['driverId'],
+          'status': bus['status'],
+          'routeId': bus['routeId'],
+          'routeName': route['routeName'],
+          'source': route['startStop'],
+          'destination': route['endStop'],
+          'viaStops': routeStops,
+          'startTime': schedule?['startTime'],
+          'endTime': schedule?['endTime'],
+          'delayTime': Text("-----"), // Custom logic for delay
+        });
+      }
+    }
     setState(() {
-      busSchedules = data.map((item) => BusSchedule.fromJson(item)).toList();
-      filteredBuses = busSchedules;
+      tableData = data;
+      filteredData = data;
     });
   }
 
-  // Filter buses based on the "From" and "To" locations.
-  void filterBuses() {
+  void filterTableData() {
+    String from = fromController.text.trim().toLowerCase();
+    String to = toController.text.trim().toLowerCase();
+
     setState(() {
-      filteredBuses = busSchedules.where((bus) {
-        final matchesFrom = bus.source.toLowerCase().contains(fromLocation.toLowerCase());
-        final matchesTo = bus.destination.toLowerCase().contains(toLocation.toLowerCase());
+      filteredData = tableData.where((data) {
+        final source = data['source'].toLowerCase();
+        final destination = data['destination'].toLowerCase();
+        final viaStops =
+            data['viaStops'].map((stop) => stop.toLowerCase()).toList();
+
+        bool matchesFrom =
+            from.isEmpty || source.contains(from) || viaStops.contains(from);
+        bool matchesTo =
+            to.isEmpty || destination.contains(to) || viaStops.contains(to);
+
+        if (from.isNotEmpty && to.isNotEmpty) {
+          int fromIndex = viaStops.indexOf(from);
+          int toIndex = viaStops.indexOf(to);
+
+          return fromIndex != -1 &&
+              toIndex != -1 &&
+              fromIndex < toIndex; // Ensure "From" comes before "To"
+        }
+
         return matchesFrom && matchesTo;
       }).toList();
     });
@@ -54,122 +114,106 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: Header(isDriver: false), // Header for user
+      appBar: AppBar(
+        title: Text("Find Buses"),
+        centerTitle: true,
+        backgroundColor: Color(0xff0095FF),
+      ),
       backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // From and To location input fields with controllers
+            // Input fields for filtering
             TextField(
-              controller: fromController,  // Bind to controller
+              controller: fromController,
               decoration: InputDecoration(labelText: 'From'),
               onChanged: (value) {
-                setState(() {
-                  fromLocation = value;
-                });
-                filterBuses();
+                filterTableData(); // Filter data dynamically on input
               },
             ),
             TextField(
-              controller: toController,  // Bind to controller
+              controller: toController,
               decoration: InputDecoration(labelText: 'To'),
               onChanged: (value) {
-                setState(() {
-                  toLocation = value;
-                });
-                filterBuses();
+                filterTableData(); // Filter data dynamically on input
               },
             ),
-            SizedBox(height: 20),
-
-            // Report Delay button
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/user_report');
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Color(0xff0095FF),
-                padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
+            SizedBox(height: 10),
+            // Link to report issues
+            Align(
+              alignment: Alignment.centerLeft,
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.pushNamed(
+                      context, '/reportpage'); // Navigate to report page
+                },
+                child: Text(
+                  "Report any issue?",
+                  style: TextStyle(
+                    color: Colors.blue,
+                    fontWeight: FontWeight.bold,
+                    decoration: TextDecoration.underline,
+                  ),
                 ),
               ),
-              child: Text(
-                "Report Delay",
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
-              ),
             ),
             SizedBox(height: 20),
-
-            // Check if filteredBuses is empty, and show animation if no results found
-            filteredBuses.isEmpty
-                ? Expanded(
-                    child: Center(
-                      child: Lottie.asset(
-                        'assets/404notfound.json', // Path to your animation file
-                        width: 200,
-                        height: 200,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  )
-                : Expanded(
-                    child: Scrollbar(
-                      thumbVisibility: true, // Always show the scrollbar thumb for better visibility
-                      thickness: 6, // Customize thickness of the scrollbar
-                      radius: Radius.circular(8), // Rounded corners for the scrollbar
-                      child: SingleChildScrollView(
-                        scrollDirection: Axis.vertical,
-                        child: Column(
-                          children: [
-                            // Table headers
-                            Row(
-                              children: [
-                                Expanded(child: Text('Bus Number', style: TextStyle(fontWeight: FontWeight.bold))),
-                                VerticalDivider(thickness: 1, color: Colors.grey),
-                                Expanded(child: Text('Source', style: TextStyle(fontWeight: FontWeight.bold))),
-                                VerticalDivider(thickness: 1, color: Colors.grey),
-                                Expanded(child: Text('Destination', style: TextStyle(fontWeight: FontWeight.bold))),
-                              ],
-                            ),
-                            Divider(thickness: 1, color: Colors.grey),
-                            // Table data rows
-                            ...filteredBuses.map((bus) {
-                              return Column(
-                                children: [
-                                  InkWell(
-                                    onTap: () {
-                                      // Navigate to another page to show detailed stops for the bus
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder: (context) => BusDetailsPage(bus: bus),
-                                        ),
-                                      );
-                                    },
-                                    child: Row(
-                                      children: [
-                                        Expanded(child: Text(bus.busNumber)),
-                                        VerticalDivider(thickness: 1, color: Colors.grey),
-                                        Expanded(child: Text(bus.source)),
-                                        VerticalDivider(thickness: 1, color: Colors.grey),
-                                        Expanded(child: Text(bus.destination)),
-                                      ],
-                                    ),
+            // Table with both vertical and horizontal scrollbars
+            Expanded(
+              child: Scrollbar(
+                thumbVisibility: true, // Show scrollbar for vertical scrolling
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.vertical, // Vertical scrolling
+                  child: Scrollbar(
+                    thumbVisibility:
+                        true, // Show scrollbar for horizontal scrolling
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal, // Horizontal scrolling
+                      child: DataTable(
+                        columns: [
+                          DataColumn(label: Text('Bus ID')),
+                          DataColumn(label: Text('Source')),
+                          DataColumn(label: Text('Destination')),
+                          DataColumn(label: Text('Via Stops')),
+                        ],
+                        rows: filteredData.map((data) {
+                          return DataRow(
+                            onSelectChanged: (selected) {
+                              if (selected != null && selected) {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        BusDetailPage(busData: data),
                                   ),
-                                  Divider(thickness: 1, color: Colors.grey),
-                                ],
-                              );
-                            }).toList(),
-                          ],
-                        ),
+                                );
+                              }
+                            },
+                            cells: [
+                              DataCell(Text(data['busId'])),
+                              DataCell(Text(data['source'])),
+                              DataCell(Text(data['destination'])),
+                              DataCell(Text(data['viaStops'].join(", "))),
+                            ],
+                          );
+                        }).toList(),
                       ),
                     ),
                   ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    fromController.dispose();
+    toController.dispose();
+    super.dispose();
   }
 }

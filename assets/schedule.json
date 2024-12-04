@@ -1,0 +1,1164 @@
+[
+    {
+        "scheduleId": "SCH-1",
+        "startTime": "15:19",
+        "endTime": "16:04",
+        "routeId": "ROUTE-1",
+        "busId": "BUS-1"
+    },
+    {
+        "scheduleId": "SCH-2",
+        "startTime": "15:19",
+        "endTime": "16:40",
+        "routeId": "ROUTE-2",
+        "busId": "BUS-2"
+    },
+    {
+        "scheduleId": "SCH-3",
+        "startTime": "15:19",
+        "endTime": "16:27",
+        "routeId": "ROUTE-3",
+        "busId": "BUS-3"
+    },
+    {
+        "scheduleId": "SCH-4",
+        "startTime": "15:19",
+        "endTime": "17:09",
+        "routeId": "ROUTE-4",
+        "busId": "BUS-4"
+    },
+    {
+        "scheduleId": "SCH-5",
+        "startTime": "15:19",
+        "endTime": "16:06",
+        "routeId": "ROUTE-5",
+        "busId": "BUS-5"
+    },
+    {
+        "scheduleId": "SCH-6",
+        "startTime": "15:19",
+        "endTime": "16:49",
+        "routeId": "ROUTE-6",
+        "busId": "BUS-6"
+    },
+    {
+        "scheduleId": "SCH-7",
+        "startTime": "15:19",
+        "endTime": "16:20",
+        "routeId": "ROUTE-7",
+        "busId": "BUS-7"
+    },
+    {
+        "scheduleId": "SCH-8",
+        "startTime": "15:19",
+        "endTime": "16:30",
+        "routeId": "ROUTE-8",
+        "busId": "BUS-8"
+    },
+    {
+        "scheduleId": "SCH-9",
+        "startTime": "15:19",
+        "endTime": "16:52",
+        "routeId": "ROUTE-9",
+        "busId": "BUS-9"
+    },
+    {
+        "scheduleId": "SCH-10",
+        "startTime": "15:19",
+        "endTime": "16:31",
+        "routeId": "ROUTE-10",
+        "busId": "BUS-10"
+    },
+    {
+        "scheduleId": "SCH-11",
+        "startTime": "15:19",
+        "endTime": "16:11",
+        "routeId": "ROUTE-11",
+        "busId": "BUS-11"
+    },
+    {
+        "scheduleId": "SCH-12",
+        "startTime": "15:19",
+        "endTime": "15:56",
+        "routeId": "ROUTE-12",
+        "busId": "BUS-12"
+    },
+    {
+        "scheduleId": "SCH-13",
+        "startTime": "15:19",
+        "endTime": "15:54",
+        "routeId": "ROUTE-13",
+        "busId": "BUS-13"
+    },
+    {
+        "scheduleId": "SCH-14",
+        "startTime": "15:19",
+        "endTime": "17:00",
+        "routeId": "ROUTE-14",
+        "busId": "BUS-14"
+    },
+    {
+        "scheduleId": "SCH-15",
+        "startTime": "15:19",
+        "endTime": "16:23",
+        "routeId": "ROUTE-15",
+        "busId": "BUS-15"
+    },
+    {
+        "scheduleId": "SCH-16",
+        "startTime": "15:19",
+        "endTime": "16:55",
+        "routeId": "ROUTE-16",
+        "busId": "BUS-16"
+    },
+    {
+        "scheduleId": "SCH-17",
+        "startTime": "15:19",
+        "endTime": "16:42",
+        "routeId": "ROUTE-17",
+        "busId": "BUS-17"
+    },
+    {
+        "scheduleId": "SCH-18",
+        "startTime": "15:19",
+        "endTime": "17:07",
+        "routeId": "ROUTE-18",
+        "busId": "BUS-18"
+    },
+    {
+        "scheduleId": "SCH-19",
+        "startTime": "15:19",
+        "endTime": "17:17",
+        "routeId": "ROUTE-19",
+        "busId": "BUS-19"
+    },
+    {
+        "scheduleId": "SCH-20",
+        "startTime": "15:19",
+        "endTime": "16:11",
+        "routeId": "ROUTE-20",
+        "busId": "BUS-20"
+    },
+    {
+        "scheduleId": "SCH-21",
+        "startTime": "15:19",
+        "endTime": "16:40",
+        "routeId": "ROUTE-21",
+        "busId": "BUS-21"
+    },
+    {
+        "scheduleId": "SCH-22",
+        "startTime": "15:19",
+        "endTime": "16:53",
+        "routeId": "ROUTE-22",
+        "busId": "BUS-22"
+    },
+    {
+        "scheduleId": "SCH-23",
+        "startTime": "15:19",
+        "endTime": "17:02",
+        "routeId": "ROUTE-23",
+        "busId": "BUS-23"
+    },
+    {
+        "scheduleId": "SCH-24",
+        "startTime": "15:19",
+        "endTime": "16:24",
+        "routeId": "ROUTE-24",
+        "busId": "BUS-24"
+    },
+    {
+        "scheduleId": "SCH-25",
+        "startTime": "15:19",
+        "endTime": "17:02",
+        "routeId": "ROUTE-25",
+        "busId": "BUS-25"
+    },
+    {
+        "scheduleId": "SCH-26",
+        "startTime": "15:19",
+        "endTime": "16:32",
+        "routeId": "ROUTE-26",
+        "busId": "BUS-26"
+    },
+    {
+        "scheduleId": "SCH-27",
+        "startTime": "15:19",
+        "endTime": "16:55",
+        "routeId": "ROUTE-27",
+        "busId": "BUS-27"
+    },
+    {
+        "scheduleId": "SCH-28",
+        "startTime": "15:19",
+        "endTime": "15:49",
+        "routeId": "ROUTE-28",
+        "busId": "BUS-28"
+    },
+    {
+        "scheduleId": "SCH-29",
+        "startTime": "15:19",
+        "endTime": "16:31",
+        "routeId": "ROUTE-29",
+        "busId": "BUS-29"
+    },
+    {
+        "scheduleId": "SCH-30",
+        "startTime": "15:19",
+        "endTime": "16:06",
+        "routeId": "ROUTE-30",
+        "busId": "BUS-30"
+    },
+    {
+        "scheduleId": "SCH-31",
+        "startTime": "15:19",
+        "endTime": "16:10",
+        "routeId": "ROUTE-31",
+        "busId": "BUS-31"
+    },
+    {
+        "scheduleId": "SCH-32",
+        "startTime": "15:19",
+        "endTime": "17:02",
+        "routeId": "ROUTE-32",
+        "busId": "BUS-32"
+    },
+    {
+        "scheduleId": "SCH-33",
+        "startTime": "15:19",
+        "endTime": "16:23",
+        "routeId": "ROUTE-33",
+        "busId": "BUS-33"
+    },
+    {
+        "scheduleId": "SCH-34",
+        "startTime": "15:19",
+        "endTime": "16:02",
+        "routeId": "ROUTE-34",
+        "busId": "BUS-34"
+    },
+    {
+        "scheduleId": "SCH-35",
+        "startTime": "15:19",
+        "endTime": "16:39",
+        "routeId": "ROUTE-35",
+        "busId": "BUS-35"
+    },
+    {
+        "scheduleId": "SCH-36",
+        "startTime": "15:19",
+        "endTime": "16:39",
+        "routeId": "ROUTE-36",
+        "busId": "BUS-36"
+    },
+    {
+        "scheduleId": "SCH-37",
+        "startTime": "15:19",
+        "endTime": "16:01",
+        "routeId": "ROUTE-37",
+        "busId": "BUS-37"
+    },
+    {
+        "scheduleId": "SCH-38",
+        "startTime": "15:19",
+        "endTime": "16:33",
+        "routeId": "ROUTE-38",
+        "busId": "BUS-38"
+    },
+    {
+        "scheduleId": "SCH-39",
+        "startTime": "15:19",
+        "endTime": "16:36",
+        "routeId": "ROUTE-39",
+        "busId": "BUS-39"
+    },
+    {
+        "scheduleId": "SCH-40",
+        "startTime": "15:19",
+        "endTime": "16:34",
+        "routeId": "ROUTE-40",
+        "busId": "BUS-40"
+    },
+    {
+        "scheduleId": "SCH-41",
+        "startTime": "15:19",
+        "endTime": "16:21",
+        "routeId": "ROUTE-41",
+        "busId": "BUS-41"
+    },
+    {
+        "scheduleId": "SCH-42",
+        "startTime": "15:19",
+        "endTime": "16:42",
+        "routeId": "ROUTE-42",
+        "busId": "BUS-42"
+    },
+    {
+        "scheduleId": "SCH-43",
+        "startTime": "15:19",
+        "endTime": "16:36",
+        "routeId": "ROUTE-43",
+        "busId": "BUS-43"
+    },
+    {
+        "scheduleId": "SCH-44",
+        "startTime": "15:19",
+        "endTime": "16:37",
+        "routeId": "ROUTE-44",
+        "busId": "BUS-44"
+    },
+    {
+        "scheduleId": "SCH-45",
+        "startTime": "15:19",
+        "endTime": "16:14",
+        "routeId": "ROUTE-45",
+        "busId": "BUS-45"
+    },
+    {
+        "scheduleId": "SCH-46",
+        "startTime": "15:19",
+        "endTime": "15:50",
+        "routeId": "ROUTE-46",
+        "busId": "BUS-46"
+    },
+    {
+        "scheduleId": "SCH-47",
+        "startTime": "15:19",
+        "endTime": "15:52",
+        "routeId": "ROUTE-47",
+        "busId": "BUS-47"
+    },
+    {
+        "scheduleId": "SCH-48",
+        "startTime": "15:19",
+        "endTime": "16:15",
+        "routeId": "ROUTE-48",
+        "busId": "BUS-48"
+    },
+    {
+        "scheduleId": "SCH-49",
+        "startTime": "15:19",
+        "endTime": "16:24",
+        "routeId": "ROUTE-49",
+        "busId": "BUS-49"
+    },
+    {
+        "scheduleId": "SCH-50",
+        "startTime": "15:19",
+        "endTime": "16:30",
+        "routeId": "ROUTE-50",
+        "busId": "BUS-50"
+    },
+    {
+        "scheduleId": "SCH-51",
+        "startTime": "15:19",
+        "endTime": "16:09",
+        "routeId": "ROUTE-51",
+        "busId": "BUS-51"
+    },
+    {
+        "scheduleId": "SCH-52",
+        "startTime": "15:19",
+        "endTime": "16:54",
+        "routeId": "ROUTE-52",
+        "busId": "BUS-52"
+    },
+    {
+        "scheduleId": "SCH-53",
+        "startTime": "15:19",
+        "endTime": "17:00",
+        "routeId": "ROUTE-53",
+        "busId": "BUS-53"
+    },
+    {
+        "scheduleId": "SCH-54",
+        "startTime": "15:19",
+        "endTime": "17:11",
+        "routeId": "ROUTE-54",
+        "busId": "BUS-54"
+    },
+    {
+        "scheduleId": "SCH-55",
+        "startTime": "15:19",
+        "endTime": "16:04",
+        "routeId": "ROUTE-55",
+        "busId": "BUS-55"
+    },
+    {
+        "scheduleId": "SCH-56",
+        "startTime": "15:19",
+        "endTime": "16:24",
+        "routeId": "ROUTE-56",
+        "busId": "BUS-56"
+    },
+    {
+        "scheduleId": "SCH-57",
+        "startTime": "15:19",
+        "endTime": "15:52",
+        "routeId": "ROUTE-57",
+        "busId": "BUS-57"
+    },
+    {
+        "scheduleId": "SCH-58",
+        "startTime": "15:19",
+        "endTime": "16:34",
+        "routeId": "ROUTE-58",
+        "busId": "BUS-58"
+    },
+    {
+        "scheduleId": "SCH-59",
+        "startTime": "15:19",
+        "endTime": "16:49",
+        "routeId": "ROUTE-59",
+        "busId": "BUS-59"
+    },
+    {
+        "scheduleId": "SCH-60",
+        "startTime": "15:19",
+        "endTime": "17:09",
+        "routeId": "ROUTE-60",
+        "busId": "BUS-60"
+    },
+    {
+        "scheduleId": "SCH-61",
+        "startTime": "15:19",
+        "endTime": "16:50",
+        "routeId": "ROUTE-61",
+        "busId": "BUS-61"
+    },
+    {
+        "scheduleId": "SCH-62",
+        "startTime": "15:19",
+        "endTime": "16:03",
+        "routeId": "ROUTE-62",
+        "busId": "BUS-62"
+    },
+    {
+        "scheduleId": "SCH-63",
+        "startTime": "15:19",
+        "endTime": "16:41",
+        "routeId": "ROUTE-63",
+        "busId": "BUS-63"
+    },
+    {
+        "scheduleId": "SCH-64",
+        "startTime": "15:19",
+        "endTime": "16:40",
+        "routeId": "ROUTE-64",
+        "busId": "BUS-64"
+    },
+    {
+        "scheduleId": "SCH-65",
+        "startTime": "15:19",
+        "endTime": "16:25",
+        "routeId": "ROUTE-65",
+        "busId": "BUS-65"
+    },
+    {
+        "scheduleId": "SCH-66",
+        "startTime": "15:19",
+        "endTime": "16:17",
+        "routeId": "ROUTE-66",
+        "busId": "BUS-66"
+    },
+    {
+        "scheduleId": "SCH-67",
+        "startTime": "15:19",
+        "endTime": "16:41",
+        "routeId": "ROUTE-67",
+        "busId": "BUS-67"
+    },
+    {
+        "scheduleId": "SCH-68",
+        "startTime": "15:19",
+        "endTime": "16:38",
+        "routeId": "ROUTE-68",
+        "busId": "BUS-68"
+    },
+    {
+        "scheduleId": "SCH-69",
+        "startTime": "15:19",
+        "endTime": "15:49",
+        "routeId": "ROUTE-69",
+        "busId": "BUS-69"
+    },
+    {
+        "scheduleId": "SCH-70",
+        "startTime": "15:19",
+        "endTime": "16:11",
+        "routeId": "ROUTE-70",
+        "busId": "BUS-70"
+    },
+    {
+        "scheduleId": "SCH-71",
+        "startTime": "15:19",
+        "endTime": "16:55",
+        "routeId": "ROUTE-71",
+        "busId": "BUS-71"
+    },
+    {
+        "scheduleId": "SCH-72",
+        "startTime": "15:19",
+        "endTime": "17:09",
+        "routeId": "ROUTE-72",
+        "busId": "BUS-72"
+    },
+    {
+        "scheduleId": "SCH-73",
+        "startTime": "15:19",
+        "endTime": "16:37",
+        "routeId": "ROUTE-73",
+        "busId": "BUS-73"
+    },
+    {
+        "scheduleId": "SCH-74",
+        "startTime": "15:19",
+        "endTime": "16:01",
+        "routeId": "ROUTE-74",
+        "busId": "BUS-74"
+    },
+    {
+        "scheduleId": "SCH-75",
+        "startTime": "15:19",
+        "endTime": "16:15",
+        "routeId": "ROUTE-75",
+        "busId": "BUS-75"
+    },
+    {
+        "scheduleId": "SCH-76",
+        "startTime": "15:19",
+        "endTime": "15:52",
+        "routeId": "ROUTE-76",
+        "busId": "BUS-76"
+    },
+    {
+        "scheduleId": "SCH-77",
+        "startTime": "15:19",
+        "endTime": "16:17",
+        "routeId": "ROUTE-77",
+        "busId": "BUS-77"
+    },
+    {
+        "scheduleId": "SCH-78",
+        "startTime": "15:19",
+        "endTime": "16:12",
+        "routeId": "ROUTE-78",
+        "busId": "BUS-78"
+    },
+    {
+        "scheduleId": "SCH-79",
+        "startTime": "15:19",
+        "endTime": "17:07",
+        "routeId": "ROUTE-79",
+        "busId": "BUS-79"
+    },
+    {
+        "scheduleId": "SCH-80",
+        "startTime": "15:19",
+        "endTime": "16:41",
+        "routeId": "ROUTE-80",
+        "busId": "BUS-80"
+    },
+    {
+        "scheduleId": "SCH-81",
+        "startTime": "15:19",
+        "endTime": "16:54",
+        "routeId": "ROUTE-81",
+        "busId": "BUS-81"
+    },
+    {
+        "scheduleId": "SCH-82",
+        "startTime": "15:19",
+        "endTime": "16:57",
+        "routeId": "ROUTE-82",
+        "busId": "BUS-82"
+    },
+    {
+        "scheduleId": "SCH-83",
+        "startTime": "15:19",
+        "endTime": "16:41",
+        "routeId": "ROUTE-83",
+        "busId": "BUS-83"
+    },
+    {
+        "scheduleId": "SCH-84",
+        "startTime": "15:19",
+        "endTime": "16:59",
+        "routeId": "ROUTE-84",
+        "busId": "BUS-84"
+    },
+    {
+        "scheduleId": "SCH-85",
+        "startTime": "15:19",
+        "endTime": "17:12",
+        "routeId": "ROUTE-85",
+        "busId": "BUS-85"
+    },
+    {
+        "scheduleId": "SCH-86",
+        "startTime": "15:19",
+        "endTime": "16:44",
+        "routeId": "ROUTE-86",
+        "busId": "BUS-86"
+    },
+    {
+        "scheduleId": "SCH-87",
+        "startTime": "15:19",
+        "endTime": "16:43",
+        "routeId": "ROUTE-87",
+        "busId": "BUS-87"
+    },
+    {
+        "scheduleId": "SCH-88",
+        "startTime": "15:19",
+        "endTime": "16:08",
+        "routeId": "ROUTE-88",
+        "busId": "BUS-88"
+    },
+    {
+        "scheduleId": "SCH-89",
+        "startTime": "15:19",
+        "endTime": "15:54",
+        "routeId": "ROUTE-89",
+        "busId": "BUS-89"
+    },
+    {
+        "scheduleId": "SCH-90",
+        "startTime": "15:19",
+        "endTime": "16:53",
+        "routeId": "ROUTE-90",
+        "busId": "BUS-90"
+    },
+    {
+        "scheduleId": "SCH-91",
+        "startTime": "15:19",
+        "endTime": "15:55",
+        "routeId": "ROUTE-91",
+        "busId": "BUS-91"
+    },
+    {
+        "scheduleId": "SCH-92",
+        "startTime": "15:19",
+        "endTime": "16:29",
+        "routeId": "ROUTE-92",
+        "busId": "BUS-92"
+    },
+    {
+        "scheduleId": "SCH-93",
+        "startTime": "15:19",
+        "endTime": "17:09",
+        "routeId": "ROUTE-93",
+        "busId": "BUS-93"
+    },
+    {
+        "scheduleId": "SCH-94",
+        "startTime": "15:19",
+        "endTime": "17:11",
+        "routeId": "ROUTE-94",
+        "busId": "BUS-94"
+    },
+    {
+        "scheduleId": "SCH-95",
+        "startTime": "15:19",
+        "endTime": "15:52",
+        "routeId": "ROUTE-95",
+        "busId": "BUS-95"
+    },
+    {
+        "scheduleId": "SCH-96",
+        "startTime": "15:19",
+        "endTime": "15:52",
+        "routeId": "ROUTE-96",
+        "busId": "BUS-96"
+    },
+    {
+        "scheduleId": "SCH-97",
+        "startTime": "15:19",
+        "endTime": "17:14",
+        "routeId": "ROUTE-97",
+        "busId": "BUS-97"
+    },
+    {
+        "scheduleId": "SCH-98",
+        "startTime": "15:19",
+        "endTime": "15:54",
+        "routeId": "ROUTE-98",
+        "busId": "BUS-98"
+    },
+    {
+        "scheduleId": "SCH-99",
+        "startTime": "15:19",
+        "endTime": "16:51",
+        "routeId": "ROUTE-99",
+        "busId": "BUS-99"
+    },
+    {
+        "scheduleId": "SCH-100",
+        "startTime": "15:19",
+        "endTime": "17:04",
+        "routeId": "ROUTE-100",
+        "busId": "BUS-100"
+    },
+    {
+        "scheduleId": "SCH-101",
+        "startTime": "15:19",
+        "endTime": "16:21",
+        "routeId": "ROUTE-101",
+        "busId": "BUS-101"
+    },
+    {
+        "scheduleId": "SCH-102",
+        "startTime": "15:19",
+        "endTime": "16:35",
+        "routeId": "ROUTE-102",
+        "busId": "BUS-102"
+    },
+    {
+        "scheduleId": "SCH-103",
+        "startTime": "15:19",
+        "endTime": "16:59",
+        "routeId": "ROUTE-103",
+        "busId": "BUS-103"
+    },
+    {
+        "scheduleId": "SCH-104",
+        "startTime": "15:19",
+        "endTime": "15:52",
+        "routeId": "ROUTE-104",
+        "busId": "BUS-104"
+    },
+    {
+        "scheduleId": "SCH-105",
+        "startTime": "15:19",
+        "endTime": "17:10",
+        "routeId": "ROUTE-105",
+        "busId": "BUS-105"
+    },
+    {
+        "scheduleId": "SCH-106",
+        "startTime": "15:19",
+        "endTime": "16:52",
+        "routeId": "ROUTE-106",
+        "busId": "BUS-106"
+    },
+    {
+        "scheduleId": "SCH-107",
+        "startTime": "15:19",
+        "endTime": "16:33",
+        "routeId": "ROUTE-107",
+        "busId": "BUS-107"
+    },
+    {
+        "scheduleId": "SCH-108",
+        "startTime": "15:19",
+        "endTime": "16:08",
+        "routeId": "ROUTE-108",
+        "busId": "BUS-108"
+    },
+    {
+        "scheduleId": "SCH-109",
+        "startTime": "15:19",
+        "endTime": "15:53",
+        "routeId": "ROUTE-109",
+        "busId": "BUS-109"
+    },
+    {
+        "scheduleId": "SCH-110",
+        "startTime": "15:19",
+        "endTime": "16:25",
+        "routeId": "ROUTE-110",
+        "busId": "BUS-110"
+    },
+    {
+        "scheduleId": "SCH-111",
+        "startTime": "15:19",
+        "endTime": "16:48",
+        "routeId": "ROUTE-111",
+        "busId": "BUS-111"
+    },
+    {
+        "scheduleId": "SCH-112",
+        "startTime": "15:19",
+        "endTime": "17:16",
+        "routeId": "ROUTE-112",
+        "busId": "BUS-112"
+    },
+    {
+        "scheduleId": "SCH-113",
+        "startTime": "15:19",
+        "endTime": "15:59",
+        "routeId": "ROUTE-113",
+        "busId": "BUS-113"
+    },
+    {
+        "scheduleId": "SCH-114",
+        "startTime": "15:19",
+        "endTime": "15:57",
+        "routeId": "ROUTE-114",
+        "busId": "BUS-114"
+    },
+    {
+        "scheduleId": "SCH-115",
+        "startTime": "15:19",
+        "endTime": "15:53",
+        "routeId": "ROUTE-115",
+        "busId": "BUS-115"
+    },
+    {
+        "scheduleId": "SCH-116",
+        "startTime": "15:19",
+        "endTime": "16:16",
+        "routeId": "ROUTE-116",
+        "busId": "BUS-116"
+    },
+    {
+        "scheduleId": "SCH-117",
+        "startTime": "15:19",
+        "endTime": "16:46",
+        "routeId": "ROUTE-117",
+        "busId": "BUS-117"
+    },
+    {
+        "scheduleId": "SCH-118",
+        "startTime": "15:19",
+        "endTime": "16:22",
+        "routeId": "ROUTE-118",
+        "busId": "BUS-118"
+    },
+    {
+        "scheduleId": "SCH-119",
+        "startTime": "15:19",
+        "endTime": "16:51",
+        "routeId": "ROUTE-119",
+        "busId": "BUS-119"
+    },
+    {
+        "scheduleId": "SCH-120",
+        "startTime": "15:19",
+        "endTime": "17:17",
+        "routeId": "ROUTE-120",
+        "busId": "BUS-120"
+    },
+    {
+        "scheduleId": "SCH-121",
+        "startTime": "15:19",
+        "endTime": "16:17",
+        "routeId": "ROUTE-121",
+        "busId": "BUS-121"
+    },
+    {
+        "scheduleId": "SCH-122",
+        "startTime": "15:19",
+        "endTime": "17:16",
+        "routeId": "ROUTE-122",
+        "busId": "BUS-122"
+    },
+    {
+        "scheduleId": "SCH-123",
+        "startTime": "15:19",
+        "endTime": "17:07",
+        "routeId": "ROUTE-123",
+        "busId": "BUS-123"
+    },
+    {
+        "scheduleId": "SCH-124",
+        "startTime": "15:19",
+        "endTime": "15:53",
+        "routeId": "ROUTE-124",
+        "busId": "BUS-124"
+    },
+    {
+        "scheduleId": "SCH-125",
+        "startTime": "15:19",
+        "endTime": "16:14",
+        "routeId": "ROUTE-125",
+        "busId": "BUS-125"
+    },
+    {
+        "scheduleId": "SCH-126",
+        "startTime": "15:19",
+        "endTime": "17:06",
+        "routeId": "ROUTE-126",
+        "busId": "BUS-126"
+    },
+    {
+        "scheduleId": "SCH-127",
+        "startTime": "15:19",
+        "endTime": "16:27",
+        "routeId": "ROUTE-127",
+        "busId": "BUS-127"
+    },
+    {
+        "scheduleId": "SCH-128",
+        "startTime": "15:19",
+        "endTime": "15:49",
+        "routeId": "ROUTE-128",
+        "busId": "BUS-128"
+    },
+    {
+        "scheduleId": "SCH-129",
+        "startTime": "15:19",
+        "endTime": "17:16",
+        "routeId": "ROUTE-129",
+        "busId": "BUS-129"
+    },
+    {
+        "scheduleId": "SCH-130",
+        "startTime": "15:19",
+        "endTime": "15:52",
+        "routeId": "ROUTE-130",
+        "busId": "BUS-130"
+    },
+    {
+        "scheduleId": "SCH-131",
+        "startTime": "15:19",
+        "endTime": "17:00",
+        "routeId": "ROUTE-131",
+        "busId": "BUS-131"
+    },
+    {
+        "scheduleId": "SCH-132",
+        "startTime": "15:19",
+        "endTime": "16:40",
+        "routeId": "ROUTE-132",
+        "busId": "BUS-132"
+    },
+    {
+        "scheduleId": "SCH-133",
+        "startTime": "15:19",
+        "endTime": "15:56",
+        "routeId": "ROUTE-133",
+        "busId": "BUS-133"
+    },
+    {
+        "scheduleId": "SCH-134",
+        "startTime": "15:19",
+        "endTime": "17:19",
+        "routeId": "ROUTE-134",
+        "busId": "BUS-134"
+    },
+    {
+        "scheduleId": "SCH-135",
+        "startTime": "15:19",
+        "endTime": "16:28",
+        "routeId": "ROUTE-135",
+        "busId": "BUS-135"
+    },
+    {
+        "scheduleId": "SCH-136",
+        "startTime": "15:19",
+        "endTime": "16:39",
+        "routeId": "ROUTE-136",
+        "busId": "BUS-136"
+    },
+    {
+        "scheduleId": "SCH-137",
+        "startTime": "15:19",
+        "endTime": "16:42",
+        "routeId": "ROUTE-137",
+        "busId": "BUS-137"
+    },
+    {
+        "scheduleId": "SCH-138",
+        "startTime": "15:19",
+        "endTime": "15:49",
+        "routeId": "ROUTE-138",
+        "busId": "BUS-138"
+    },
+    {
+        "scheduleId": "SCH-139",
+        "startTime": "15:19",
+        "endTime": "16:20",
+        "routeId": "ROUTE-139",
+        "busId": "BUS-139"
+    },
+    {
+        "scheduleId": "SCH-140",
+        "startTime": "15:19",
+        "endTime": "16:55",
+        "routeId": "ROUTE-140",
+        "busId": "BUS-140"
+    },
+    {
+        "scheduleId": "SCH-141",
+        "startTime": "15:19",
+        "endTime": "16:52",
+        "routeId": "ROUTE-141",
+        "busId": "BUS-141"
+    },
+    {
+        "scheduleId": "SCH-142",
+        "startTime": "15:19",
+        "endTime": "17:09",
+        "routeId": "ROUTE-142",
+        "busId": "BUS-142"
+    },
+    {
+        "scheduleId": "SCH-143",
+        "startTime": "15:19",
+        "endTime": "16:28",
+        "routeId": "ROUTE-143",
+        "busId": "BUS-143"
+    },
+    {
+        "scheduleId": "SCH-144",
+        "startTime": "15:19",
+        "endTime": "16:53",
+        "routeId": "ROUTE-144",
+        "busId": "BUS-144"
+    },
+    {
+        "scheduleId": "SCH-145",
+        "startTime": "15:19",
+        "endTime": "16:15",
+        "routeId": "ROUTE-145",
+        "busId": "BUS-145"
+    },
+    {
+        "scheduleId": "SCH-146",
+        "startTime": "15:19",
+        "endTime": "16:22",
+        "routeId": "ROUTE-146",
+        "busId": "BUS-146"
+    },
+    {
+        "scheduleId": "SCH-147",
+        "startTime": "15:19",
+        "endTime": "16:04",
+        "routeId": "ROUTE-147",
+        "busId": "BUS-147"
+    },
+    {
+        "scheduleId": "SCH-148",
+        "startTime": "15:19",
+        "endTime": "16:03",
+        "routeId": "ROUTE-148",
+        "busId": "BUS-148"
+    },
+    {
+        "scheduleId": "SCH-149",
+        "startTime": "15:19",
+        "endTime": "16:58",
+        "routeId": "ROUTE-149",
+        "busId": "BUS-149"
+    },
+    {
+        "scheduleId": "SCH-150",
+        "startTime": "15:19",
+        "endTime": "16:57",
+        "routeId": "ROUTE-150",
+        "busId": "BUS-150"
+    },
+    {
+        "scheduleId": "SCH-151",
+        "startTime": "15:19",
+        "endTime": "16:19",
+        "routeId": "ROUTE-151",
+        "busId": "BUS-151"
+    },
+    {
+        "scheduleId": "SCH-152",
+        "startTime": "15:19",
+        "endTime": "16:22",
+        "routeId": "ROUTE-152",
+        "busId": "BUS-152"
+    },
+    {
+        "scheduleId": "SCH-153",
+        "startTime": "15:19",
+        "endTime": "15:49",
+        "routeId": "ROUTE-153",
+        "busId": "BUS-153"
+    },
+    {
+        "scheduleId": "SCH-154",
+        "startTime": "15:19",
+        "endTime": "16:20",
+        "routeId": "ROUTE-154",
+        "busId": "BUS-154"
+    },
+    {
+        "scheduleId": "SCH-155",
+        "startTime": "15:19",
+        "endTime": "16:17",
+        "routeId": "ROUTE-155",
+        "busId": "BUS-155"
+    },
+    {
+        "scheduleId": "SCH-156",
+        "startTime": "15:19",
+        "endTime": "16:31",
+        "routeId": "ROUTE-156",
+        "busId": "BUS-156"
+    },
+    {
+        "scheduleId": "SCH-157",
+        "startTime": "15:19",
+        "endTime": "16:49",
+        "routeId": "ROUTE-157",
+        "busId": "BUS-157"
+    },
+    {
+        "scheduleId": "SCH-158",
+        "startTime": "15:19",
+        "endTime": "16:55",
+        "routeId": "ROUTE-158",
+        "busId": "BUS-158"
+    },
+    {
+        "scheduleId": "SCH-159",
+        "startTime": "15:19",
+        "endTime": "16:37",
+        "routeId": "ROUTE-159",
+        "busId": "BUS-159"
+    },
+    {
+        "scheduleId": "SCH-160",
+        "startTime": "15:19",
+        "endTime": "16:36",
+        "routeId": "ROUTE-160",
+        "busId": "BUS-160"
+    },
+    {
+        "scheduleId": "SCH-161",
+        "startTime": "15:19",
+        "endTime": "17:01",
+        "routeId": "ROUTE-161",
+        "busId": "BUS-161"
+    },
+    {
+        "scheduleId": "SCH-162",
+        "startTime": "15:19",
+        "endTime": "16:32",
+        "routeId": "ROUTE-162",
+        "busId": "BUS-162"
+    },
+    {
+        "scheduleId": "SCH-163",
+        "startTime": "15:19",
+        "endTime": "15:57",
+        "routeId": "ROUTE-163",
+        "busId": "BUS-163"
+    },
+    {
+        "scheduleId": "SCH-164",
+        "startTime": "15:19",
+        "endTime": "16:46",
+        "routeId": "ROUTE-164",
+        "busId": "BUS-164"
+    },
+    {
+        "scheduleId": "SCH-165",
+        "startTime": "15:19",
+        "endTime": "16:12",
+        "routeId": "ROUTE-165",
+        "busId": "BUS-165"
+    },
+    {
+        "scheduleId": "SCH-166",
+        "startTime": "15:19",
+        "endTime": "15:53",
+        "routeId": "ROUTE-166",
+        "busId": "BUS-166"
+    }
+]

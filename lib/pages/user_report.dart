@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:sih/widgets/location_service.dart';
 
 class UserReportFormScreen extends StatefulWidget {
+  const UserReportFormScreen({super.key});
+
   @override
   _UserReportFormScreenState createState() => _UserReportFormScreenState();
 }
 
 class _UserReportFormScreenState extends State<UserReportFormScreen> {
   TextEditingController routeIdController = TextEditingController();
-  
+
   // Map for tracking checkbox selections
   Map<String, bool> problemOptions = {
     "Road Block": false,
@@ -16,13 +19,32 @@ class _UserReportFormScreenState extends State<UserReportFormScreen> {
     "Malfunctioning of Vehicle": false,
   };
 
-  void submitReport() {
+  final LocationService _locationService = LocationService(); // Instance of LocationService
+  String? currentLocation; // To store current location as a string
+
+  // Function to fetch and print location
+  Future<void> fetchLocation() async {
+    final locationData = await _locationService.getLocation();
+    if (locationData != null) {
+      setState(() {
+        currentLocation =
+            "Latitude: ${locationData.latitude}, Longitude: ${locationData.longitude}";
+      });
+    } else {
+      print("Unable to fetch location. Please enable location services.");
+    }
+    print(currentLocation);
+  }
+  // Submit function
+  void submitReport() async {
+    await fetchLocation(); // Fetch the location first
     print("Route ID: ${routeIdController.text}");
     problemOptions.forEach((problem, isSelected) {
       if (isSelected) {
         print("Reported Issue: $problem");
       }
     });
+    print("Current Location: $currentLocation");
   }
 
   @override
@@ -74,7 +96,7 @@ class _UserReportFormScreenState extends State<UserReportFormScreen> {
                         ),
                       ),
                       SizedBox(height: 20),
-                      
+
                       // Problem Checkboxes
                       Text(
                         "Select Problems to Report:",
@@ -95,7 +117,7 @@ class _UserReportFormScreenState extends State<UserReportFormScreen> {
                         }).toList(),
                       ),
                       SizedBox(height: 20),
-                      
+
                       // Submit Button
                       Center(
                         child: ElevatedButton(
