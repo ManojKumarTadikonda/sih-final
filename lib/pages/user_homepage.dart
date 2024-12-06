@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sih/pages/busdetails.dart';
+import 'package:sih/pages/coupons.dart';
 
 class UserHomeScreen extends StatefulWidget {
   const UserHomeScreen({super.key});
@@ -17,7 +18,7 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
   List<dynamic> buses = [];
   List<dynamic> routes = [];
   List<dynamic> stops = [];
-  List<dynamic> schedules=[];
+  List<dynamic> schedules = [];
   List<Map<String, dynamic>> tableData = [];
   List<Map<String, dynamic>> filteredData = [];
 
@@ -30,9 +31,11 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
   Future<void> loadJsonData() async {
     try {
       final String busesJson = await rootBundle.loadString('assets/buses.json');
-      final String routesJson =await rootBundle.loadString('assets/routes.json');
+      final String routesJson =
+          await rootBundle.loadString('assets/routes.json');
       final String stopsJson = await rootBundle.loadString('assets/stops.json');
-      final String schedulejson = await rootBundle.loadString('assets/schedule.json');
+      final String schedulejson =
+          await rootBundle.loadString('assets/schedule.json');
 
       setState(() {
         buses = json.decode(busesJson);
@@ -118,6 +121,90 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
         title: Text("Find Buses"),
         centerTitle: true,
         backgroundColor: Color(0xff0095FF),
+        actions: [
+          Builder(
+            builder: (context) {
+              return IconButton(
+                icon: Icon(Icons.menu),
+                onPressed: () {
+                  Scaffold.of(context).openEndDrawer(); // Open the drawer
+                },
+              );
+            },
+          ),
+        ],
+      ),
+      endDrawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            DrawerHeader(
+              decoration: BoxDecoration(
+                color: Color(0xff0095FF),
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CircleAvatar(
+                    radius: 40,
+                    backgroundImage: AssetImage(
+                        'assets/profile.jpg'), // Add your profile image path
+                  ),
+                  SizedBox(height: 10),
+                  Text(
+                    'Your Name',
+                    style: TextStyle(color: Colors.white, fontSize: 18),
+                  ),
+                ],
+              ),
+            ),
+            ListTile(
+              leading: Icon(Icons.home),
+              title: Text('Home'),
+              onTap: () {
+                Navigator.pushNamed(
+                    context, '/user_home'); // Navigate to Home Page
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.local_offer),
+              title: Text('coupons'),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => RewardsPage(),
+                  ),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.report),
+              title: Text('Report bus Issues'),
+              onTap: () {
+                Navigator.pushNamed(
+                    context, '/reportpage'); // Navigate to Report Page
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.settings),
+              title: Text('Settings'),
+              onTap: () {
+                Navigator.pushNamed(
+                    context, '/settings'); // Navigate to Settings Page
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.logout),
+              title: Text('Logout'),
+              onTap: () {
+                // Handle logout functionality
+                Navigator.pushNamed(
+                    context, '/login'); // Navigate to Settings Page
+              },
+            ),
+          ],
+        ),
       ),
       backgroundColor: Colors.white,
       body: Padding(
@@ -184,8 +271,10 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) =>
-                                        BusDetailPage(busData: data),
+                                    builder: (context) => BusDetailPage(
+                                      busData: data,
+                                      stops: stops, // Pass stops here
+                                    ),
                                   ),
                                 );
                               }

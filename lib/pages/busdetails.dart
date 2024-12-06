@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:sih/pages/viewmap.dart';
+
 class BusDetailPage extends StatelessWidget {
   final Map<String, dynamic> busData;
+  final List<dynamic> stops; // List of all stops from stops.json
 
-  const BusDetailPage({super.key, required this.busData});
+  const BusDetailPage({super.key, required this.busData, required this.stops});
 
   @override
   Widget build(BuildContext context) {
+    // Fetch latitudes and longitudes of via stops based on routeId
+    List<Map<String, double>> coordinates =
+        _getCoordinates(busData['routeId'], busData['viaStops']);
+
     return Scaffold(
       appBar: AppBar(
         title: const Text("Bus Details"),
@@ -25,7 +32,9 @@ class BusDetailPage extends StatelessWidget {
               color: const Color(0xffE3F2FD),
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
-                child: Column(
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal, // Enable horizontal scrolling
+                  child:Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
@@ -44,10 +53,12 @@ class BusDetailPage extends StatelessWidget {
                     _detailRow("Route Name", busData['routeName']),
                     _detailRow("Start Stop", busData['source']),
                     _detailRow("End Stop", busData['destination']),
-                    _detailRow("Via Stops", busData['viaStops']?.join("\n") ?? 'N/A'),
+                    _detailRow(
+                        "Via Stops", busData['viaStops']?.join("\n") ?? 'N/A'),
                   ],
                 ),
               ),
+            ),
             ),
             const SizedBox(height: 20),
 
@@ -86,16 +97,20 @@ class BusDetailPage extends StatelessWidget {
             Center(
               child: ElevatedButton(
                 onPressed: () {
-                  // Navigator.push(
-                  //   context,
-                  //   MaterialPageRoute(
-                  //     builder: (context) => Mappage(),
-                  //   ),
-                  // );
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Viewmap(
+                        routeId: busData['routeId'],
+                        viaStops: busData['viaStops'],
+                        coordinates: coordinates, // Pass coordinates here
+                      ),
+                    ),
+                  );
                 },
                 style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 40, vertical: 15),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                   backgroundColor: const Color(0xff4CAF50),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
@@ -132,6 +147,7 @@ class BusDetailPage extends StatelessWidget {
               color: Colors.black87,
             ),
           ),
+          const SizedBox(width: 8), // Add space between label and value
           Text(
             value?.toString() ?? "N/A",
             style: const TextStyle(
@@ -143,5 +159,24 @@ class BusDetailPage extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  // Function to fetch coordinates of via stops for the route
+  List<Map<String, double>> _getCoordinates(
+      String routeId, List<dynamic> viaStops) {
+    final List<String> viaStopsStrings = viaStops.cast<String>();
+
+    return stops
+        .where((stop) =>
+            stop['routeId'] == routeId &&
+            viaStopsStrings
+                .contains(stop['stopName'])) // Filter viaStops for routeId
+        .map((stop) => {
+              'latitude': (stop['latitude'] as num)
+                  .toDouble(), // Explicitly cast to double
+              'longitude': (stop['longitude'] as num)
+                  .toDouble(), // Explicitly cast to double
+            })
+        .toList(); // Convert to a list
   }
 }

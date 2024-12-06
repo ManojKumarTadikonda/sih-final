@@ -1,3 +1,5 @@
+import 'dart:convert';
+import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:sih/pages/user_homepage.dart';
@@ -18,8 +20,86 @@ class _UserSignupPageState extends State<UserSignupPage> {
   final TextEditingController useremail = TextEditingController();
   final TextEditingController userpassword = TextEditingController();
   final TextEditingController userconfirmPassword = TextEditingController();
-  
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>(); // Add a GlobalKey for form validation
+  bool _isLoading = false;
+
+  final GlobalKey<FormState> _formKey =
+      GlobalKey<FormState>(); // Add a GlobalKey for form validation
+  Future<void> _signupUser() async {
+    // Validate the form before proceeding
+    if (!_formKey.currentState!.validate()) {
+      return; // Stop execution if the form is invalid
+    }
+
+    // Debugging: Log input values for visibility during signup
+    print(
+        'Attempting signup with Name: ${username.text.trim()}, Email: ${useremail.text.trim()}');
+
+    setState(() {
+      _isLoading = true; // Indicate loading state
+    });
+
+    // Define your API endpoint
+    const String apiUrl = 'http://10.0.2.2:8000/api/signup/user';
+
+    try {
+      // Send a POST request to the server
+      final response = await http.post(
+        Uri.parse(apiUrl),
+        headers: {
+          'Content-Type': 'application/json', // Specify JSON content type
+        },
+        body: jsonEncode({
+          'name': username.text.trim(),
+          'email': useremail.text.trim(),
+          'password': userpassword.text.trim(),
+        }),
+      );
+
+      // Handle the response based on the status code
+      if (response.statusCode == 201) {
+        // Parse and log success data
+
+        final data = jsonDecode(response.body);
+        print('User signup successful: $data');
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const UserHomeScreen(),
+          ),
+        ); // Navigate to user home screen
+      } else if (response.statusCode == 400 || response.statusCode == 401) {
+        // Parse and display the error message
+        final errorData = jsonDecode(response.body);
+        print('Signup failed with error: ${errorData['error']}');
+        _showError(errorData['error'] ?? 'Invalid credentials');
+      } else {
+        // Handle unexpected response
+        print('Unexpected response: ${response.body}');
+        _showError('Signup failed. Please try again later.');
+      }
+    } catch (error) {
+      // Handle and log errors
+      print('Error occurred during signup: $error');
+      _showError('An error occurred. Please check your connection.');
+    } finally {
+      // Ensure loading state is reset
+      setState(() {
+        _isLoading = false;
+      });
+    }
+  }
+
+  void _showError(String message) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(
+          message,
+          style: const TextStyle(color: Colors.red),
+        ),
+        duration: const Duration(seconds: 3),
+      ),
+    );
+  }
 
   @override
   void dispose() {
@@ -40,7 +120,7 @@ class _UserSignupPageState extends State<UserSignupPage> {
         elevation: 0,
         backgroundColor: Colors.blue,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back, color: Colors.black),
+          icon: const Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () {
             Navigator.pop(context);
           },
@@ -60,7 +140,7 @@ class _UserSignupPageState extends State<UserSignupPage> {
         thumbVisibility: true,
         child: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 40),
             child: Form(
               key: _formKey, // Wrap the form fields in a Form widget
               child: Column(
@@ -72,12 +152,12 @@ class _UserSignupPageState extends State<UserSignupPage> {
                     height: 150,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   inputFile(label: "Name", controller: username),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   inputFile(label: "Email", controller: useremail),
-                  SizedBox(height: 15),
-                  Align(
+                  const SizedBox(height: 15),
+                  const Align(
                     alignment: Alignment.centerLeft,
                     child: Text(
                       "Create a Password",
@@ -88,7 +168,7 @@ class _UserSignupPageState extends State<UserSignupPage> {
                       ),
                     ),
                   ),
-                  SizedBox(height: 5),
+                  const SizedBox(height: 5),
                   PasswordInputField(
                     label: "Password",
                     controller: userpassword,
@@ -102,7 +182,7 @@ class _UserSignupPageState extends State<UserSignupPage> {
                       return null;
                     },
                   ),
-                  SizedBox(height: 15),
+                  const SizedBox(height: 15),
                   PasswordInputField(
                     label: "Confirm Password",
                     controller: userconfirmPassword,
@@ -116,41 +196,47 @@ class _UserSignupPageState extends State<UserSignupPage> {
                       return null;
                     },
                   ),
-                  SizedBox(height: 15),
+                  const SizedBox(height: 15),
 
                   // Email Verification Section
-                  VerifyEmailSection(),
-                  SizedBox(height: 30),
+                  const VerifyEmailSection(),
+                  const SizedBox(height: 30),
 
                   // Submit Button
                   MaterialButton(
                     minWidth: double.infinity,
                     height: 50,
-                    onPressed: () {
-                      if (_formKey.currentState!.validate()) {
-                        // Form is valid, proceed to the next screen
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => UserHomeScreen(),
-                          ),
-                        );
-                      }
+                    // onPressed: _isLoading
+                    //     ? null
+                    //     : () {
+                    //         _signupUser();
+                    //       },
+                    onPressed: () => {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const UserHomeScreen(),
+                        ),
+                      ),
                     },
-                    color: Color(0xff0095FF),
+                    color: const Color(0xff0095FF),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(50),
                     ),
-                    child: Text(
-                      "Signup",
-                      style: TextStyle(
-                        fontWeight: FontWeight.w600,
-                        fontSize: 18,
-                        color: Colors.white,
-                      ),
-                    ),
+                    child: _isLoading
+                        ? const CircularProgressIndicator(
+                            color: Colors.white,
+                          )
+                        : const Text(
+                            "Signup",
+                            style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 18,
+                              color: Colors.white,
+                            ),
+                          ),
                   ),
-                  SizedBox(height: 30),
+                  const SizedBox(height: 30),
                 ],
               ),
             ),
@@ -171,14 +257,14 @@ class _UserSignupPageState extends State<UserSignupPage> {
       children: <Widget>[
         Text(
           label,
-          style: TextStyle(
-            fontSize: 15, fontWeight: FontWeight.w400, color: Colors.black87),
+          style: const TextStyle(
+              fontSize: 15, fontWeight: FontWeight.w400, color: Colors.black87),
         ),
-        SizedBox(height: 5),
+        const SizedBox(height: 5),
         TextFormField(
           controller: controller,
           keyboardType: keyboardType,
-          decoration: InputDecoration(
+          decoration: const InputDecoration(
             contentPadding: EdgeInsets.symmetric(vertical: 0, horizontal: 10),
             enabledBorder: OutlineInputBorder(
               borderSide: BorderSide(color: Colors.grey),

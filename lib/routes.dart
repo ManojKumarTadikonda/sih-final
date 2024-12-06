@@ -6,10 +6,11 @@ import 'package:sih/pages/loginpage.dart';
 import 'package:sih/pages/profile.dart';
 import 'package:sih/pages/user_report.dart';
 import 'package:sih/pages/splash_screen.dart';
-import 'package:sih/settings_screen.dart';
 import 'package:sih/Signup/DriverSignUp.dart';
 import 'package:sih/Signup/MainSignUp.dart';
 import 'package:sih/Signup/UserSignUp.dart';
+import 'package:sih/pages/user_homepage.dart';
+import 'package:sih/pages/coupons.dart';
 class AppRoutes {
   static final Map<String, WidgetBuilder> routes = {
     '/': (context) => SplashScreen(),
@@ -19,9 +20,10 @@ class AppRoutes {
     '/edit': (context) => EditProfileScreen(),
     '/driver_signup': (context) => DriverSignupPage(),
     '/user_signup': (context) => UserSignupPage(),
+    '/user_home':(context)=>UserHomeScreen(),
     '/driver_notifications': (context) => DriverNotificationScreen(),
     '/driver_home': (context) => DelayFromDriverScreen(),
-    '/settings': (context) => SettingsScreen(),
+    '/coupons': (context) => RewardsPage(),
     '/reportpage': (context) => UserReportFormScreen(),
   };
 }

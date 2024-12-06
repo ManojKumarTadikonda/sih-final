@@ -6,7 +6,6 @@ class DriverNotificationScreen extends StatefulWidget {
   const DriverNotificationScreen({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   _DriverNotificationScreenState createState() =>
       _DriverNotificationScreenState();
 }
@@ -26,6 +25,12 @@ class _DriverNotificationScreenState extends State<DriverNotificationScreen> {
     });
   }
 
+  void deleteNotification(int index) {
+    setState(() {
+      notifications.removeAt(index);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,33 +38,62 @@ class _DriverNotificationScreenState extends State<DriverNotificationScreen> {
           isDriver: true), // Use Header with isDriver set to true for Driver
       body: AppScrollbar(
         thumbVisibility: false,
-        child: ListView.builder(
-          itemCount: notifications.length,
-          itemBuilder: (context, index) {
-            return notifications[index]['isSeen']
-                ? const SizedBox.shrink() // If seen, hide the notification
-                : Card(
-                    margin: const EdgeInsets.symmetric(
-                        vertical: 10, horizontal: 20),
-                    child: ListTile(
-                      title: Text(
-                        notifications[index]['message'],
-                        style: const TextStyle(fontSize: 18),
-                      ),
-                      leading:
-                          const Icon(Icons.notifications, color: Colors.blue),
-                      tileColor: Colors.white,
-                      trailing: IconButton(
-                        icon:
-                            const Icon(Icons.check_circle, color: Colors.green),
-                        onPressed: () {
-                          markAsSeen(index); // Mark notification as seen
-                        },
+        child: notifications.isEmpty
+            ? const Center(
+                child: Text(
+                  "No Notifications",
+                  style: TextStyle(fontSize: 18, color: Colors.grey),
+                ),
+              )
+            : ListView.builder(
+                itemCount: notifications.length,
+                itemBuilder: (context, index) {
+                  return Dismissible(
+                    key: Key(notifications[index]['message']),
+                    direction: DismissDirection.endToStart,
+                    background: Container(
+                      alignment: Alignment.centerRight,
+                      padding: const EdgeInsets.only(right: 20),
+                      color: Colors.red,
+                      child: const Icon(
+                        Icons.delete,
+                        color: Colors.white,
                       ),
                     ),
+                    onDismissed: (direction) {
+                      deleteNotification(index); // Delete notification
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: const Text('Notification deleted'),
+                          duration: const Duration(seconds: 2),
+                        ),
+                      );
+                    },
+                    child: notifications[index]['isSeen']
+                        ? const SizedBox.shrink() // If seen, hide the notification
+                        : Card(
+                            margin: const EdgeInsets.symmetric(
+                                vertical: 10, horizontal: 20),
+                            child: ListTile(
+                              title: Text(
+                                notifications[index]['message'],
+                                style: const TextStyle(fontSize: 18),
+                              ),
+                              leading: const Icon(Icons.notifications,
+                                  color: Colors.blue),
+                              tileColor: Colors.white,
+                              trailing: IconButton(
+                                icon: const Icon(Icons.check_circle,
+                                    color: Colors.green),
+                                onPressed: () {
+                                  markAsSeen(index); // Mark notification as seen
+                                },
+                              ),
+                            ),
+                          ),
                   );
-          },
-        ),
+                },
+              ),
       ),
     );
   }
