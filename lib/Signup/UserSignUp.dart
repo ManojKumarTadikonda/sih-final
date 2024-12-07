@@ -6,6 +6,7 @@ import 'package:sih/pages/user_homepage.dart';
 import 'package:sih/widgets/email_verification.dart';
 import 'package:sih/widgets/passwordinputfield.dart';
 import 'package:sih/widgets/app_scrollbar.dart';
+import 'package:sih/pages/otp_screen.dart'; // Import the OTP screen
 
 class UserSignupPage extends StatefulWidget {
   const UserSignupPage({super.key});
@@ -22,8 +23,8 @@ class _UserSignupPageState extends State<UserSignupPage> {
   final TextEditingController userconfirmPassword = TextEditingController();
   bool _isLoading = false;
 
-  final GlobalKey<FormState> _formKey =
-      GlobalKey<FormState>(); // Add a GlobalKey for form validation
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>(); // Add a GlobalKey for form validation
+  
   Future<void> _signupUser() async {
     // Validate the form before proceeding
     if (!_formKey.currentState!.validate()) {
@@ -58,15 +59,16 @@ class _UserSignupPageState extends State<UserSignupPage> {
       // Handle the response based on the status code
       if (response.statusCode == 201) {
         // Parse and log success data
-
         final data = jsonDecode(response.body);
         print('User signup successful: $data');
+        
+        // Navigate to OTP screen after successful signup
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => const UserHomeScreen(),
+            builder: (context) => const OTPScreen(), // Navigate to OTP Screen
           ),
-        ); // Navigate to user home screen
+        );
       } else if (response.statusCode == 400 || response.statusCode == 401) {
         // Parse and display the error message
         final errorData = jsonDecode(response.body);
@@ -206,19 +208,11 @@ class _UserSignupPageState extends State<UserSignupPage> {
                   MaterialButton(
                     minWidth: double.infinity,
                     height: 50,
-                    // onPressed: _isLoading
-                    //     ? null
-                    //     : () {
-                    //         _signupUser();
-                    //       },
-                    onPressed: () => {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const UserHomeScreen(),
-                        ),
-                      ),
-                    },
+                    onPressed: _isLoading
+                        ? null
+                        : () {
+                            _signupUser();
+                          },
                     color: const Color(0xff0095FF),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(50),

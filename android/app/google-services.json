@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "622764678932",
+    "project_id": "chasing-horizons-d02c6",
+    "storage_bucket": "chasing-horizons-d02c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622764678932:android:7ecd484236437a11deec01",
+        "android_client_info": {
+          "package_name": "com.example.sih"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjYeZd89R2iNWGZE795qnrbb5Uvf5fzXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
